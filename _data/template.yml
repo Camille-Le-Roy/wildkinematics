@@ -1,11 +1,64 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 3F6E93  # change primary color font
-  secondary: 3F6E93   
-  secondary-dark: 333
-  muted: 777
+  primary: "35594F"
+  secondary: "879B87"
+  secondary-dark: "303632"
+  muted: "777D75"
+  background: "F7F5EE"
+  accent: "C27D60"
 
 # Font Families
 font:
   primary: 'Lora, "Times New Roman", serif'
   secondary: '"Helvetica Neue", Helvetica, Arial, sans-serif'
+
+
+# -----------------------------------------------------------------------------
+# Site Copy Content
+# -----------------------------------------------------------------------------
+
+header:
+  #heading_part1: "<strong>From movement capture to quantitative insight</strong>"
+  heading_part1: "<strong>Bringing motion analysis within reach for every biologist</strong>"
+  #heading_part2: "<strong>built for biological research</strong>"
+  lead_in: "Expert guidance on study design, tracking, and kinematic analysis for animal movement research."
+
+challenge:
+  headline: "Headline setting up the core challenge..."
+  sub_heading: "Sub-heading detailing the problem."
+  text_1: "First paragraph explaining the core challenge..."
+  text_2: "Second paragraph expanding on the issue..."
+  text_3: "Third paragraph wrapping up the challenge..."
+  cta_text: "Ready to move your project forward?"
+  list_title: "Why work with WildKinematics?"
+  bullet_1: "<strong>Expert perspective.</strong> Dedicated guidance tailored to your work."
+  bullet_2: "<strong>No guesswork.</strong> Clear, actionable feedback on every step."
+  bullet_3: "<strong>Direct collaboration.</strong> Hands-on support when you need it."
+  final_thought: "Closing thought or summary statement."
+
+services:
+  title: "Services"
+  subtitle: "How we can work together."
+
+about:
+  title: "About"
+  subtitle: "Background and expertise."
+
+contact:
+  heading: "Reach Out"
+  success_title: "Thank you!"
+  success_msg: "Your message has been sent. I will get back to you shortly."
+  error_msg: "Oops! There was a problem submitting your form. Please try again."
+  name_placeholder: "Your Name *"
+  email_placeholder: "Your Email *"
+  referral_placeholder: "How did you hear about me? *"
+  message_placeholder: "Your Message *"
+  submit_btn: "Send Message"
+  services_label: "Which service(s) are you interested in?"
+  options:
+    clarity: "One-Off Coaching Session"
+    accelerator: "Ongoing Coaching"
+    dev_editing: "Substantive Editing"
+    copy_editing: "Copyediting"
+    manuscript_eval: "Manuscript Evaluation"
+    other: "Other"

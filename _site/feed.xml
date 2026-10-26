@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Morpho Editing</title>
-    <description>Editing and coaching for biologists who are great at science but stuck on the writing—so you can share your work with the world</description>
-    <link>http://localhost:4000/MorphoEdit/</link>
-    <atom:link href="http://localhost:4000/MorphoEdit/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 23 Oct 2026 09:56:22 -0600</pubDate>
-    <lastBuildDate>Fri, 23 Oct 2026 09:56:22 -0600</lastBuildDate>
+    <title>WildKinematics</title>
+    <description>Specialized consultancy service for research on animal movement and behavior</description>
+    <link>http://localhost:4000/wildkinematics/</link>
+    <atom:link href="http://localhost:4000/wildkinematics/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 26 Oct 2026 12:41:46 -0600</pubDate>
+    <lastBuildDate>Mon, 26 Oct 2026 12:41:46 -0600</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -152,7 +152,7 @@ Many young researchers, including myself, start a PhD hoping to make a groundbre
 
 &lt;!-- Intro Visual / Image 1 --&gt;
 &lt;div class=&quot;post-figure intro-fig&quot; style=&quot;margin-top: 1em; text-align: center;&quot;&gt;
-  &lt;img src=&quot;/MorphoEdit/img/blogpost_2 Science magazine image 2.png&quot; alt=&quot;Science magazine cover featuring Morpho butterfly research&quot; style=&quot;max-width: 85%; height: auto; border-radius: 8px;&quot; /&gt;
+  &lt;img src=&quot;/wildkinematics/img/blogpost_2 Science magazine image 2.png&quot; alt=&quot;Science magazine cover featuring Morpho butterfly research&quot; style=&quot;max-width: 85%; height: auto; border-radius: 8px;&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;
@@ -179,7 +179,7 @@ My PhD was in evolutionary biology, in a team addressing all sorts of fascinatin
 
 &lt;!-- Image 2 --&gt;
 &lt;div class=&quot;post-figure custom-fig&quot; style=&quot;width: 50%;&quot;&gt;
-  &lt;img src=&quot;/MorphoEdit/img/blogpost_2 the genus Morpho.jpg&quot; alt=&quot;The 30 species of the genus Morpho&quot; /&gt;
+  &lt;img src=&quot;/wildkinematics/img/blogpost_2 the genus Morpho.jpg&quot; alt=&quot;The 30 species of the genus Morpho&quot; /&gt;
   &lt;div class=&quot;post-caption&quot;&gt;
     The 30 species of the genus &lt;em&gt;Morpho&lt;/em&gt;.
   &lt;/div&gt;
@@ -219,7 +219,7 @@ Getting back to my beautiful butterflies, I investigated how the colonization of
 
 &lt;!-- Image 3  --&gt;
 &lt;div class=&quot;post-figure custom-fig&quot; style=&quot;width: 70%;&quot;&gt;
-  &lt;img src=&quot;/MorphoEdit/img/blogpost_2 Morpho gliding and CFD simulations.gif&quot; alt=&quot;Morpho cisseis gliding and CFD simulations&quot; /&gt;
+  &lt;img src=&quot;/wildkinematics/img/blogpost_2 Morpho gliding and CFD simulations.gif&quot; alt=&quot;Morpho cisseis gliding and CFD simulations&quot; /&gt;
   &lt;div class=&quot;post-caption&quot;&gt;
     &lt;strong&gt;Left:&lt;/strong&gt; &lt;em&gt;Morpho cisseis&lt;/em&gt; gliding in the forest canopy. &lt;strong&gt;Right:&lt;/strong&gt; Computational fluid dynamic simulation performed on the wings of &lt;em&gt;Morpho cisseis&lt;/em&gt;.
   &lt;/div&gt;
@@ -266,8 +266,8 @@ Some downsides exist, though. Generalist journals favor a short, efficient, stor
 &lt;/p&gt;
 
 &lt;div style=&quot;margin-top: 2.5em; margin-bottom: 2em;&quot;&gt;
-  &lt;a href=&quot;/MorphoEdit/pdfs/Le%20Roy%20et%20al.%202021%20Adaptive%20evolution%20of%20flight%20in%20Morpho%20butterflies.pdf&quot; target=&quot;_blank&quot; style=&quot;display: flex; align-items: center; gap: 16px; text-decoration: none; color: inherit;&quot;&gt;
-    &lt;img src=&quot;/MorphoEdit/img/blogpost_2 cover science.png&quot; alt=&quot;Science magazine cover&quot; style=&quot;width: 180px; height: auto; border-radius: 4px; flex-shrink: 0; box-shadow: 0 2px 6px rgba(0,0,0,0.15) !important;&quot; /&gt;
+  &lt;a href=&quot;/wildkinematics/pdfs/Le%20Roy%20et%20al.%202021%20Adaptive%20evolution%20of%20flight%20in%20Morpho%20butterflies.pdf&quot; target=&quot;_blank&quot; style=&quot;display: flex; align-items: center; gap: 16px; text-decoration: none; color: inherit;&quot;&gt;
+    &lt;img src=&quot;/wildkinematics/img/blogpost_2 cover science.png&quot; alt=&quot;Science magazine cover&quot; style=&quot;width: 180px; height: auto; border-radius: 4px; flex-shrink: 0; box-shadow: 0 2px 6px rgba(0,0,0,0.15) !important;&quot; /&gt;
     &lt;span style=&quot;font-size: 0.95em; line-height: 1.5;&quot;&gt;
       &lt;strong&gt;Read the paper behind the story:&lt;/strong&gt;&lt;br /&gt;
       Le Roy, C., &lt;em&gt;et al.&lt;/em&gt; (2021). Adaptive evolution of flight in &lt;em&gt;Morpho&lt;/em&gt; butterflies. &lt;em&gt;Science&lt;/em&gt;, 374(6571), 1158–1162.
@@ -282,8 +282,8 @@ Some downsides exist, though. Generalist journals favor a short, efficient, stor
 &lt;/div&gt;
 </description>
         <pubDate>Thu, 22 Oct 2026 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/MorphoEdit/2026/10/22/How-I-published-my-PhD-research-in-Science/</link>
-        <guid isPermaLink="true">http://localhost:4000/MorphoEdit/2026/10/22/How-I-published-my-PhD-research-in-Science/</guid>
+        <link>http://localhost:4000/wildkinematics/2026/10/22/How-I-published-my-PhD-research-in-Science/</link>
+        <guid isPermaLink="true">http://localhost:4000/wildkinematics/2026/10/22/How-I-published-my-PhD-research-in-Science/</guid>
         
         
       </item>
@@ -417,7 +417,7 @@ Have you ever stared at a published figure and thought: &lt;em&gt;how did they m
 
 &lt;!-- Intro Visual --&gt;
 &lt;div class=&quot;post-figure intro-fig&quot; style=&quot;margin-top: 1em;&quot;&gt;
-  &lt;img src=&quot;/MorphoEdit/img/blogpost_1 intro visual.png&quot; alt=&quot;Before and after example of a publication-ready scientific figure&quot; /&gt;
+  &lt;img src=&quot;/wildkinematics/img/blogpost_1 intro visual.png&quot; alt=&quot;Before and after example of a publication-ready scientific figure&quot; /&gt;
   &lt;div class=&quot;post-caption&quot; style=&quot;text-align: right; font-size: 0.70em;&quot;&gt;
     Example figure from: 
     &lt;a href=&quot;https://doi.org/10.1038/s41467-021-27549-1&quot; target=&quot;_blank&quot; style=&quot;color: inherit;&quot;&gt;
@@ -442,7 +442,7 @@ No one actually nails a polished figure on the first try. The road from your sli
 
 &lt;!-- Figure 1 --&gt;
 &lt;div class=&quot;post-figure content-fig&quot;&gt;
-  &lt;img src=&quot;/MorphoEdit/img/blogpost_1 consistent color coding.png&quot; alt=&quot;Example of consistent color coding across a manuscript&quot; /&gt;
+  &lt;img src=&quot;/wildkinematics/img/blogpost_1 consistent color coding.png&quot; alt=&quot;Example of consistent color coding across a manuscript&quot; /&gt;
   &lt;div class=&quot;post-caption&quot;&gt;
     &lt;strong&gt;Figure 1:&lt;/strong&gt; Example of consistent color coding across an article: green indicates forest-dwelling butterflies, blue indicates butterflies from open habitats. Original article: 
     &lt;a href=&quot;https://doi.org/10.1242/jeb.243867&quot;&gt;Le Roy et al. (2022) &lt;em&gt;J. Exp. Biol.&lt;/em&gt; 225(15): jeb243867.&lt;/a&gt;
@@ -455,7 +455,7 @@ No one actually nails a polished figure on the first try. The road from your sli
 
 &lt;!-- Figure 2 --&gt;
 &lt;div class=&quot;post-figure content-fig&quot;&gt;
-  &lt;img src=&quot;/MorphoEdit/img/blogpost_1 points shape and size.png&quot; alt=&quot;Example of combined color, size, and inset panel usage&quot; /&gt;
+  &lt;img src=&quot;/wildkinematics/img/blogpost_1 points shape and size.png&quot; alt=&quot;Example of combined color, size, and inset panel usage&quot; /&gt;
   &lt;div class=&quot;post-caption&quot;&gt;
     &lt;strong&gt;Figure 2:&lt;/strong&gt; Combining color and point size to convey multiple layers of information: here color reflects body mass, while point size indicates wingbeat frequency. Small inset panels show an additional analysis without adding extra panels. Original article: 
     &lt;a href=&quot;https://doi.org/10.1371/journal.pbio.3003473&quot;&gt;Le Roy et al. (2026) &lt;em&gt;PLoS Biol.&lt;/em&gt; 24(7): e3003473.&lt;/a&gt;
@@ -474,7 +474,7 @@ No one actually nails a polished figure on the first try. The road from your sli
 
 &lt;!-- Figure 3 --&gt;
 &lt;div class=&quot;post-figure small-fig&quot;&gt;
-  &lt;img src=&quot;/MorphoEdit/img/blogpost_1 redundant axis.png&quot; alt=&quot;Example of minimalist axis tick marks and removing redundant axes&quot; /&gt;
+  &lt;img src=&quot;/wildkinematics/img/blogpost_1 redundant axis.png&quot; alt=&quot;Example of minimalist axis tick marks and removing redundant axes&quot; /&gt;
   &lt;div class=&quot;post-caption&quot;&gt;
     &lt;strong&gt;Figure 3:&lt;/strong&gt; Remove duplicate axes across panels and keep tick marks to a functional minimum. &lt;br /&gt; Original article: 
     &lt;a href=&quot;https://www.science.org/doi/10.1126/science.1248955&quot; target=&quot;_blank&quot; style=&quot;color: inherit; text-decoration: underline;&quot;&gt;
@@ -503,8 +503,8 @@ No one actually nails a polished figure on the first try. The road from your sli
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 12 Sep 2026 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/MorphoEdit/2026/09/12/6-How-to-make-your-scientific-figures-publication-ready-6-tips/</link>
-        <guid isPermaLink="true">http://localhost:4000/MorphoEdit/2026/09/12/6-How-to-make-your-scientific-figures-publication-ready-6-tips/</guid>
+        <link>http://localhost:4000/wildkinematics/2026/09/12/6-How-to-make-your-scientific-figures-publication-ready-6-tips/</link>
+        <guid isPermaLink="true">http://localhost:4000/wildkinematics/2026/09/12/6-How-to-make-your-scientific-figures-publication-ready-6-tips/</guid>
         
         
       </item>
