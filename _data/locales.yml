@@ -1,0 +1,359 @@
+en:
+  nav:
+    services: "Services"
+    faq: "FAQ"
+    about: "About"
+    testimonials: "Testimonials"
+    contact: "Contact"
+
+  header:
+    heading_part1: "<strong>Your PhD<br>is hard enough</strong>"
+    heading_part2: "You don't have to figure everything out alone"
+    #lead_in: "I help students grow into confident researchers"
+    lead_in: "Research and publication mentoring for early-career scientists who are ready to move their work forward."
+    schedule_btn: "Book a Discovery Call"
+    btn: "Message Me"
+
+  empathy:
+    headline: "You spent months in the lab or in the field, running experiments, debugging analyses, redoing what didn't work the first three times. Every data point cost you something. You've <em>earned</em> your results."
+    sub-heading: "The tricky part isn't the science anymore. It's turning that pile of hard-won results into something that reads like a clear, convincing story."
+    text_1: "Here's the thing: research is messy by nature! Things never go smoothly as we planned, the journey to your. results is full of unexpected turns. Yet, on paper it should unfold like a perfect story. <strong style='color: #333;'> Turning your work into a coherent narrative is genuinely hard, and it's something you'r expected to learn on the way.</strong>"
+    text_2: "Supervisor’s time is often stretched across many responsibilities. As a result, most of the PhD journey happens between meetings, when you're <strong style='color: #333;'>left navigating uncertainty on your own</strong> and trying to decide where your time and energy are best spent."
+    text_3: "Losing momentum during a PhD is <em>very common</em>. Feeling behind, stuck on the same paragraph for weeks, constantly questioning if you know what you're doing. This should not be price for becoming a researcher."
+    text_4: "<strong style='color: #333;'>I've been there</strong>. I've had the good data and the manuscript that didn't do it justice. A narrative pulling in five directions at once, staring at my own draft at 11pm wondering what the paper was even trying to say anymore. I know that feeling from the inside."
+    text_5: "After years of turning research projects into top-tier publications and helping students do the same, <strong style='color: #333;'>I know how important it is to have the right support, so you can successfully finish your PhD and enjoy the process. That's what I offer.</strong>"
+    text_6: "What if you could submit within few months, and feel the relief of moving on to your next, more exciting project?"
+    list_title: "What's it like to work with me?"
+    bullet_1: "<strong>A fellow scientist who speaks your language.</strong> I've done the research, collected the data, revised, and published—I know how hard it is to publish a paper from start to finish."
+    bullet_2: "<strong>No judgment.</strong> A draft is never too messy, and no question is too basic. Bring me the chaos."
+    bullet_3: "<strong>Genuinely available.</strong> I won't vanish after sending tracked changes. Whether you need a full manuscript overhaul or just someone to think out loud with, I'm here."
+    bullet_4: "<strong>Feedback specific to your work.</strong> I take the time to understand your research, your argument, and where you want to go. I don't give generic feedback."
+    final_thought: "A manuscript shouldn't sit in a drafts folder for another six months. Your results matter—and the world can only build on work it can actually read. I built Morpho Editing because great science deserves to be told well. Let's make sure yours is."
+    get_started_btn: "See My Services"
+  
+  coaching:
+    heading: "Coaching Services"
+    subheading: "Get a dedicated research partner in your corner"
+    clarity:
+      badge: "One-off"
+      title: "Research Clarity Session"
+      desc: "A single coaching session to help you address a specific challenge. Whether you're stuck on your manuscript, facing an upcoming deadline, or simply need clarity on your next steps, you'll leave with professional guidance and a clear way forward."
+      points:
+        pt1: "One 60-minute session"
+        pt2: "Pre-session review of your materials"
+        pt3: "Follow-up check-in to maintain momentum"
+    accelerator:
+      badge: "Ongoing"
+      title: "Publication Accelerator"
+      desc: "This ongoing coaching program gives you a dedicated partner to help you build momentum, strengthen your manuscript, and confidently move toward publication."
+      points:
+        pt1: "Two 60-minute online coaching sessions per month"
+        pt2: "Draft review before each session"
+        pt3: "Unlimited support via messaging"
+        pt4: "Exclusive rates on editing services"
+
+  services:
+    heading: "Editing Services"
+    subheading_main: "Get the right level of support for your manuscript"
+    subheading_evaluation: "Feeling stuck but want to revise yourself?<br>Get a manuscript evaluation"
+    subheading_figures: "Want your research to stand out at a glance?<br>Make an impact with publication-ready figures"
+    subheading_cta: "Not sure what you need? Let's chat"
+    checklist_title: "Right for you if:"
+    btn: "Message Me"
+    request_btn: "Request this"
+
+    dev_editing:
+      badge: "Advanced"
+      title: "Substantive editing"
+      desc: "I'll provide personalized feedback and editing suggestions on structure, argumentation, and figures to make your scientific story clear, coherent, and compelling."
+      points:
+        pt1: "You’re submitting a thesis, manuscript, or grant proposal, and want the best chance of success"
+        pt2: "Your results are solid, but the manuscript still feels unclear or difficult to structure."
+        pt3: "You want your paper to tell a compelling scientific story, instead of a collection of disconnected results."
+        pt4: "You need a fresh, professional perspective after spending too long inside the same draft."
+
+    copy_editing:
+      badge: "Basic"
+      title: "Copyediting"
+      desc: "I’ll refine the wording, coherence, language, and formatting to make your manuscript clearer and more enjoyable to read."
+      points:
+        pt1: "Your thesis, manuscript, or grant proposal is nearly there and only needs final refinements before submission."
+        pt2: "Your ideas and results are well organized but need polishing for clarity and flow."
+        pt3: "You want the language to remain concise, coherent, and consistent throughout the manuscript."
+        pt4: "You need the document formatted according to journal or university guidelines."
+
+    manuscript_eval:
+      title: "Manuscript evaluation"
+      desc: "I'll not edit your manuscript, but I will read through the draft carefully and provide feedback on the scientific narrative, structure, clarity, language, and overall flow of the paper."
+      points:
+        pt1: "You want to better understand the strengths and weaknesses of your draft."
+        pt2: "You want detailed feedback before revising the manuscript yourself with confidence."
+        pt3: "You need a fresh pair of eyes to review the manuscript in depth."
+        pt4: "You want to maximize the chances of success for your manuscript or grant proposal."
+
+    figure_design:
+      title: "Figure Design"
+      desc: "Scientific figures are often the first thing readers look at. Clear, thoughtful visuals can make complex results easier to understand, strengthen your scientific story, and increase the overall impact of your work. I will redesign your figures so readers can understand your results quickly and intuitively."
+      points:
+        pt1: "You want your figures to communicate your results more clearly and effectively."
+        pt2: "Your visuals feel cluttered, inconsistent, or difficult to interpret."
+        pt3: "You need help improving layout, labeling, color choices, or overall visual flow."
+        pt4: "You want publication-ready figures for a manuscript, thesis, grant proposal, or presentation."
+
+  workflow:
+    heading: "How we’ll work together:"
+    step1:
+      title: "Contact me"
+      desc: "Share your project and your struggles."
+    step2:
+      title: "Approve the quote"
+      desc: "Know the exact price and the plan tailored to your needs and calendar."
+    step3:
+      title: "Relax and Wait"
+      desc: "Take time off to disconnect. I’ll polish your manuscript and deliver by the agreed deadline."
+
+  faq:
+    heading: "Frequently Asked Questions"
+    q1: "How much do your services cost?"
+    a1: "Every project is different, and pricing depends on the scope of the work, timeline, and level of support required. I always provide clear estimates upfront and am happy to discuss different options to find the approach that best fits your needs and budget."
+    q2: "Do you offer student discounts?"
+    a2: "I understand that students often work with limited funding. Whenever possible, I try to offer flexible solutions and adapt the scope of work to fit different budgets. Feel free to contact me to discuss your project and see what might be possible."
+    q3: "How quickly do you review projects?"
+    a3_p1: "I typically return projects within two weeks, though many are completed earlier. If a longer turnaround is necessary, I will always let you know beforehand and discuss the timeline with you directly."
+    a3_p2: "If you are working under a tight deadline, please reach out as soon as possible. I will always try to accommodate urgent requests whenever possible. Additional rush fees may apply."
+    q4: "What type of documents do you review?"
+    a4_intro: "I provide scientific writing support and feedback for a range of research-related documents, including:"
+    q5: "Will you review my project more than once?"
+    a5: "Additional rounds of review can always be arranged depending on your needs. We can discuss the best approach before starting the project. Additional fees may apply."
+
+  testimonials:
+    heading: "What clients say"
+    t1:
+      quote: "With Camille's help, I went from being insecure about writing to genuinely enjoying it. At my current job as a researcher, I write many proposals and reports; my team lead was so impressed by my first report that he immediately alerted the director to my writing skills. Without Camille, I daresay that would not have happened! I would highly recommend Camille as a writing coach."
+      name: "N.T. • Entomology Researcher, ST Food & Flowers"
+    t2:
+      quote: "Camille was wonderful! He was professional, communicative, and a pleasure to work with from start to finish. He did a beautiful job formatting my dissertation and made the whole experience remarkably easy. I would absolutely recommend Camille to anyone looking for thoughtful assistance with writing, editing, or formatting."
+      name: "K.H. • PhD student, Kansas State University"
+    t3:
+      quote: "A huge thank you to Camille, who helped me with the statistical analysis for my biology thesis. The explanations and video calls we had together were very clear. The sessions went really well—Camille was able to reassure me and answer all my questions, and much more! I highly recommend taking lessons with Camille!"
+      name: "P.P. • Master student, Lyon University"
+    t4:
+      quote: "Camille is an excellent tutor! Very patient, explained things simply, didn't make me feel bad when I didn't understand, and adapted the session based on my needs and gaps. Will definitely be doing many more sessions."
+      name: "J.C. • PhD student, New York University"
+    t5:
+      quote: "Camille was very helpful. Even though my paper was outside his field, he provided valuable feedback and thoughtful suggestions."
+      name: "A.L. • Grad student, UNC Chapel Hill"
+    t6:
+      quote: "Having worked closely with Dr. Camille Le Roy for several years, I can confidently say he is both an outstanding scientist and an exceptionally skilled writer. Camille is patient, organized, and deeply supportive—qualities that make him a highly effective and trustworthy academic mentor. He has a systematic mindset and a deep understanding of how to structure scientific arguments and communicate complex ideas with absolute clarity. For anyone seeking expert guidance in academic writing, Camille is strongly recommended."
+      name: "F.M. • Professor, Wageningen University"
+
+  about:
+    heading: "About Me"
+    name: "Camille Le Roy, PhD"
+    intro: "I'm Camille. Research scientist, field biologist, biomechanist — but above all, someone who understands the challenges of an academic career."
+    details_1: "With a PhD in Evolutionary Biology from the University of Paris and over seven years of interdisciplinary research spanning ecology and biophysics, my path has taken me from the cloud forests of Peru to labs in France and the Netherlands. Along the way, I came to realize a struggle shared by many researchers: we're good at the <em>doing</em> — the experiments, the models, the fieldwork — but we struggle to hit 'stop' and immerse ourselves in the writing."
+    details_2: "I’ve been on that road. I know that turning years of messy data into a compelling story is a long, eventful adventure. Having authored eight first-author papers in top-tier journals (including in <em>Science</em>, <em>Nature Communications</em>, <em>PLOS Biology</em>) and served as a reviewer for a range of multidisciplinary journals, I’ve learned the nuts and bolts of turning raw results into a manuscript that actually get published. There's a specific kind of thrill I get from taking messy, complex data and finding the story hiding inside it. It's one of my favorite parts of the work."
+    details_3: "Besides research, you'll find me chasing a similar kind of flow state — on a skateboard, a snowboard, or trying (often failing) to stay upright on a slackline. Traveling is where a lot of this started, and I still find my best thinking happens far from a desk."
+    #conclusion: "With Morpho Editing and Coaching, I dedicate my expertise to helping fellow scholars transform their research into narratives that truly do justice to their discoveries."
+
+  contact:
+    heading: "Reach Out"
+    success_title: "Thank you!"
+    success_msg: "Your message has been sent. I will get back to you shortly."
+    error_msg: "Oops! There was a problem submitting your form. Please try again."
+    name_placeholder: "Your Name *"
+    email_placeholder: "Your Email *"
+    referral_placeholder: "How did you hear about me? *"
+    message_placeholder: "Your Message *"
+    submit_btn: "Send Message"
+    services_label: "Which service(s) are you interested in?"
+    options:
+      clarity: "One-Off Coaching Session"
+      accelerator: "Ongoing Coaching"
+      dev_editing: "Substantive Editing"
+      copy_editing: "Copyediting"
+      manuscript_eval: "Manuscript Evaluation"
+      other: "Other"
+
+  about_name:
+    heading: "Why 'Morpho'?"
+    text: "During my academic journey, I studied the evolution of morphology and flight biomechanics in insects, particularly the iconic <em>Morpho</em> butterflies of the Amazon rainforest. My editing business takes its name from them."
+
+fr:
+  nav:
+    services: "Services"
+    about: "À propos"
+    testimonials: "Témoignages"
+    contact: "Contact"
+
+  header:
+    heading_part1: "<strong>Un doctorat est<br>déjà assez difficile</strong>"
+    heading_part2: "Tu n’as pas à tout affronter toute seule"
+    lead_in: "Accompagnement personalisé pour les doctorants qui souhaitent un suivi régulier et des retours adaptés, pour ne plus perdre de temps et aller de l'avant."
+    schedule_btn: "Book un appel gratuit"
+    btn: "Envoyez-moi un message"
+
+  empathy:
+    headline: "Vous avez passé des mois au labo ou sur le terrain, à faire des manips et triturer des analyses. Chaque donnée a demandé du temps, des efforts, et de la sueur. Vous avez <em>mérité</em> vos résultats."
+    subheadline: "La partie la plus difficile n’est plus la science. C’est de structurer votre travail en un récit clair et publiable."
+    text_1: "La recherche est chaotique par nature : itérative, non linéaire, pleine d’impasses et de détours inattendus. Pourtant, les articles scientifiques sont censés se lire comme une histoire parfaitement construite. <strong style='color: #333;'>Raconter cette histoire est un vrai défi, et cela n’a rien à voir avec la qualité de votre science.</strong>"
+    text_2: "Le temps des directeurs de thèse est souvent partagé entre de nombreuses responsabilités. En conséquence, l'essentiel du doctorat se déroule entre les réunions, vous laissant gérer l'incertitude seul et tenter de décider où consacrer au mieux votre temps et votre énergie."
+    text_3: "Perdre sa motivation et son enthousiasme au cours de son doctorat arrive souvent. Se sentir constamment en retard, bloquer sur le même draft pendant des semaines et être de plus en plus stressé ne devrait pas être le prix à payer pour devenir chercheur."
+    text_4: "<strong style='color: #333;'>Je suis passé par là.</strong> Je sais ce que c'est d'avoir des résultats solides mais un manuscrit qui ne leur rend pas justice. Un récit qui s'éparpille dans trois directions différentes, bugguer devant mon draft jusq'à 23 heures en me demandant ce que veut vraiment dire mon article. Ça m'est arrivé plus d'une fois."
+    text_5: "Après des années passées à transformer des projets de recherche en publications et à aider des étudiants à faire de même, je sais à quel point ce parcours peut être difficile, et à quel point <strong style='color: #333;'>il devient plus facile avec la bonne personne à ses côtés. C'est ce que je vous propose.</strong>"
+    text_6: "Et si vous pouviez soumettre d'ici quelques mois,<br>et être soulagé de passer à votre prochain projet, bien plus stimulant ?"
+    list_title: "A quoi vous pouvez vous attendre :"
+    bullet_1: "<strong>Un confrère scientifique qui parle votre langage.</strong> J’ai fait de la recherche, collecté des données, révisé et publié — je sais à quel point publier un article peut être difficile du début à la fin."
+    bullet_2: "<strong>Aucun jugement.</strong> Un brouillon n'est jamais trop brouillon, et aucune question n'est trop basique. Amenez-moi votre chaos."
+    bullet_3: "<strong>Véritablement disponible.</strong> Je ne vais pas disparaître après vous avoir renvoyé les corrections avec suivi des modifications. Que vous ayez besoin d'une refonte complète de votre manuscrit ou simplement de réfléchir à voix haute, je suis là."
+    bullet_4: "<strong>Des retours spécifiques à votre travail.</strong> Je prends le temps de comprendre votre recherche, votre argumentaire, et la direction que vous souhaitez prendre. Je ne donne pas de commentaires génériques."
+    final_thought: "Un manuscrit ne devrait pas rester pendant encore six mois dans un dossier de brouillons. Vos résultats comptent, et la communauté scientifique ne peut construire que sur des travaux qu'elle peut réellement lire. J’ai créé Morpho Editing parce que la bonne science mérite d’être bien racontée. Assurons-nous que ce soit le cas pour la vôtre."
+    get_started_btn: "Découvrir mes services"
+  
+  coaching:
+    heading: "Services de Coaching"
+    subheading: "Avancez avec un mentor de recherche à vos côtés"
+    clarity:
+      badge: "Ponctuel"
+      title: "Clarifions votre projet"
+      desc: "Une séance de coaching unique conçue pour vous aider à surmonter un blocage précis. Que vous soyez coincé sur votre manuscrit, face à une échéance imminente ou que vous ayez simplement besoin de clarifier vos prochaines étapes, vous repartirez avec des conseils pratiques et un plan d'action clair."
+      points:
+        pt1: "Une séance individuelle de 60 minutes"
+        pt2: "Relecture de vos documents avant la séance"
+        pt3: "Un suivi post-séance pour maintenir votre dynamique"
+    accelerator:
+      badge: "Suivi continu"
+      title: "Accélérons votre publication"
+      desc: "Ce programme de coaching continu vous offre un partenaire dédié pour vous aider à créer une dynamique régulière, consolider votre manuscrit et avancer sereinement vers la publication."
+      points:
+        pt1: "Deux séances de coaching de 60 minutes par mois en ligne"
+        pt2: "Relecture de vos brouillons avant chaque séance"
+        pt3: "Assistance illimitée par messagerie"
+        pt4: "Tarifs préférentiels sur les services de révision"
+
+  services:
+    heading: "Services de Révision"
+    subheading_main: "Bénéficiez d’un coup de pouce pour votre manuscrit"
+    subheading_evaluation: "Vous êtes bloqué mais souhaitez réviser vous-même ?<br>Obtenez une évaluation de manuscrit"
+    subheading_figures: "Vous voulez que vos recherches se démarquent au premier coup d'œil ?<br>Donnez plus d’impact à vos travaux avec des figures prêtes pour la publication"
+    subheading_cta: "Vous ne savez pas exactement ce dont vous avez besoin ? Discutons-en"
+    checklist_title: "Idéal pour vous si :"
+    btn: "Envoyez-moi un message"
+    request_btn: "Demander ce service"
+
+    dev_editing:
+      badge: "Avancé"
+      title: "Révision de fond"
+      desc: "Je vous fais des retours et suggestions personnalisés sur la structure, l’argumentation, les figures, afin de rendre votre récit scientifique clair, cohérent, et convaincant."
+      points:
+        pt1: "Vous soumettez une thèse, un manuscrit ou une demande de financement et souhaitez maximiser vos chances de succès."
+        pt2: "Vos résultats sont solides, mais le manuscrit vous semble encore flou ou difficile à structurer."
+        pt3: "Vous voulez que votre article raconte une histoire scientifique captivante plutôt qu’une suite de résultats déconnectés."
+        pt4: "Vous avez besoin d’un regard neuf et professionnel après avoir passé trop de temps sur le même brouillon."
+
+    copy_editing:
+      badge: "Essentiel"
+      title: "Copy-Editing"
+      desc: "Je retravaillerai la formulation, la cohérence, la langue, et la mise en forme, afin de rendre votre manuscrit plus clair et plus agréable à lire."
+      points:
+        pt1: "Votre thèse, manuscrit ou demande de subvention est presque finalisé et nécessite seulement les dernières corrections avant soumission."
+        pt2: "Vos idées et résultats sont bien organisés mais ont besoin d’être peaufinés pour gagner en clarté et en fluidité."
+        pt3: "Vous souhaitez un texte concis, cohérent et homogène dans l’ensemble du manuscrit."
+        pt4: "Vous avez besoin d’un document mis en forme selon les directives d’une revue ou d’une université."
+
+    manuscript_eval:
+      title: "Évaluation de manuscrit"
+      desc: "Je ne modifierais pas votre manuscript, mais le lirai attentivement et fournirai des feedbacks concrets sur le récit scientifique, la structure, la clarté, la langue et la fluidité globale de l’article."
+      points:
+        pt1: "Vous souhaitez mieux comprendre les forces et les faiblesses de votre brouillon."
+        pt2: "Vous voulez des retours détaillés avant de réviser le manuscrit vous-même en toute confiance."
+        pt3: "Vous avez besoin d’un regard neuf pour analyser votre manuscrit en profondeur."
+        pt4: "Vous souhaitez maximiser les chances de succès de votre manuscrit ou de votre demande de subvention."
+
+    figure_design:
+      title: "Conception de figures"
+      desc: "Les figures scientifiques sont souvent la première chose que les lecteurs regardent. Des visuels clairs et réfléchis permettent de mieux comprendre des résultats complexes, renforcent votre récit scientifique et augmentent l’impact global de votre travail. Je repenserai vos figures afin que vos lecteurs comprennent vos résultats rapidement, et clairement."
+      points:
+        pt1: "Vous souhaitez que vos figures communiquent vos résultats de manière plus claire et plus efficace."
+        pt2: "Vos visuels semblent encombrés, incohérents ou difficiles à interpréter."
+        pt3: "Vous avez besoin d’aide pour améliorer la mise en page, les légendes, les couleurs ou la fluidité visuelle globale."
+        pt4: "Vous souhaitez des figures prêtes pour la publication, une thèse, une demande de financement ou une présentation."
+
+  workflow:
+    heading: "Comment je vous accompagne :"
+    step1:
+      title: "Contactez-moi"
+      desc: "Parlez-moi de votre projet et de vos difficultés."
+    step2:
+      title: "Validez le devis"
+      desc: "Un prix clair dès le départ et un planning adapté à vos besoins et à vos échéances."
+    step3:
+      title: "Détendez-vous"
+      desc: "Déconnectez de votre manuscrit. Je m'occupe de l'améliorer et vous le remets pour l'échéance convenue."
+
+  faq:
+    heading: "Foire Aux Questions"
+    q1: "Combien coûtent les services de révision ?"
+    a1: "Chaque projet est unique et le tarif dépend de l'étendue du travail, des délais et du niveau d'accompagnement requis. Je fournis toujours une estimation claire dès le départ et je suis ravi d'échanger sur les différentes options pour trouver la formule qui correspond le mieux à vos besoins et à votre budget."
+    q2: "Proposez-vous des tarifs étudiants ?"
+    a2: "Je sais que les étudiants disposent souvent de financements limités. Dans la mesure du possible, je m'efforce de proposer des solutions flexibles et d'adapter la nature des travaux à différents budgets. N'hésitez pas à me contacter pour discuter de votre projet."
+    q3: "Quel est votre délai de révision ?"
+    a3_p1: "Je rends généralement les projets dans un délai de deux semaines, même si beaucoup sont finalisés plus tôt. Si un délai plus long est nécessaire, je vous en informerai systématiquement à l'avance pour en discuter directement avec vous."
+    a3_p2: "Si vous travaillez avec des délais très serrés, contactez-moi dès que possible. Je ferai toujours de mon mieux pour m'adapter aux demandes urgentes. Des frais d'urgence supplémentaires peuvent s'appliquer."
+    q4: "Quels types de documents révisez-vous ?"
+    a4_intro: "Je propose des services de révision et d'aide à la rédaction scientifique pour une large gamme de documents liés à la recherche, notamment :"
+    q5: "Allez-vous réviser mon projet plus d'une fois ?"
+    a5: "Des sessions de révision supplémentaires peuvent tout à fait être organisées selon vos besoins. Nous pouvons définir ensemble la meilleure approche avant de commencer le projet. Des frais supplémentaires peuvent s'appliquer."
+
+  testimonials:
+    heading: "Ce que disent mes clients"
+    t1:
+      quote: "Grâce à l'aide de Camille, je suis passée d'un sentiment d'insécurité face à l'écriture au plaisir d'écrire. Dans mon travail actuel de chercheuse, je rédige de nombreuses propositions et rapports ; mon chef d'équipe a été tellement impressionné par mon premier rapport qu'il a immédiatement signalé mes compétences rédactionnelles au directeur. Sans Camille, j'ose dire que cela n'aurait pas été possible ! Je recommande vivement Camille comme coach en rédaction."
+      name: "N.T. - Chercheuse en entomologie, ST Food & Flowers"
+    t2:
+      quote: "Camille a été formidable ! Il s'est montré professionnel, communicatif et ce fut un plaisir de travailler avec lui du début à la fin. Il a fait un travail magnifique pour mettre en forme ma thèse et a rendu toute l'expérience remarquablement simple. Je recommande absolument Camille à quiconque cherche une aide attentive pour la rédaction, la relecture ou la mise en forme."
+      name: "K.H. - Doctorante, Kansas State University"
+    t3:
+      quote: "Un grand merci à Camille, qui m'a aidé pour l'analyse statistique de mon mémoire de biologie. Les explications et les appels vidéo que nous avons eus ensemble étaient très clairs. Les séances se sont vraiment bien passées — Camille a su me rassurer et répondre à toutes mes questions, et bien plus encore ! Je recommande vivement de prendre des cours avec Camille !"
+      name: "P.P. - Étudiant en Master, Université de Lyon"
+    t4:
+      quote: "Camille est un excellent tuteur ! Très patient, il explique les choses simplement, ne me fait jamais me sentir mal quand je ne comprends pas, et adapte la séance en fonction de mes besoins et de mes lacunes. Je ferai définitivement appel à lui pour d'autres séances."
+      name: "J.C. - Doctorant, New York University"
+    t5:
+      quote: "Camille a été d'une grande aide. Même si mon article ne relevait pas directement de son domaine, il m'a fourni des retours précieux et des suggestions très judicieuses."
+      name: "A.L. - Étudiante en Master, UNC Chapel Hill"
+    t6:
+      quote: "Pour avoir travaillé étroitement avec le Dr Camille Le Roy pendant plusieurs années, je peux affirmer en toute confiance qu'il est à la fois un scientifique remarquable et un rédacteur exceptionnellement doué. Camille est patient, organisé et profondément bienveillant — des qualités qui font de lui un mentor académique particulièrement efficace et digne de confiance. Il possède un esprit méthodique et une compréhension approfondie de la structuration des arguments scientifiques pour communiquer des idées complexes avec une clarté absolue. Pour quiconque recherche un accompagnement expert en rédaction académique, je recommande vivement Camille."
+      name: "F.M. - Professeur, Wageningen University"
+
+  about:
+    heading: "À propos"
+    name: "Camille Le Roy, PhD"
+    intro: "Je m'appelle Camille. Je suis chercheur, biologiste de terrain et biomécanicien — mais avant tout, quelqu’un qui comprend les défis d’une carrière académique."
+    details_1: "Titulaire d'un doctorat en biologie évolutive de l'Université de Paris et fort de plus de sept ans de recherche interdisciplinaire entre l'écologie et la biophysique, mon parcours m’a mené des forêts amazoniennes du Pérou aux laboratoires en France et aux Pays-Bas. En chemin, j'ai pris conscience d'une difficulté commune à beaucoup de chercheurs : nous excellons dans la 'pratique', les expériences, les modèles, les expéditions de terrain — mais nous avons souvent du mal à nous arrêter pour nous immerger dans l'écriture."
+    details_2: "Je suis passé par là. Transformer des années de données complexes en un récit clair et convaincant est un processus exigeant. Avec huit articles en premier auteur dans des revues de premier plan (notamment <em>Science</em>, <em>Nature Communications</em>, <em>PLOS BIOLOGY</em>), ainsi qu’une expérience de reviewer pour une douzaine de revues multidisciplinaires, J’ai appris les rouages concrets qui permettent de transformer des résultats bruts en un manuscrit qui a réellement ses chances d’être publié. C'est d'ailleurs un des challenges qui m’emballe le plus !"
+    details_3: "En dehors de la recherche, vous me trouverez à la recherche du 'flow-state' — sur un skateboard, un snowboard, ou en essayant (souvent sans succès) de rester debout sur une slackline. C’est en m'immersant dans ce genre d'activités que j'ai mes meilleures réflexions, loin de mon ordinateur !"
+    conclusion: "Avec Morpho Editing & Coaching, je mets mon expertise au service des étudiants et jeunes chercheurs pour les aider à transformer leurs travaux de recherche en récits qui rendent pleinement justice à leurs découvertes."
+
+  contact:
+    heading: "Contactez-moi"
+    success_title: "Merci !"
+    success_msg: "Votre message a bien été envoyé. Je vous répondrai sous peu."
+    error_msg: "Oups ! Il y a eu un problème lors de l'envoi du formulaire. Veuillez réessayer."
+    name_placeholder: "Votre nom *"
+    email_placeholder: "Votre email *"
+    referral_placeholder: "Comment avez-vous entendu parler de moi ? *"
+    message_placeholder: "Votre message *"
+    submit_btn: "Envoyer le message"
+    services_label: "Quel(s) service(s) vous intéresse(nt) ?"
+    options:
+      clarity: "Session de coaching ponctuelle"
+      accelerator: "Coaching continu"
+      dev_editing: "Révision de fond"
+      copy_editing: "Copy-Editing"
+      manuscript_eval: "Évaluation de manuscrit"
+      other: "Autre"
+
+  about_name:
+    heading: "Pourquoi 'Morpho' ?"
+    text: "Au cours de mes recherches, j’ai étudié l’évolution de la morphologie et la biomécanique du vol chez les insectes, en particulier les emblématiques papillons Morpho de la forêt amazonienne. Mon activité d’édition en tire naturellement son nom."

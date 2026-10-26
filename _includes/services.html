@@ -1,0 +1,432 @@
+{% assign lang = "en" %}
+{% if page.url contains '/fr/' %}
+  {% assign lang = "fr" %}
+{% endif %}
+{% assign t = site.data.locales[lang] %}
+
+<section id="services" style="padding-bottom: 0;">
+    <div class="container">
+
+        <!-- COACHING SECTION -->
+        <div class="row">
+            <div class="col-lg-12 text-center" style="margin-bottom: 50px;">
+                <h2 class="section-heading" style="margin-bottom: 25px;">{{ t.coaching.heading }}</h2>
+                <p class="service-subheading" style="font-size: 26px; font-weight: 600; color: #555; margin-top: 20px;">
+                    {{ t.coaching.subheading }}
+                </p>
+            </div>
+        </div>
+
+        <!-- SIDE-BY-SIDE COACHING CARDS -->
+        <div class="row style-service-row flex-row-equal">
+            
+            <!-- 1. RESEARCH CLARITY SESSION -->
+            <div class="col-md-6 style-card-col">
+                <div class="service-vertical-card">
+                    <div class="service-vertical-header">
+                        <h4 class="service-title-text" style="color: #666; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-top: 0; margin-bottom: 15px;">{{ t.coaching.clarity.badge }}</h4>
+                        
+                        <div class="service-icon-container" style="margin-bottom: 15px;">
+                            <img src="{{ site.baseurl }}/img/research_clarity_compass.png" 
+                                 alt="Research Clarity Session" 
+                                 class="service-custom-icon img-responsive">
+                        </div>
+
+                        <h3 class="service-main-heading" style="margin-top: 0; font-size: 24px; font-weight: 700; color: #333;">{{ t.coaching.clarity.title }}</h3>
+                    </div>
+                    
+                    <div class="service-vertical-body">
+                        <p class="service-description-text">{{ t.coaching.clarity.desc }}</p>
+                        <div class="service-checklist-container">
+                            <ul class="service-checklist">
+                                <li>{{ t.coaching.clarity.points.pt1 }}</li>
+                                <li>{{ t.coaching.clarity.points.pt2 }}</li>
+                                <li>{{ t.coaching.clarity.points.pt3 }}</li>
+                            </ul>
+                        </div>
+                        
+                        <a href="#contact" class="btn btn-sm btn-request-service page-scroll" data-service="clarity">
+                            {{ t.services.request_btn }} &rarr;
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. PUBLICATION ACCELERATOR -->
+            <div class="col-md-6 style-card-col">
+                <div class="service-vertical-card">
+                    <div class="service-vertical-header">
+                        <h4 class="service-title-text" style="color: #666; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-top: 0; margin-bottom: 15px;">{{ t.coaching.accelerator.badge }}</h4>
+                        
+                        <div class="service-icon-container" style="margin-bottom: 15px;">
+                            <img src="{{ site.baseurl }}/img/publication_accelerator_blue2.png" 
+                                 alt="Publication Accelerator" 
+                                 class="service-custom-icon img-responsive">
+                        </div>
+
+                        <h3 class="service-main-heading" style="margin-top: 0; font-size: 24px; font-weight: 700; color: #333;">{{ t.coaching.accelerator.title }}</h3>
+                    </div>
+                    
+                    <div class="service-vertical-body">
+                        <p class="service-description-text">{{ t.coaching.accelerator.desc }}</p>
+                        <div class="service-checklist-container">
+                            <ul class="service-checklist">
+                                <li>{{ t.coaching.accelerator.points.pt1 }}</li>
+                                <li>{{ t.coaching.accelerator.points.pt2 }}</li>
+                                <li>{{ t.coaching.accelerator.points.pt3 }}</li>
+                                <li>{{ t.coaching.accelerator.points.pt4 }}</li>
+                            </ul>
+                        </div>
+
+                        <a href="#contact" class="btn btn-sm btn-request-service page-scroll" data-service="accelerator">
+                            {{ t.services.request_btn }} &rarr;
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- EDITING SECTION -->
+        <div class="row" style="margin-top: 60px;">
+            <div class="col-lg-12 text-center" style="margin-bottom: 75px; margin-top: 75px">
+                <h2 class="section-heading" style="margin-bottom: 25px;">
+                    {{ t.services.heading }}
+                </h2>
+                <p class="service-subheading" style="font-size: 26px; font-weight: 600; color: #555; margin-top: 20px;">
+                    {{ t.services.subheading_main }}
+                </p>
+            </div>
+        </div>
+
+        <!-- SIDE-BY-SIDE EDITING CARDS (DEV EDITING & COPY EDITING) -->
+        <div class="row style-service-row flex-row-equal">
+            
+            <!-- DEVELOPMENTAL EDITING -->
+            <div class="col-md-6 style-card-col">
+                <div class="service-vertical-card">
+                    <div class="service-vertical-header">
+                        <h4 class="service-title-text" style="color: #666; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-top: 0; margin-bottom: 15px;">{{ t.services.dev_editing.badge }}</h4>
+                        
+                        <div class="service-icon-container" style="margin-bottom: 15px;">
+                            <img src="{{ site.baseurl }}/img/substantive editing blue.png" 
+                                 alt="Developmental Editing" 
+                                 class="service-custom-icon img-responsive">
+                        </div>
+
+                        <h3 class="service-main-heading" style="margin-top: 0; font-size: 24px; font-weight: 700; color: #333;">{{ t.services.dev_editing.title }}</h3>
+                    </div>
+                    
+                    <div class="service-vertical-body">
+                        <p class="service-description-text">{{ t.services.dev_editing.desc }}</p>
+                        <div class="service-checklist-container">
+                            <h5 class="checklist-title">{{ t.services.checklist_title }}</h5>
+                            <ul class="service-checklist">
+                                <li>{{ t.services.dev_editing.points.pt1 }}</li>
+                                <li>{{ t.services.dev_editing.points.pt2 }}</li>
+                                <li>{{ t.services.dev_editing.points.pt3 }}</li>
+                                <li>{{ t.services.dev_editing.points.pt4 }}</li>
+                            </ul>
+                        </div>
+
+                        <a href="#contact" class="btn btn-sm btn-request-service page-scroll" data-service="dev_editing">
+                            {{ t.services.request_btn }} &rarr;
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COPY EDITING -->
+            <div class="col-md-6 style-card-col">
+                <div class="service-vertical-card">
+                    <div class="service-vertical-header">
+                        <h4 class="service-title-text" style="color: #666; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-top: 0; margin-bottom: 15px;">{{ t.services.copy_editing.badge }}</h4>
+                        
+                        <div class="service-icon-container" style="margin-bottom: 15px;">
+                            <img src="{{ site.baseurl }}/img/logo_copy_editing.png" 
+                                 alt="Copy Editing" 
+                                 class="service-custom-icon img-responsive">
+                        </div>
+
+                        <h3 class="service-main-heading" style="margin-top: 0; font-size: 24px; font-weight: 700; color: #333;">{{ t.services.copy_editing.title }}</h3>
+                    </div>
+                    
+                    <div class="service-vertical-body">
+                        <p class="service-description-text">{{ t.services.copy_editing.desc }}</p>
+                        <div class="service-checklist-container">
+                            <h5 class="checklist-title">{{ t.services.checklist_title }}</h5>
+                            <ul class="service-checklist">
+                                <li>{{ t.services.copy_editing.points.pt1 }}</li>
+                                <li>{{ t.services.copy_editing.points.pt2 }}</li>
+                                <li>{{ t.services.copy_editing.points.pt3 }}</li>
+                                <li>{{ t.services.copy_editing.points.pt4 }}</li>
+                            </ul>
+                        </div>
+
+                        <a href="#contact" class="btn btn-sm btn-request-service page-scroll" data-service="copy_editing">
+                            {{ t.services.request_btn }} &rarr;
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 text-center" style="margin-top: 30px; margin-bottom: 50px;">
+                <p class="service-subheading" style="font-size: 26px; font-weight: 600; color: #555; margin-top: 20px;">
+                    {{ t.services.subheading_evaluation }}
+                </p>
+            </div>
+        </div>
+
+        <!-- MANUSCRIPT EVALUATION (CENTERED VERTICAL CARD) -->
+        <div class="row style-service-row">
+            <div class="col-md-6 col-md-offset-3 style-card-col">
+                <div class="service-vertical-card">
+                    <div class="service-vertical-header">
+                        <div class="service-icon-container" style="margin-bottom: 15px;">
+                            <img src="{{ site.baseurl }}/img/logo_manuscript_eval.png" 
+                                 alt="Manuscript Evaluation" 
+                                 class="service-custom-icon img-responsive">
+                        </div>
+
+                        <h3 class="service-main-heading" style="margin-top: 0; font-size: 24px; font-weight: 700; color: #333;">{{ t.services.manuscript_eval.title }}</h3>
+                    </div>
+                    
+                    <div class="service-vertical-body">
+                        <p class="service-description-text">{{ t.services.manuscript_eval.desc }}</p>
+                        <div class="service-checklist-container">
+                            <h5 class="checklist-title">{{ t.services.checklist_title }}</h5>
+                            <ul class="service-checklist">
+                                <li>{{ t.services.manuscript_eval.points.pt1 }}</li>
+                                <li>{{ t.services.manuscript_eval.points.pt2 }}</li>
+                                <li>{{ t.services.manuscript_eval.points.pt3 }}</li>
+                                <li>{{ t.services.manuscript_eval.points.pt4 }}</li>
+                            </ul>
+                        </div>
+
+                        <a href="#contact" class="btn btn-sm btn-request-service page-scroll" data-service="manuscript_eval">
+                            {{ t.services.request_btn }} &rarr;
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ISOLATED BLUE CTA BANNER FOR SERVICES CTA -->
+    <div class="services-cta-banner">
+        <div class="container">
+            <p class="services-highlight-text" style="font-weight: 700; text-align: center; color: #f8fafc; margin-bottom: 60px;">
+                {{ t.services.subheading_cta }}
+            </p>
+
+            <div class="header-buttons" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+                <a href="#contact" class="page-scroll btn btn-xl btn-header btn-services-white" style="min-width: 280px; text-align: center;">
+                    {{ t.services.btn }}
+                </a>
+                <a href="https://tidycal.com/camilleleroy/free-15-minute-call" class="btn btn-xl btn-header btn-services-outline" target="_blank" style="min-width: 280px; text-align: center;">
+                    {{ t.header.schedule_btn }}
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    /* --- Service Card Request Button (Centered, Solid Blue) --- */
+    .btn-request-service {
+        display: inline-block;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 24px;
+        background-color: #3F6E93;
+        color: #ffffff !important;
+        border: 2px solid #3F6E93;
+        border-radius: 6px;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .btn-request-service:hover {
+        background-color: #2b4c66;
+        border-color: #2b4c66;
+        color: #ffffff !important;
+        text-decoration: none;
+    }
+
+    /* --- Services Blue Bottom Banner --- */
+    .services-cta-banner {
+        background-color: #3F6E93;
+        padding: 70px 20px;
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .services-cta-banner .services-highlight-text {
+        font-size: 28px;
+        line-height: 1.4;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Primary White Button on Blue Banner */
+    .btn-services-white {
+        background-color: #ffffff !important;
+        color: #3F6E93 !important;
+        border: 2px solid #ffffff !important;
+        font-weight: 700;
+    }
+
+    .btn-services-white:hover {
+        background-color: #f0f4f8 !important;
+        color: #2b4c66 !important;
+        border-color: #f0f4f8 !important;
+    }
+
+    /* Secondary Dark Blue Button on Blue Banner */
+    .btn-services-outline {
+        background-color: #2b4c66 !important;
+        color: #ffffff !important;
+        border: 2px solid #2b4c66 !important;
+        font-weight: 700;
+    }
+
+    .btn-services-outline:hover {
+        background-color: #1e3649 !important;
+        border-color: #1e3649 !important;
+        color: #ffffff !important;
+    }
+
+    .style-service-row { margin-bottom: 40px; }
+
+    /* Desktop Equal Height Flex Layout */
+    @media (min-width: 768px) {
+        .flex-row-equal {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .style-card-col {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 30px;
+        }
+        .service-vertical-card {
+            height: 100%;
+        }
+    }
+
+    /* Vertical Card Layout */
+    .service-vertical-card {
+        display: flex;
+        flex-direction: column;
+        background: #ffffff;
+        border: 1px solid #eef2f5;
+        border-top: 4px solid #3F6E93;
+        border-radius: 12px;
+        padding: 35px 30px;
+        width: 100%;
+        box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.05), 
+                    0 2px 6px -1px rgba(0, 0, 0, 0.02); 
+        transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease;
+    }
+
+    .service-vertical-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 20px 40px -10px rgba(63, 110, 147, 0.15), 
+                    0 4px 12px rgba(0, 0, 0, 0.03);
+        border-color: #cbd5e1;
+        border-top-color: #2b4c66;
+    }
+
+    .service-vertical-header {
+        text-align: center;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #eee;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .service-vertical-body {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .service-vertical-body .service-description-text {
+        flex-grow: 1;
+    }
+
+    .service-vertical-body .service-checklist-container {
+        margin-top: auto;
+    }
+
+    /* Shared Icon Settings */
+    .service-icon-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+    }
+
+    .service-custom-icon {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    .service-description-text { font-size: 17px; line-height: 1.7; color: #555; margin-bottom: 25px; }
+
+    .service-checklist-container { 
+        background-color: #fafbfc; 
+        padding: 25px 30px; 
+        border-radius: 8px;
+    }
+
+    .checklist-title { font-size: 16px; font-weight: 700; color: #333; margin-top: 0; margin-bottom: 15px; letter-spacing: 0.5px; text-transform: none; }
+
+    .service-checklist { list-style: none; padding-left: 0; margin-bottom: 0; }
+
+    .service-checklist li { font-size: 15px; line-height: 1.6; color: #666; margin-bottom: 12px; position: relative; padding-left: 28px; }
+
+    .service-checklist li::before { content: "✓"; position: absolute; left: 0; top: -1px; color: #3F6E93; font-weight: 900; font-size: 18px; }
+
+    /* Mobile Responsive Overrides */
+    @media (max-width: 768px) {
+        .style-card-col { margin-bottom: 25px; }
+        .service-description-text { font-size: 16px; }
+        .service-checklist-container { padding: 20px; }
+        .service-checklist li { font-size: 15px; }
+        
+        .service-icon-container {
+            width: 80px;
+            height: 80px;
+        }
+
+        .service-custom-icon {
+            width: 80px;
+            height: 80px;
+        }
+
+        .services-cta-banner {
+            padding: 50px 15px;
+            margin-top: 40px;
+        }
+
+        .services-cta-banner .services-highlight-text {
+            font-size: 22px;
+        }
+    }
+</style>

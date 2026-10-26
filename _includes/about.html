@@ -1,0 +1,50 @@
+{% assign lang = "en" %}
+{% if page.url contains '/fr/' %}
+  {% assign lang = "fr" %}
+{% endif %}
+{% assign t = site.data.locales[lang] %}
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ t.about.heading }}</h2>
+            </div>
+        </div>
+
+        <div class="row" style="display: flex; align-items: center; flex-wrap: wrap;">
+            
+            <div class="col-md-4 text-center">
+                <img class="img-circle img-responsive" src="{{ site.baseurl }}/img/moi_field.png" alt="Camille" style="border: 7px solid #f1f1f1; margin: 0 auto;">
+                
+                <h3 style="color: #000000; font-family: 'EB Garamond', serif; text-transform: none; margin-top: 20px; font-weight: 700; font-size: 24px;">
+                    {{ t.about.name }}
+                </h3>
+            </div>
+
+            <div class="col-md-8">
+                <div class="about-body">
+                    <p class="large text-muted" style="font-size: 18px; margin-top: 20px; margin-bottom: 20px;">
+                        {{ t.about.intro }}
+                    </p>
+                    
+                    <p class="large text-muted" style="font-size: 18px; margin-bottom: 20px;">
+                        {{ t.about.details_1 }}
+                    </p>
+
+                    <p class="large text-muted" style="font-size: 18px; margin-bottom: 20px;">
+                        {{ t.about.details_2 }}
+                    </p>
+
+                    <p class="large text-muted" style="font-size: 18px; margin-bottom: 20px;">
+                        {{ t.about.details_3 }}
+                    </p>
+
+                    <p class="large text-muted" style="font-size: 18px;">
+                        {{ t.about.conclusion }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

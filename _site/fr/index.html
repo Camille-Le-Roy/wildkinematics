@@ -1,0 +1,1834 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Morpho Editing</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Coaching et révisions pour les biologistes qui bloquent sur la rédaction">
+    <link rel="canonical" href="http://localhost:4000/MorphoEdit/fr/">
+
+    <link rel="icon" type="image/png" href="/MorphoEdit/img/logo white grey transparent.png">
+
+    <link rel="stylesheet" href="/MorphoEdit/style.css">
+
+    <link rel="stylesheet" href="/MorphoEdit/css/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <meta property="og:title" content="Morpho Editing">
+    <meta property="og:description" content="Coaching et révisions pour les biologistes qui bloquent sur la rédaction">
+    <meta property="og:url" content="http://localhost:4000/MorphoEdit/fr/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://localhost:4000/MorphoEdit/img/share-image.png">
+    <meta property="og:site_name" content="Morpho Editing">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Morpho Editing">
+    <meta name="twitter:description" content="Coaching et révisions pour les biologistes qui bloquent sur la rédaction">
+    <meta name="twitter:image" content="http://localhost:4000/MorphoEdit/img/share-image.png">
+</head>
+
+  <body id="page-top" class="index">
+
+    
+
+
+
+
+
+
+
+<style>
+    /* Fix for buttons overlapping and sizing on mobile */
+    .header-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* Restored to center */
+        gap: 20px; /* Space between buttons */
+        margin-top: 40px; /* Spacing above buttons */
+    }
+
+    .header-buttons .btn-header {
+        min-width: 280px; /* Symmetrical width */
+        border-radius: 50px !important;
+        margin: 0 !important; /* Resetting previous manual margins */
+    }
+
+    /* Headings Typography - Desktop defaults */
+    .header-part1 {
+        display: block;
+        font-size: 65px;
+        color: #222222;
+        font-weight: 700; /* Standardized to maximum bold weight */
+        margin-bottom: 30px;
+        line-height: 1.2;
+    }
+
+    .header-part2 {
+        display: block;
+        font-size: 47px;
+        color: #222222;
+        font-weight: 800;
+        line-height: 1.2;
+    }
+
+    .header-lead-in-text {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 32px;
+        text-transform: none;
+        font-style: normal;
+        line-height: 1.5;
+        margin-top: 25px; /* Added top margin to position text slightly lower */
+        margin-bottom: 35px; 
+        text-align: left !important;
+        max-width: 100%;
+    }
+
+    /* Mobile Responsive Styles - Only affects screens smaller than 768px */
+    @media (max-width: 768px) {
+        .header-buttons {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .header-buttons .btn-header {
+            width: 90%; /* Almost full width on mobile */
+            max-width: 320px;
+        }
+
+        /* Scale down fonts and expand line-height ONLY on mobile to prevent overlap */
+        .header-part1 {
+            font-size: 36px !important;
+            font-weight: 900 !important; /* Set to absolute max standard bold font weight */
+            line-height: 1.25 !important;
+            margin-bottom: 15px !important;
+        }
+        .header-part2 {
+            font-size: 20px !important; /* Made slightly smaller (from 22px) to fit mobile screens beautifully */
+            line-height: 1.35 !important;
+        }
+        .header-lead-in-text {
+            font-size: 18px !important;
+            line-height: 1.45 !important;
+            margin-top: 15px !important;
+            margin-bottom: 25px !important; /* Scaled down for mobile */
+        }
+
+        /* Scale down the illustration only on mobile view */
+        .header-illustration {
+            max-height: 220px !important; 
+        }
+    }
+</style>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand page-scroll" href="/MorphoEdit/fr/#page-top" style="display: flex; align-items: center; padding-top: 5px; padding-bottom: 5px;">
+                <img src="/MorphoEdit/img/logo white grey transparent.png" alt="Morpho Editing Logo" style="height: 40px; margin-right: 12px;">
+                
+                <div style="display: flex; flex-direction: column; line-height: 1.1; text-align: left;">
+                    <span style="font-weight: 700; font-size: 16px; text-transform: uppercase; letter-spacing: 1px;">
+                        Morpho Editing
+                    </span>
+                    <span style="font-size: 13px; font-weight: 400; text-transform: none; font-family: 'EB Garamond', serif;">
+                        Camille Le Roy, PhD
+                    </span>
+                </div>
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden"><a href="/MorphoEdit/fr/#page-top"></a></li>
+                <li><a class="page-scroll" href="/MorphoEdit/fr/#services">Services</a></li>
+                <li><a class="page-scroll" href="/MorphoEdit/fr/#faq"></a></li>
+                <li><a class="page-scroll" href="/MorphoEdit/fr/#about">À propos</a></li>
+                <li><a class="page-scroll" href="/MorphoEdit/fr/#testimonials">Témoignages</a></li>
+                <li><a class="page-scroll" href="/MorphoEdit/fr/#contact">Contact</a></li>
+                <li><a href="/MorphoEdit/blog/">Blog</a></li>
+                
+                <li class="language-selector">
+                    
+                        <a href="/MorphoEdit/">EN</a>
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header style="text-align: left !important;">
+    <div class="container">
+        <div class="intro-text" style="text-align: left !important; padding-top: 120px !important;">
+
+            <!-- Top Row: Heading on Left, Illustration on Right -->
+            <div class="row" style="display: flex; align-items: center; flex-wrap: wrap; margin-bottom: 15px;">
+                
+                <!-- Heading Column (Takes up roughly 60% width on desktop) -->
+                <div class="col-xs-12 col-md-7" style="text-align: left !important;">
+                    <div class="intro-heading" style="font-family: 'Montserrat', sans-serif; text-transform: none; font-style: normal; margin-bottom: 0; text-align: left !important;">
+                        
+                        <!-- Heading Part 1 -->
+                        <span class="header-part1">
+                            <strong>Un doctorat est<br>déjà assez difficile</strong>
+                        </span>
+
+                        <!-- Heading Part 2 -->
+                        <span class="header-part2">
+                            Tu n’as pas à tout affronter toute seule
+                        </span>
+
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-5" style="text-align: center;">
+                    <img src="/MorphoEdit/img/me header page.png" 
+                         alt="Scientific breakdown to breakthrough illustration" 
+                         class="img-responsive header-illustration" 
+                         style="max-height: 445px; width: auto; margin: 10px auto 0 auto; display: block;">
+                </div>
+                
+            </div>
+
+            <!-- Bottom Row: Wide Lead-in stretching underneath -->
+            <div class="header-lead-in-text">
+                Accompagnement personalisé pour les doctorants qui souhaitent un suivi régulier et des retours adaptés, pour ne plus perdre de temps et aller de l'avant.
+            </div>
+
+            <!-- Buttons Container -->
+            <div class="header-buttons" style="text-align: left !important;">
+                <a href="/MorphoEdit/fr/#contact" class="page-scroll btn btn-xl btn-header">
+                    Envoyez-moi un message
+                </a>
+                <a href="https://tidycal.com/camilleleroy/free-15-minute-call" 
+                   class="btn btn-xl btn-header" 
+                   target="_blank" 
+                   style="background-color: #3F6E93; border-color: #3F6E93;">
+                    Book un appel gratuit
+                </a>
+            </div>
+
+        </div>
+    </div>
+</header>
+    
+
+
+
+<section id="empathy" class="bg-light-gray empathy-section" style="padding-top: 80px; padding-bottom: 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-12">
+                
+                <p class="empathy-body-text" style="margin-bottom: 20px; color: #777;">
+                    Vous avez passé des mois au labo ou sur le terrain, à faire des manips et triturer des analyses. Chaque donnée a demandé du temps, des efforts, et de la sueur. Vous avez <em>mérité</em> vos résultats.
+                </p>
+                <p class="empathy-sub-heading" style="font-weight: 700; margin-bottom: 20px; color: #333;">
+                    
+                </p>
+
+                <!-- Inserting full-width horizontal image below text_1 -->
+                <div class="empathy-horizontal-divider" style="margin-top: 30px; margin-bottom: 30px;">
+                    <img src="/MorphoEdit/img/messy to publish transparent 2.png" 
+                         alt="from messy data to publication illustration" 
+                         class="img-responsive empathy-diagram">
+                </div>
+
+                <p class="empathy-body-text" style="margin-bottom: 20px; color: #777;">
+                    La recherche est chaotique par nature : itérative, non linéaire, pleine d’impasses et de détours inattendus. Pourtant, les articles scientifiques sont censés se lire comme une histoire parfaitement construite. <strong style='color: #333;'>Raconter cette histoire est un vrai défi, et cela n’a rien à voir avec la qualité de votre science.</strong>
+                </p>
+                <!--
+                <p class="empathy-body-text" style="margin-bottom: 20px; color: #777;">
+                    Le temps des directeurs de thèse est souvent partagé entre de nombreuses responsabilités. En conséquence, l'essentiel du doctorat se déroule entre les réunions, vous laissant gérer l'incertitude seul et tenter de décider où consacrer au mieux votre temps et votre énergie.
+                </p> -->
+
+                <p class="empathy-body-text" style="margin-bottom: 20px; color: #777;">
+                    Perdre sa motivation et son enthousiasme au cours de son doctorat arrive souvent. Se sentir constamment en retard, bloquer sur le même draft pendant des semaines et être de plus en plus stressé ne devrait pas être le prix à payer pour devenir chercheur.
+                </p>
+                
+                <p class="empathy-body-text" style="margin-bottom: 20px; color: #777;">
+                    <strong style='color: #333;'>Je suis passé par là.</strong> Je sais ce que c'est d'avoir des résultats solides mais un manuscrit qui ne leur rend pas justice. Un récit qui s'éparpille dans trois directions différentes, bugguer devant mon draft jusq'à 23 heures en me demandant ce que veut vraiment dire mon article. Ça m'est arrivé plus d'une fois.
+                </p>
+
+                <p class="empathy-body-text" style="margin-bottom: 40px; color: #777;">
+                    Après des années passées à transformer des projets de recherche en publications et à aider des étudiants à faire de même, je sais à quel point ce parcours peut être difficile, et à quel point <strong style='color: #333;'>il devient plus facile avec la bonne personne à ses côtés. C'est ce que je vous propose.</strong>
+                </p>
+
+                <!-- Workflow Title Row (Centered and slightly smaller) -->
+                <!--<div class="row" style="margin-top: 40px; margin-bottom: 25px;">
+                    <div class="col-lg-12 text-center">
+                        <h4 class="workflow-custom-heading" style="font-weight: 700; line-height: 1.4; color: #333; margin: 0; font-family: 'Montserrat', sans-serif; text-transform: none; border: none;">
+                            Comment je vous accompagne :
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="row workflow-pathway text-center" style="position: relative; margin-bottom: 40px;">
+                    <div class="hidden-xs hidden-sm" style="position: absolute; top: 55px; left: 15%; right: 15%; height: 4px; background: #e7e7e7; z-index: 0;"></div>
+
+                    <div class="col-md-4 workflow-step" style="margin-bottom: 40px; position: relative; z-index: 1;">
+                        <div class="workflow-content">
+                            <div class="workflow-icon-circle">
+                                <i class="fa fa-paper-plane fa-inverse"></i>
+                            </div>
+                            <h2 class="section-heading" style="margin-top: 25px; margin-bottom: 15px; font-size: 20px; text-transform: none; border: none; color: #333;">
+                                Contactez-moi
+                            </h2>
+                            <p class="large text-muted" style="padding: 0 15px;">
+                                Parlez-moi de votre projet et de vos difficultés.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 workflow-step" style="margin-bottom: 40px; position: relative; z-index: 1;">
+                        <div class="workflow-content">
+                            <div class="workflow-icon-circle">
+                                <i class="fa fa-file-text-o fa-inverse"></i>
+                            </div>
+                            <h2 class="section-heading" style="margin-top: 25px; margin-bottom: 15px; font-size: 20px; text-transform: none; border: none; color: #333;">
+                                Validez le devis
+                            </h2>
+                            <p class="large text-muted" style="padding: 0 15px;">
+                                Un prix clair dès le départ et un planning adapté à vos besoins et à vos échéances.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 workflow-step" style="margin-bottom: 40px; position: relative; z-index: 1;">
+                        <div class="workflow-content">
+                            <div class="workflow-icon-circle">
+                                <i class="fa fa-coffee fa-inverse"></i>
+                            </div>
+                            <h2 class="section-heading" style="margin-top: 25px; margin-bottom: 15px; font-size: 20px; text-transform: none; border: none; color: #333;">
+                                Détendez-vous
+                            </h2>
+                            <p class="large text-muted" style="padding: 0 15px;">
+                                Déconnectez de votre manuscrit. Je m'occupe de l'améliorer et vous le remets pour l'échéance convenue.
+                            </p>
+                        </div>
+                    </div>
+                </div>-->
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ISOLATED BLUE CTA BANNER FOR TEXT_6 & BUTTONS -->
+    <div class="empathy-cta-banner">
+        <div class="container">
+            <p class="empathy-body-text" style="font-weight: 700; font-size: 32px; text-align: center; color: #f8fafc; margin-bottom: 60px;">
+                Et si vous pouviez soumettre d'ici quelques mois,<br>et être soulagé de passer à votre prochain projet, bien plus stimulant ?
+            </p>
+
+            <div class="header-buttons" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+                <a href="#contact" class="page-scroll btn btn-xl btn-header btn-empathy-white" style="min-width: 280px; text-align: center;">
+                    Envoyez-moi un message
+                </a>
+                <a href="https://tidycal.com/camilleleroy/free-15-minute-call" class="btn btn-xl btn-header btn-empathy-outline" target="_blank" style="min-width: 280px; text-align: center;">
+                    Book un appel gratuit
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- LOWER SECTION (AUTHOR / BIO / LIST) -->
+    <div class="container" style="padding-top: 80px; padding-bottom: 80px;">
+        <div class="row">
+            <div class="col-xs-12 col-lg-12">
+                
+                <div class="empathy-flex-container" style="display: flex; align-items: stretch; gap: 40px; margin-bottom: 40px;">
+                    
+                    <div class="empathy-image-side" style="flex: 0 0 35%; max-width: 350px;">
+                        <img src="/MorphoEdit/img/profile picture balcony black and white zoomed.png" 
+                             alt="Camille Le Roy" 
+                             style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                    </div>
+
+                    <div style="flex: 1; background-color: #ffffff; padding: 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                        <h4 style="font-size: 26px; font-weight: 700; line-height: 1.4; color: #333; margin-bottom: 25px; font-family: 'Montserrat', sans-serif; text-transform: none;">
+                            A quoi vous pouvez vous attendre :
+                        </h4>
+                        <ul style="list-style: none; padding-left: 0; margin-bottom: 0;">
+                            <li style="font-size: 18px; line-height: 1.7; color: #555; margin-bottom: 18px; position: relative; padding-left: 30px;">
+                                <span style="position: absolute; left: 0; top: -4px; color: #3F6E93; font-weight: bold; font-size: 28px;">•</span> <strong>Un confrère scientifique qui parle votre langage.</strong> J’ai fait de la recherche, collecté des données, révisé et publié — je sais à quel point publier un article peut être difficile du début à la fin.
+                            </li>
+                            <li style="font-size: 18px; line-height: 1.7; color: #555; margin-bottom: 18px; position: relative; padding-left: 30px;">
+                                <span style="position: absolute; left: 0; top: -4px; color: #3F6E93; font-weight: bold; font-size: 28px;">•</span> <strong>Aucun jugement.</strong> Un brouillon n'est jamais trop brouillon, et aucune question n'est trop basique. Amenez-moi votre chaos.
+                            </li>
+                            <li style="font-size: 18px; line-height: 1.7; color: #555; margin-bottom: 18px; position: relative; padding-left: 30px;">
+                                <span style="position: absolute; left: 0; top: -4px; color: #3F6E93; font-weight: bold; font-size: 28px;">•</span> <strong>Véritablement disponible.</strong> Je ne vais pas disparaître après vous avoir renvoyé les corrections avec suivi des modifications. Que vous ayez besoin d'une refonte complète de votre manuscrit ou simplement de réfléchir à voix haute, je suis là.
+                            </li>
+                            <li style="font-size: 18px; line-height: 1.7; color: #555; margin-bottom: 0; position: relative; padding-left: 30px;">
+                                <span style="position: absolute; left: 0; top: -4px; color: #3F6E93; font-weight: bold; font-size: 28px;">•</span> <strong>Des retours spécifiques à votre travail.</strong> Je prends le temps de comprendre votre recherche, votre argumentaire, et la direction que vous souhaitez prendre. Je ne donne pas de commentaires génériques.
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <p style="font-size: 20px; font-weight: 600; line-height: 1.8; margin-top: 50px; margin-bottom: 20px; color: #373535;">
+                    Un manuscrit ne devrait pas rester pendant encore six mois dans un dossier de brouillons. Vos résultats comptent, et la communauté scientifique ne peut construire que sur des travaux qu'elle peut réellement lire. J’ai créé Morpho Editing parce que la bonne science mérite d’être bien racontée. Assurons-nous que ce soit le cas pour la vôtre.
+                </p>
+
+                <!--<div style="margin-top: 50px; text-align: center;">
+                    <a href="#services" class="page-scroll btn btn-xl">Découvrir mes services</a>
+                </div>-->
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+/* --- Empathy Blue Bottom Banner --- */
+.empathy-cta-banner {
+    background-color: #3F6E93;
+    padding: 70px 20px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.empathy-cta-banner .empathy-highlight-text {
+    line-height: 1.4;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Primary White Button on Blue Banner */
+.btn-empathy-white {
+    background-color: #ffffff !important;
+    color: #3F6E93 !important;
+    border: 2px solid #ffffff !important;
+    font-weight: 700;
+}
+
+.btn-empathy-white:hover {
+    background-color: #f0f4f8 !important;
+    color: #2b4c66 !important;
+    border-color: #f0f4f8 !important;
+}
+
+/* Secondary Dark Blue Button on Blue Banner */
+.btn-empathy-outline {
+    background-color: #2b4c66 !important;
+    color: #ffffff !important;
+    border: 2px solid #2b4c66 !important;
+    font-weight: 700;
+}
+
+.btn-empathy-outline:hover {
+    background-color: #1e3649 !important;
+    border-color: #1e3649 !important;
+    color: #ffffff !important;
+}
+
+/* --- Workflow Timeline Styling --- */
+.workflow-icon-circle {
+    width: 110px;
+    height: 110px;
+    background-color: #8b8b8b;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    box-shadow: 0 0 1px transparent;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* --- Responsive Typography System --- */
+/* Mobile View Defaults (Phones) */
+.empathy-body-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.empathy-sub-heading {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 16px;
+    line-height: 1.6;
+}
+.empathy-lead-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #222222;
+    text-transform: none;
+    font-size: 22px;
+    line-height: 1.35;
+}
+.workflow-custom-heading {
+    font-size: 20px;
+}
+.empathy-highlight-text {
+    font-size: 22px;
+}
+
+@media (max-width: 768px) {
+    .empathy-section {
+        padding-top: 40px !important;
+    }
+
+    .empathy-cta-banner {
+        padding: 50px 15px;
+        margin-top: 40px;
+    }
+
+    .empathy-body-text,
+    .empathy-sub-heading {
+        text-align: center !important;
+    }
+    
+    .header-buttons .btn-header, 
+    #empathy .btn-xl {
+        width: 240px !important;
+        min-width: 0 !important;
+        padding: 12px 20px !important;
+        font-size: 15px !important;
+    }
+}
+
+/* Desktop View Sizing */
+@media (min-width: 768px) {
+    .empathy-body-text {
+        font-size: 20px;
+        line-height: 1.8;
+    }
+    .empathy-sub-heading {
+        font-size: 22px;
+        line-height: 1.4;
+    }
+    .empathy-lead-heading {
+        font-size: 40px;
+        line-height: 1.2;
+    }
+    .workflow-custom-heading {
+        font-size: 28px;
+    }
+    .empathy-highlight-text {
+        font-size: 32px;
+    }
+}
+
+/* --- Responsive Flex Layout Components --- */
+@media (max-width: 991px) {
+    .empathy-flex-container {
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+    .empathy-image-side {
+        flex: 1 1 100% !important;
+        max-width: 100% !important;
+    }
+    .empathy-image-side img {
+        max-height: 350px;
+    }
+}
+@media (max-width: 768px) {
+    .header-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-buttons .btn-header {
+        width: 90%;
+        max-width: 320px;
+    }
+}
+
+/* --- Empathy Diagram Responsive Styling --- */
+.empathy-diagram {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .empathy-diagram {
+        width: 60%;
+    }
+}
+</style>
+    
+
+
+
+<section id="services" style="padding-bottom: 0;">
+    <div class="container">
+
+        <!-- COACHING SECTION -->
+        <div class="row">
+            <div class="col-lg-12 text-center" style="margin-bottom: 50px;">
+                <h2 class="section-heading" style="margin-bottom: 25px;">Services de Coaching</h2>
+                <p class="service-subheading" style="font-size: 26px; font-weight: 600; color: #555; margin-top: 20px;">
+                    Avancez avec un mentor de recherche à vos côtés
+                </p>
+            </div>
+        </div>
+
+        <!-- SIDE-BY-SIDE COACHING CARDS -->
+        <div class="row style-service-row flex-row-equal">
+            
+            <!-- 1. RESEARCH CLARITY SESSION -->
+            <div class="col-md-6 style-card-col">
+                <div class="service-vertical-card">
+                    <div class="service-vertical-header">
+                        <h4 class="service-title-text" style="color: #666; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-top: 0; margin-bottom: 15px;">Ponctuel</h4>
+                        
+                        <div class="service-icon-container" style="margin-bottom: 15px;">
+                            <img src="/MorphoEdit/img/research_clarity_compass.png" 
+                                 alt="Research Clarity Session" 
+                                 class="service-custom-icon img-responsive">
+                        </div>
+
+                        <h3 class="service-main-heading" style="margin-top: 0; font-size: 24px; font-weight: 700; color: #333;">Clarifions votre projet</h3>
+                    </div>
+                    
+                    <div class="service-vertical-body">
+                        <p class="service-description-text">Une séance de coaching unique conçue pour vous aider à surmonter un blocage précis. Que vous soyez coincé sur votre manuscrit, face à une échéance imminente ou que vous ayez simplement besoin de clarifier vos prochaines étapes, vous repartirez avec des conseils pratiques et un plan d'action clair.</p>
+                        <div class="service-checklist-container">
+                            <ul class="service-checklist">
+                                <li>Une séance individuelle de 60 minutes</li>
+                                <li>Relecture de vos documents avant la séance</li>
+                                <li>Un suivi post-séance pour maintenir votre dynamique</li>
+                            </ul>
+                        </div>
+                        
+                        <a href="#contact" class="btn btn-sm btn-request-service page-scroll" data-service="clarity">
+                            Demander ce service &rarr;
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. PUBLICATION ACCELERATOR -->
+            <div class="col-md-6 style-card-col">
+                <div class="service-vertical-card">
+                    <div class="service-vertical-header">
+                        <h4 class="service-title-text" style="color: #666; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-top: 0; margin-bottom: 15px;">Suivi continu</h4>
+                        
+                        <div class="service-icon-container" style="margin-bottom: 15px;">
+                            <img src="/MorphoEdit/img/publication_accelerator_blue2.png" 
+                                 alt="Publication Accelerator" 
+                                 class="service-custom-icon img-responsive">
+                        </div>
+
+                        <h3 class="service-main-heading" style="margin-top: 0; font-size: 24px; font-weight: 700; color: #333;">Accélérons votre publication</h3>
+                    </div>
+                    
+                    <div class="service-vertical-body">
+                        <p class="service-description-text">Ce programme de coaching continu vous offre un partenaire dédié pour vous aider à créer une dynamique régulière, consolider votre manuscrit et avancer sereinement vers la publication.</p>
+                        <div class="service-checklist-container">
+                            <ul class="service-checklist">
+                                <li>Deux séances de coaching de 60 minutes par mois en ligne</li>
+                                <li>Relecture de vos brouillons avant chaque séance</li>
+                                <li>Assistance illimitée par messagerie</li>
+                                <li>Tarifs préférentiels sur les services de révision</li>
+                            </ul>
+                        </div>
+
+                        <a href="#contact" class="btn btn-sm btn-request-service page-scroll" data-service="accelerator">
+                            Demander ce service &rarr;
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- EDITING SECTION -->
+        <div class="row" style="margin-top: 60px;">
+            <div class="col-lg-12 text-center" style="margin-bottom: 75px; margin-top: 75px">
+                <h2 class="section-heading" style="margin-bottom: 25px;">
+                    Services de Révision
+                </h2>
+                <p class="service-subheading" style="font-size: 26px; font-weight: 600; color: #555; margin-top: 20px;">
+                    Bénéficiez d’un coup de pouce pour votre manuscrit
+                </p>
+            </div>
+        </div>
+
+        <!-- SIDE-BY-SIDE EDITING CARDS (DEV EDITING & COPY EDITING) -->
+        <div class="row style-service-row flex-row-equal">
+            
+            <!-- DEVELOPMENTAL EDITING -->
+            <div class="col-md-6 style-card-col">
+                <div class="service-vertical-card">
+                    <div class="service-vertical-header">
+                        <h4 class="service-title-text" style="color: #666; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-top: 0; margin-bottom: 15px;">Avancé</h4>
+                        
+                        <div class="service-icon-container" style="margin-bottom: 15px;">
+                            <img src="/MorphoEdit/img/substantive editing blue.png" 
+                                 alt="Developmental Editing" 
+                                 class="service-custom-icon img-responsive">
+                        </div>
+
+                        <h3 class="service-main-heading" style="margin-top: 0; font-size: 24px; font-weight: 700; color: #333;">Révision de fond</h3>
+                    </div>
+                    
+                    <div class="service-vertical-body">
+                        <p class="service-description-text">Je vous fais des retours et suggestions personnalisés sur la structure, l’argumentation, les figures, afin de rendre votre récit scientifique clair, cohérent, et convaincant.</p>
+                        <div class="service-checklist-container">
+                            <h5 class="checklist-title">Idéal pour vous si :</h5>
+                            <ul class="service-checklist">
+                                <li>Vous soumettez une thèse, un manuscrit ou une demande de financement et souhaitez maximiser vos chances de succès.</li>
+                                <li>Vos résultats sont solides, mais le manuscrit vous semble encore flou ou difficile à structurer.</li>
+                                <li>Vous voulez que votre article raconte une histoire scientifique captivante plutôt qu’une suite de résultats déconnectés.</li>
+                                <li>Vous avez besoin d’un regard neuf et professionnel après avoir passé trop de temps sur le même brouillon.</li>
+                            </ul>
+                        </div>
+
+                        <a href="#contact" class="btn btn-sm btn-request-service page-scroll" data-service="dev_editing">
+                            Demander ce service &rarr;
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COPY EDITING -->
+            <div class="col-md-6 style-card-col">
+                <div class="service-vertical-card">
+                    <div class="service-vertical-header">
+                        <h4 class="service-title-text" style="color: #666; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-top: 0; margin-bottom: 15px;">Essentiel</h4>
+                        
+                        <div class="service-icon-container" style="margin-bottom: 15px;">
+                            <img src="/MorphoEdit/img/logo_copy_editing.png" 
+                                 alt="Copy Editing" 
+                                 class="service-custom-icon img-responsive">
+                        </div>
+
+                        <h3 class="service-main-heading" style="margin-top: 0; font-size: 24px; font-weight: 700; color: #333;">Copy-Editing</h3>
+                    </div>
+                    
+                    <div class="service-vertical-body">
+                        <p class="service-description-text">Je retravaillerai la formulation, la cohérence, la langue, et la mise en forme, afin de rendre votre manuscrit plus clair et plus agréable à lire.</p>
+                        <div class="service-checklist-container">
+                            <h5 class="checklist-title">Idéal pour vous si :</h5>
+                            <ul class="service-checklist">
+                                <li>Votre thèse, manuscrit ou demande de subvention est presque finalisé et nécessite seulement les dernières corrections avant soumission.</li>
+                                <li>Vos idées et résultats sont bien organisés mais ont besoin d’être peaufinés pour gagner en clarté et en fluidité.</li>
+                                <li>Vous souhaitez un texte concis, cohérent et homogène dans l’ensemble du manuscrit.</li>
+                                <li>Vous avez besoin d’un document mis en forme selon les directives d’une revue ou d’une université.</li>
+                            </ul>
+                        </div>
+
+                        <a href="#contact" class="btn btn-sm btn-request-service page-scroll" data-service="copy_editing">
+                            Demander ce service &rarr;
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 text-center" style="margin-top: 30px; margin-bottom: 50px;">
+                <p class="service-subheading" style="font-size: 26px; font-weight: 600; color: #555; margin-top: 20px;">
+                    Vous êtes bloqué mais souhaitez réviser vous-même ?<br>Obtenez une évaluation de manuscrit
+                </p>
+            </div>
+        </div>
+
+        <!-- MANUSCRIPT EVALUATION (CENTERED VERTICAL CARD) -->
+        <div class="row style-service-row">
+            <div class="col-md-6 col-md-offset-3 style-card-col">
+                <div class="service-vertical-card">
+                    <div class="service-vertical-header">
+                        <div class="service-icon-container" style="margin-bottom: 15px;">
+                            <img src="/MorphoEdit/img/logo_manuscript_eval.png" 
+                                 alt="Manuscript Evaluation" 
+                                 class="service-custom-icon img-responsive">
+                        </div>
+
+                        <h3 class="service-main-heading" style="margin-top: 0; font-size: 24px; font-weight: 700; color: #333;">Évaluation de manuscrit</h3>
+                    </div>
+                    
+                    <div class="service-vertical-body">
+                        <p class="service-description-text">Je ne modifierais pas votre manuscript, mais le lirai attentivement et fournirai des feedbacks concrets sur le récit scientifique, la structure, la clarté, la langue et la fluidité globale de l’article.</p>
+                        <div class="service-checklist-container">
+                            <h5 class="checklist-title">Idéal pour vous si :</h5>
+                            <ul class="service-checklist">
+                                <li>Vous souhaitez mieux comprendre les forces et les faiblesses de votre brouillon.</li>
+                                <li>Vous voulez des retours détaillés avant de réviser le manuscrit vous-même en toute confiance.</li>
+                                <li>Vous avez besoin d’un regard neuf pour analyser votre manuscrit en profondeur.</li>
+                                <li>Vous souhaitez maximiser les chances de succès de votre manuscrit ou de votre demande de subvention.</li>
+                            </ul>
+                        </div>
+
+                        <a href="#contact" class="btn btn-sm btn-request-service page-scroll" data-service="manuscript_eval">
+                            Demander ce service &rarr;
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ISOLATED BLUE CTA BANNER FOR SERVICES CTA -->
+    <div class="services-cta-banner">
+        <div class="container">
+            <p class="services-highlight-text" style="font-weight: 700; text-align: center; color: #f8fafc; margin-bottom: 60px;">
+                Vous ne savez pas exactement ce dont vous avez besoin ? Discutons-en
+            </p>
+
+            <div class="header-buttons" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+                <a href="#contact" class="page-scroll btn btn-xl btn-header btn-services-white" style="min-width: 280px; text-align: center;">
+                    Envoyez-moi un message
+                </a>
+                <a href="https://tidycal.com/camilleleroy/free-15-minute-call" class="btn btn-xl btn-header btn-services-outline" target="_blank" style="min-width: 280px; text-align: center;">
+                    Book un appel gratuit
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    /* --- Service Card Request Button (Centered, Solid Blue) --- */
+    .btn-request-service {
+        display: inline-block;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 24px;
+        background-color: #3F6E93;
+        color: #ffffff !important;
+        border: 2px solid #3F6E93;
+        border-radius: 6px;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .btn-request-service:hover {
+        background-color: #2b4c66;
+        border-color: #2b4c66;
+        color: #ffffff !important;
+        text-decoration: none;
+    }
+
+    /* --- Services Blue Bottom Banner --- */
+    .services-cta-banner {
+        background-color: #3F6E93;
+        padding: 70px 20px;
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .services-cta-banner .services-highlight-text {
+        font-size: 28px;
+        line-height: 1.4;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Primary White Button on Blue Banner */
+    .btn-services-white {
+        background-color: #ffffff !important;
+        color: #3F6E93 !important;
+        border: 2px solid #ffffff !important;
+        font-weight: 700;
+    }
+
+    .btn-services-white:hover {
+        background-color: #f0f4f8 !important;
+        color: #2b4c66 !important;
+        border-color: #f0f4f8 !important;
+    }
+
+    /* Secondary Dark Blue Button on Blue Banner */
+    .btn-services-outline {
+        background-color: #2b4c66 !important;
+        color: #ffffff !important;
+        border: 2px solid #2b4c66 !important;
+        font-weight: 700;
+    }
+
+    .btn-services-outline:hover {
+        background-color: #1e3649 !important;
+        border-color: #1e3649 !important;
+        color: #ffffff !important;
+    }
+
+    .style-service-row { margin-bottom: 40px; }
+
+    /* Desktop Equal Height Flex Layout */
+    @media (min-width: 768px) {
+        .flex-row-equal {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .style-card-col {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 30px;
+        }
+        .service-vertical-card {
+            height: 100%;
+        }
+    }
+
+    /* Vertical Card Layout */
+    .service-vertical-card {
+        display: flex;
+        flex-direction: column;
+        background: #ffffff;
+        border: 1px solid #eef2f5;
+        border-top: 4px solid #3F6E93;
+        border-radius: 12px;
+        padding: 35px 30px;
+        width: 100%;
+        box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.05), 
+                    0 2px 6px -1px rgba(0, 0, 0, 0.02); 
+        transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease;
+    }
+
+    .service-vertical-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 20px 40px -10px rgba(63, 110, 147, 0.15), 
+                    0 4px 12px rgba(0, 0, 0, 0.03);
+        border-color: #cbd5e1;
+        border-top-color: #2b4c66;
+    }
+
+    .service-vertical-header {
+        text-align: center;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #eee;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .service-vertical-body {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .service-vertical-body .service-description-text {
+        flex-grow: 1;
+    }
+
+    .service-vertical-body .service-checklist-container {
+        margin-top: auto;
+    }
+
+    /* Shared Icon Settings */
+    .service-icon-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+    }
+
+    .service-custom-icon {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    .service-description-text { font-size: 17px; line-height: 1.7; color: #555; margin-bottom: 25px; }
+
+    .service-checklist-container { 
+        background-color: #fafbfc; 
+        padding: 25px 30px; 
+        border-radius: 8px;
+    }
+
+    .checklist-title { font-size: 16px; font-weight: 700; color: #333; margin-top: 0; margin-bottom: 15px; letter-spacing: 0.5px; text-transform: none; }
+
+    .service-checklist { list-style: none; padding-left: 0; margin-bottom: 0; }
+
+    .service-checklist li { font-size: 15px; line-height: 1.6; color: #666; margin-bottom: 12px; position: relative; padding-left: 28px; }
+
+    .service-checklist li::before { content: "✓"; position: absolute; left: 0; top: -1px; color: #3F6E93; font-weight: 900; font-size: 18px; }
+
+    /* Mobile Responsive Overrides */
+    @media (max-width: 768px) {
+        .style-card-col { margin-bottom: 25px; }
+        .service-description-text { font-size: 16px; }
+        .service-checklist-container { padding: 20px; }
+        .service-checklist li { font-size: 15px; }
+        
+        .service-icon-container {
+            width: 80px;
+            height: 80px;
+        }
+
+        .service-custom-icon {
+            width: 80px;
+            height: 80px;
+        }
+
+        .services-cta-banner {
+            padding: 50px 15px;
+            margin-top: 40px;
+        }
+
+        .services-cta-banner .services-highlight-text {
+            font-size: 22px;
+        }
+    }
+</style>
+    
+
+
+
+<section id="faq" style="padding: 100px 0; border-top: 1px solid #eef2f5;">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 text-center" style="margin-bottom: 60px;">
+                <h2 class="section-heading" style="margin-bottom: 25px; text-transform: uppercase; letter-spacing: 1px; line-height: 1.3;">
+                    Foire Aux Questions
+                </h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                <div class="panel-group" id="faqAccordion" role="tablist" aria-multiselectable="false">
+
+                    <div class="faq-item-box">
+                        <div role="tab" id="headingOne">
+                            <h3 class="faq-question">
+                                <a role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed">
+                                    Combien coûtent les services de révision ?
+                                    <span class="accordion-icon"></span>
+                                </a>
+                            </h3>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body faq-answer">
+                                Chaque projet est unique et le tarif dépend de l'étendue du travail, des délais et du niveau d'accompagnement requis. Je fournis toujours une estimation claire dès le départ et je suis ravi d'échanger sur les différentes options pour trouver la formule qui correspond le mieux à vos besoins et à votre budget.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item-box">
+                        <div role="tab" id="headingTwo">
+                            <h3 class="faq-question">
+                                <a role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="collapsed">
+                                    Proposez-vous des tarifs étudiants ?
+                                    <span class="accordion-icon"></span>
+                                </a>
+                            </h3>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="panel-body faq-answer">
+                                Je sais que les étudiants disposent souvent de financements limités. Dans la mesure du possible, je m'efforce de proposer des solutions flexibles et d'adapter la nature des travaux à différents budgets. N'hésitez pas à me contacter pour discuter de votre projet.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item-box">
+                        <div role="tab" id="headingThree">
+                            <h3 class="faq-question">
+                                <a role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="collapsed">
+                                    Quel est votre délai de révision ?
+                                    <span class="accordion-icon"></span>
+                                </a>
+                            </h3>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body faq-answer">
+                                <p style="margin-bottom: 15px; font-size: 16px; line-height: 1.75; color: #666;">Je rends généralement les projets dans un délai de deux semaines, même si beaucoup sont finalisés plus tôt. Si un délai plus long est nécessaire, je vous en informerai systématiquement à l'avance pour en discuter directement avec vous.</p>
+                                <p style="margin-bottom: 0; font-size: 16px; line-height: 1.75; color: #666;">Si vous travaillez avec des délais très serrés, contactez-moi dès que possible. Je ferai toujours de mon mieux pour m'adapter aux demandes urgentes. Des frais d'urgence supplémentaires peuvent s'appliquer.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--<div class="faq-item-box">
+                        <div role="tab" id="headingFour">
+                            <h3 class="faq-question">
+                                <a role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour" class="collapsed">
+                                    Quels types de documents révisez-vous ?
+                                    <span class="accordion-icon"></span>
+                                </a>
+                            </h3>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                            <div class="panel-body faq-answer">
+                                <p style="margin-bottom: 15px; font-size: 16px; line-height: 1.75; color: #666;">Je propose des services de révision et d'aide à la rédaction scientifique pour une large gamme de documents liés à la recherche, notamment :</p>
+                                
+                                <ul class="faq-doc-list">
+                                    <li>Abstracts</li>
+                                    <li>Book chapters</li>
+                                    <li>Cover letters</li>
+                                    <li>Dissertations and theses</li>
+                                    <li>Grant proposals</li>
+                                    <li>Poster presentations</li>
+                                    <li>Research manuscripts</li>
+                                    <li>Responses to reviewers</li>
+                                    <li>Review articles</li>
+                                    <li>Slide decks</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>-->
+
+                    <div class="faq-item-box">
+                        <div role="tab" id="headingFive">
+                            <h3 class="faq-question">
+                                <a role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive" class="collapsed">
+                                    Allez-vous réviser mon projet plus d'une fois ?
+                                    <span class="accordion-icon"></span>
+                                </a>
+                            </h3>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                            <div class="panel-body faq-answer">
+                                Des sessions de révision supplémentaires peuvent tout à fait être organisées selon vos besoins. Nous pouvons définir ensemble la meilleure approche avant de commencer le projet. Des frais supplémentaires peuvent s'appliquer.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var faqLinks = document.querySelectorAll('#faqAccordion [data-toggle="collapse"]');
+        faqLinks.forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                var currentTarget = document.querySelector(this.getAttribute('href'));
+                // Select all panels that are currently shown
+                var openPanels = document.querySelectorAll('#faqAccordion .panel-collapse.in, #faqAccordion .panel-collapse.show');
+                
+                openPanels.forEach(function(panel) {
+                    if (panel !== currentTarget) {
+                        // Safely trigger Bootstrap close
+                        if (typeof jQuery !== 'undefined') {
+                            jQuery(panel).collapse('hide');
+                        } else {
+                            panel.classList.remove('in', 'show');
+                            var associatedLink = document.querySelector('a[href="#' + panel.id + '"]');
+                            if (associatedLink) associatedLink.classList.add('collapsed');
+                        }
+                    }
+                });
+            });
+        });
+    });
+</script>
+
+<style>
+    .faq-item-box {
+        background: #ffffff;
+        border: 1px solid #eef2f5;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.01);
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        overflow: hidden;
+    }
+
+    .faq-item-box:hover {
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.03);
+        border-color: #b0bfc9;
+    }
+
+    .faq-question {
+        margin: 0;
+    }
+
+    /* Standardized font rules for questions */
+    .faq-question a {
+        display: block;
+        padding: 22px 55px 22px 30px;
+        font-family: 'Montserrat', sans-serif !important;
+        font-size: 18px !important;
+        font-weight: 700 !important;
+        color: #333 !important;
+        text-decoration: none !important;
+        position: relative;
+        text-transform: none !important;
+        line-height: 1.4 !important;
+        transition: background-color 0.2s ease;
+    }
+
+    .faq-question a:hover, 
+    .faq-question a:focus {
+        background-color: #fcfdfe;
+    }
+
+    /* Standardized font rules for answers */
+    .panel-body.faq-answer {
+        padding: 5px 30px 25px 30px !important;
+        border-top: none !important;
+        font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+        font-size: 16px !important;
+        line-height: 1.75 !important;
+        color: #666 !important;
+    }
+
+    /* Icons */
+    .accordion-icon {
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px;
+        color: #999;
+        font-weight: 400;
+        transition: color 0.3s ease;
+    }
+
+    .faq-question a:not(.collapsed) .accordion-icon::before {
+        content: "\2212"; 
+        color: #3F6E93; 
+    }
+
+    .faq-question a.collapsed .accordion-icon::before {
+        content: "\002B"; 
+    }
+
+    /* Document List */
+    .faq-doc-list {
+        margin: 15px 0 0 0;
+        padding-left: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px 20px;
+    }
+
+    .faq-doc-list li {
+        font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+        font-size: 15px !important;
+        color: #555 !important;
+        line-height: 1.5 !important;
+    }
+
+    /* Responsive Mobile Overrides */
+    @media (max-width: 768px) {
+        .faq-question a {
+            padding: 18px 50px 18px 20px;
+            font-size: 16px !important;
+        }
+        .panel-body.faq-answer,
+        .panel-body.faq-answer p {
+            font-size: 15px !important;
+        }
+        .panel-body.faq-answer {
+            padding: 0 20px 20px 20px !important;
+        }
+        .accordion-icon {
+            right: 20px;
+        }
+        .faq-doc-list {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+    
+
+    
+
+
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">À propos</h2>
+            </div>
+        </div>
+
+        <div class="row" style="display: flex; align-items: center; flex-wrap: wrap;">
+            
+            <div class="col-md-4 text-center">
+                <img class="img-circle img-responsive" src="/MorphoEdit/img/moi_field.png" alt="Camille" style="border: 7px solid #f1f1f1; margin: 0 auto;">
+                
+                <h3 style="color: #000000; font-family: 'EB Garamond', serif; text-transform: none; margin-top: 20px; font-weight: 700; font-size: 24px;">
+                    Camille Le Roy, PhD
+                </h3>
+            </div>
+
+            <div class="col-md-8">
+                <div class="about-body">
+                    <p class="large text-muted" style="font-size: 18px; margin-top: 20px; margin-bottom: 20px;">
+                        Je m'appelle Camille. Je suis chercheur, biologiste de terrain et biomécanicien — mais avant tout, quelqu’un qui comprend les défis d’une carrière académique.
+                    </p>
+                    
+                    <p class="large text-muted" style="font-size: 18px; margin-bottom: 20px;">
+                        Titulaire d'un doctorat en biologie évolutive de l'Université de Paris et fort de plus de sept ans de recherche interdisciplinaire entre l'écologie et la biophysique, mon parcours m’a mené des forêts amazoniennes du Pérou aux laboratoires en France et aux Pays-Bas. En chemin, j'ai pris conscience d'une difficulté commune à beaucoup de chercheurs : nous excellons dans la 'pratique', les expériences, les modèles, les expéditions de terrain — mais nous avons souvent du mal à nous arrêter pour nous immerger dans l'écriture.
+                    </p>
+
+                    <p class="large text-muted" style="font-size: 18px; margin-bottom: 20px;">
+                        Je suis passé par là. Transformer des années de données complexes en un récit clair et convaincant est un processus exigeant. Avec huit articles en premier auteur dans des revues de premier plan (notamment <em>Science</em>, <em>Nature Communications</em>, <em>PLOS BIOLOGY</em>), ainsi qu’une expérience de reviewer pour une douzaine de revues multidisciplinaires, J’ai appris les rouages concrets qui permettent de transformer des résultats bruts en un manuscrit qui a réellement ses chances d’être publié. C'est d'ailleurs un des challenges qui m’emballe le plus !
+                    </p>
+
+                    <p class="large text-muted" style="font-size: 18px; margin-bottom: 20px;">
+                        En dehors de la recherche, vous me trouverez à la recherche du 'flow-state' — sur un skateboard, un snowboard, ou en essayant (souvent sans succès) de rester debout sur une slackline. C’est en m'immersant dans ce genre d'activités que j'ai mes meilleures réflexions, loin de mon ordinateur !
+                    </p>
+
+                    <p class="large text-muted" style="font-size: 18px;">
+                        Avec Morpho Editing & Coaching, je mets mon expertise au service des étudiants et jeunes chercheurs pour les aider à transformer leurs travaux de recherche en récits qui rendent pleinement justice à leurs découvertes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+
+
+<section id="testimonials" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading" style="margin-bottom: 50px;">Ce que disent mes clients</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                
+                <div id="testimonialCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                    
+                    <div class="carousel-inner" role="listbox">
+                        
+                        <!-- Slide 1: Testimonials 1, 2 & 3 -->
+                        <div class="item active">
+                            <div class="row">
+                                <div class="col-sm-4 text-center">
+                                    <div class="team-member testimonial-card">
+                                        <i class="fa fa-quote-left fa-2x quote-icon"></i>
+                                        <p class="large testimonial-text">
+                                            "Grâce à l'aide de Camille, je suis passée d'un sentiment d'insécurité face à l'écriture au plaisir d'écrire. Dans mon travail actuel de chercheuse, je rédige de nombreuses propositions et rapports ; mon chef d'équipe a été tellement impressionné par mon premier rapport qu'il a immédiatement signalé mes compétences rédactionnelles au directeur. Sans Camille, j'ose dire que cela n'aurait pas été possible ! Je recommande vivement Camille comme coach en rédaction."
+                                        </p>
+                                        <h4 class="testimonial-author">— N.T. - Chercheuse en entomologie, ST Food & Flowers</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 text-center">
+                                    <div class="team-member testimonial-card">
+                                        <i class="fa fa-quote-left fa-2x quote-icon"></i>
+                                        <p class="large testimonial-text">
+                                            "Camille a été formidable ! Il s'est montré professionnel, communicatif et ce fut un plaisir de travailler avec lui du début à la fin. Il a fait un travail magnifique pour mettre en forme ma thèse et a rendu toute l'expérience remarquablement simple. Je recommande absolument Camille à quiconque cherche une aide attentive pour la rédaction, la relecture ou la mise en forme."
+                                        </p>
+                                        <h4 class="testimonial-author">— K.H. - Doctorante, Kansas State University</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 text-center">
+                                    <div class="team-member testimonial-card">
+                                        <i class="fa fa-quote-left fa-2x quote-icon"></i>
+                                        <p class="large testimonial-text">
+                                            "Un grand merci à Camille, qui m'a aidé pour l'analyse statistique de mon mémoire de biologie. Les explications et les appels vidéo que nous avons eus ensemble étaient très clairs. Les séances se sont vraiment bien passées — Camille a su me rassurer et répondre à toutes mes questions, et bien plus encore ! Je recommande vivement de prendre des cours avec Camille !"
+                                        </p>
+                                        <h4 class="testimonial-author">— P.P. - Étudiant en Master, Université de Lyon</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2: Testimonials 4, 5 & 6 -->
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-sm-4 text-center">
+                                    <div class="team-member testimonial-card">
+                                        <i class="fa fa-quote-left fa-2x quote-icon"></i>
+                                        <p class="large testimonial-text">
+                                            "Camille est un excellent tuteur ! Très patient, il explique les choses simplement, ne me fait jamais me sentir mal quand je ne comprends pas, et adapte la séance en fonction de mes besoins et de mes lacunes. Je ferai définitivement appel à lui pour d'autres séances."
+                                        </p>
+                                        <h4 class="testimonial-author">— J.C. - Doctorant, New York University</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 text-center">
+                                    <div class="team-member testimonial-card">
+                                        <i class="fa fa-quote-left fa-2x quote-icon"></i>
+                                        <p class="large testimonial-text">
+                                            "Camille a été d'une grande aide. Même si mon article ne relevait pas directement de son domaine, il m'a fourni des retours précieux et des suggestions très judicieuses."
+                                        </p>
+                                        <h4 class="testimonial-author">— A.L. - Étudiante en Master, UNC Chapel Hill</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 text-center">
+                                    <div class="team-member testimonial-card">
+                                        <i class="fa fa-quote-left fa-2x quote-icon"></i>
+                                        <p class="large testimonial-text">
+                                            "Pour avoir travaillé étroitement avec le Dr Camille Le Roy pendant plusieurs années, je peux affirmer en toute confiance qu'il est à la fois un scientifique remarquable et un rédacteur exceptionnellement doué. Camille est patient, organisé et profondément bienveillant — des qualités qui font de lui un mentor académique particulièrement efficace et digne de confiance. Il possède un esprit méthodique et une compréhension approfondie de la structuration des arguments scientifiques pour communiquer des idées complexes avec une clarté absolue. Pour quiconque recherche un accompagnement expert en rédaction académique, je recommande vivement Camille."
+                                        </p>
+                                        <h4 class="testimonial-author">— F.M. - Professeur, Wageningen University</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <a class="left carousel-control testimonial-control" href="#testimonialCarousel" role="button" data-slide="prev">
+                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control testimonial-control" href="#testimonialCarousel" role="button" data-slide="next">
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    /* Fixed Heights Setup: Stops background popping/jumping */
+    .testimonial-card {
+        margin-bottom: 20px;
+        padding: 0 25px;
+        /* Balanced card height to keep 3-column layout aligned */
+        min-height: 260px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quote-icon {
+        color: #3F6E93; 
+        margin-bottom: 15px;
+        flex-shrink: 0;
+    }
+
+    .testimonial-text {
+        font-style: italic; 
+        color: #333; 
+        font-size: 16px; 
+        line-height: 1.55;
+        margin-bottom: 0;
+    }
+
+    .testimonial-author {
+        margin-top: 15px; 
+        font-weight: 700;
+        flex-shrink: 0;
+    }
+
+    /* Premium style refinements for navigation arrows */
+    .testimonial-control {
+        background-image: none !important;
+        width: 40px !important;
+        color: #999 !important;
+        opacity: 0.5;
+        transition: opacity 0.2s ease, color 0.2s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .testimonial-control:hover {
+        color: #3F6E93 !important;
+        opacity: 1;
+    }
+
+    .testimonial-control .fa {
+        font-size: 36px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /* Shifts navigation slightly outward on desktop layouts */
+    @media (min-width: 768px) {
+        .testimonial-control.left { left: -50px; }
+        .testimonial-control.right { right: -50px; }
+    }
+    @media (max-width: 767px) {
+        .testimonial-control.left { left: -15px; }
+        .testimonial-control.right { right: -15px; }
+        .testimonial-card { 
+            padding: 0 15px !important;
+            min-height: auto; /* Fallback to natural flow on mobile stacks */
+        }
+    }
+</style>
+
+    
+
+    
+
+    
+
+
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading" style="margin-bottom: 50px;">Contactez-moi</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="success" data-fs-success style="color: #3F6E93; margin-bottom: 50px;" class="text-center">
+                    <h3>Merci !</h3>
+                    <p class="large">Votre message a bien été envoyé. Je vous répondrai sous peu.</p>
+                </div>
+
+                <div id="error" data-fs-error style="color: #d9534f; font-weight: bold; margin-bottom: 20px;" class="text-center">
+                    <p>Oups ! Il y a eu un problème lors de l'envoi du formulaire. Veuillez réessayer.</p>
+                </div>
+
+                <form id="contactForm" novalidate>
+                    <div class="row contact-row-desktop">
+                        
+                        <!-- LEFT COLUMN: Contact Details -->
+                        <div class="col-md-6 left-inputs-col">
+                            <div class="control-group form-group form-field-wrapper">
+                                <input type="text" name="name" class="form-control" placeholder="Votre nom *" id="name" required data-fs-field>
+                                <span data-fs-error="name" class="text-danger"></span>
+                            </div>
+                            <div class="control-group form-group form-field-wrapper">
+                                <input type="email" name="email" class="form-control" placeholder="Votre email *" id="email" required data-fs-field>
+                                <span data-fs-error="email" class="text-danger"></span>
+                            </div>
+                            <div class="control-group form-group form-field-wrapper">
+                                <input type="text" name="referral" class="form-control" placeholder="Comment avez-vous entendu parler de moi ? *" id="referral" data-fs-field>
+                            </div>
+                        </div>
+                        
+                        <!-- RIGHT COLUMN: Service Selection Checkboxes -->
+                        <div class="col-md-6 right-services-col">
+                            <div class="form-group service-selection-container">
+                                <label class="services-label">
+                                    Quel(s) service(s) vous intéresse(nt) ?
+                                </label>
+                                
+                                <div class="checkbox-grid">
+                                    <label class="checkbox-item">
+                                        <input type="checkbox" name="services[]" value="clarity" id="service-clarity">
+                                        <span>Session de coaching ponctuelle</span>
+                                    </label>
+
+                                    <label class="checkbox-item">
+                                        <input type="checkbox" name="services[]" value="accelerator" id="service-accelerator">
+                                        <span>Coaching continu</span>
+                                    </label>
+
+                                    <label class="checkbox-item">
+                                        <input type="checkbox" name="services[]" value="dev_editing" id="service-dev_editing">
+                                        <span>Révision de fond</span>
+                                    </label>
+
+                                    <label class="checkbox-item">
+                                        <input type="checkbox" name="services[]" value="copy_editing" id="service-copy_editing">
+                                        <span>Copy-Editing</span>
+                                    </label>
+
+                                    <label class="checkbox-item">
+                                        <input type="checkbox" name="services[]" value="manuscript_eval" id="service-manuscript_eval">
+                                        <span>Évaluation de manuscrit</span>
+                                    </label>
+
+                                    <label class="checkbox-item">
+                                        <input type="checkbox" name="services[]" value="other" id="service-other">
+                                        <span>Autre</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FULL WIDTH BOTTOM ROW: Message Textarea -->
+                        <div class="col-lg-12 col-md-12 message-col">
+                            <div class="control-group form-group" style="margin-bottom: 0; width: 100%;">
+                                <textarea name="message" class="form-control message-textarea" placeholder="Votre message *" id="message" required data-fs-field></textarea>
+                                <span data-fs-error="message" class="text-danger"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="clearfix"></div>
+                        <div class="col-lg-12 text-center submit-btn-wrapper">
+                            <button type="submit" class="btn btn-xl" data-fs-submit-btn>Envoyer le message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Custom Styles for Mobile & Desktop Layouts -->
+<style>
+    /* Base Desktop Styles */
+    .contact-row-desktop {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .left-inputs-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .right-services-col {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-field-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .form-field-wrapper input {
+        min-height: 80px;
+        width: 100%;
+    }
+
+    .service-selection-container {
+        margin-bottom: 20px;
+        background: #f9fbfd;
+        padding: 20px 24px;
+        border-radius: 8px;
+        border: 1px solid #e2e8f0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    .services-label {
+        font-weight: 700;
+        margin-bottom: 12px;
+        display: block;
+        color: #333;
+        font-size: 15px;
+    }
+
+    .checkbox-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 15px;
+        row-gap: 10px;
+        flex: 1;
+        align-content: space-evenly;
+    }
+
+    .checkbox-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: 500;
+        color: #4a5568;
+        cursor: pointer;
+        font-size: 14px;
+        margin-bottom: 0;
+        padding: 6px 8px;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+
+    .checkbox-item:hover {
+        background-color: #edf2f7;
+    }
+
+    .checkbox-item input[type="checkbox"] {
+        width: 16px;
+        height: 16px;
+        accent-color: #3F6E93;
+        cursor: pointer;
+        margin: 0;
+        flex-shrink: 0;
+    }
+
+    .message-col {
+        margin-top: 25px;
+    }
+
+    .message-textarea {
+        width: 100%;
+        min-height: 180px;
+        box-sizing: border-box;
+        resize: vertical;
+    }
+
+    .submit-btn-wrapper {
+        margin-top: 20px;
+    }
+
+    /* Mobile Responsive Optimizations (< 768px) */
+    @media (max-width: 767px) {
+        .contact-row-desktop {
+            display: block; /* Standard flow for clean stacked layout */
+        }
+
+        .form-field-wrapper {
+            margin-bottom: 16px;
+        }
+
+        .form-field-wrapper input {
+            min-height: 56px; /* Optimized height for mobile screens */
+            font-size: 16px; /* Prevents auto-zoom on iOS */
+        }
+
+        .service-selection-container {
+            margin-top: 8px;
+            margin-bottom: 16px;
+            padding: 16px;
+        }
+
+        .checkbox-grid {
+            grid-template-columns: 1fr; /* Single column for easy tapping */
+            row-gap: 8px;
+        }
+
+        .checkbox-item {
+            padding: 10px 8px; /* Taller touch targets */
+            font-size: 15px;
+        }
+
+        .checkbox-item input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+        }
+
+        .message-col {
+            margin-top: 16px;
+        }
+
+        .message-textarea {
+            min-height: 140px;
+            font-size: 16px;
+        }
+
+        .submit-btn-wrapper {
+            margin-top: 25px;
+        }
+
+        .submit-btn-wrapper button {
+            width: 100%; /* Full-width button on mobile */
+            padding: 14px 0;
+        }
+    }
+</style>
+
+<!-- Formspree Scripts -->
+<script>
+  window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+  formspree('initForm', { 
+    formElement: '#contactForm', 
+    formId: 'xnjljlnq' 
+  });
+</script>
+<script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+
+<!-- Global Event Delegation Script -->
+<script>
+(function() {
+    function handleServiceCheck(btn) {
+        const serviceKey = btn.getAttribute('data-service');
+        if (!serviceKey) return;
+        
+        const targetCheckbox = document.getElementById('service-' + serviceKey);
+        if (targetCheckbox) {
+            targetCheckbox.checked = true;
+            
+            // Trigger visual highlight feedback
+            const parentLabel = targetCheckbox.closest('.checkbox-item');
+            if (parentLabel) {
+                parentLabel.style.backgroundColor = '#dbeafe';
+                setTimeout(function() {
+                    parentLabel.style.backgroundColor = 'transparent';
+                }, 1500);
+            }
+        }
+    }
+
+    document.addEventListener('click', function(e) {
+        const btn = e.target.closest('.btn-request-service');
+        if (btn) {
+            handleServiceCheck(btn);
+        }
+    }, true);
+})();
+</script>
+    <section id="about-name" style="padding: 40px 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                
+                <p style="font-size: 20px; color: #555; font-weight: 600; margin-bottom: 25px;">
+                    Pourquoi 'Morpho' ?
+                </p>    
+                
+                <p style="font-size: 16px; line-height: 1.6; color: #555; font-style: italic;">
+                    Au cours de mes recherches, j’ai étudié l’évolution de la morphologie et la biomécanique du vol chez les insectes, en particulier les emblématiques papillons Morpho de la forêt amazonienne. Mon activité d’édition en tire naturellement son nom.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+    <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 text-left">
+                <span class="copyright">
+                    <img src="/MorphoEdit/img/logo black and white.png" 
+                         alt="Morpho Editing Logo" 
+                         style="height: 50px; margin-right: 10px; vertical-align: middle;">
+                    Copyright &copy; Morpho Editing 2026
+                </span>
+            </div>
+            
+            <div class="col-md-4">
+                <ul class="list-inline social-buttons">
+                    
+                    <li><a href="http://www.linkedin.com/in/camille-le-roy-phd"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                    
+                    <li><a href="https://scholar.google.com/citations?user=SP69DnUAAAAJ&hl=en"><i class="fa fa-graduation-cap"></i></a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    
+
+    <!-- jQuery Version 1.11.0 -->
+<script src="/MorphoEdit/js/jquery-1.11.0.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="/MorphoEdit/js/bootstrap.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="/MorphoEdit/js/jquery.easing.min.js"></script>
+<script src="/MorphoEdit/js/classie.js"></script>
+<script src="/MorphoEdit/js/cbpAnimatedHeader.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="/MorphoEdit/js/agency.js"></script>
+
+  </body>
+</html>

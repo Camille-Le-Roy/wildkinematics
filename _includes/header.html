@@ -1,0 +1,195 @@
+{% assign lang = "en" %}
+{% if page.url contains '/fr/' %}
+  {% assign lang = "fr" %}
+{% endif %}
+{% assign t = site.data.locales[lang] %}
+
+{% comment %} Dynamic home path to keep French users on /fr/ {% endcomment %}
+{% assign home_prefix = "/" %}
+{% if lang == "fr" %}
+  {% assign home_prefix = "/fr/" %}
+{% endif %}
+
+<style>
+    /* Fix for buttons overlapping and sizing on mobile */
+    .header-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* Restored to center */
+        gap: 20px; /* Space between buttons */
+        margin-top: 40px; /* Spacing above buttons */
+    }
+
+    .header-buttons .btn-header {
+        min-width: 280px; /* Symmetrical width */
+        border-radius: 50px !important;
+        margin: 0 !important; /* Resetting previous manual margins */
+    }
+
+    /* Headings Typography - Desktop defaults */
+    .header-part1 {
+        display: block;
+        font-size: 65px;
+        color: #222222;
+        font-weight: 700; /* Standardized to maximum bold weight */
+        margin-bottom: 30px;
+        line-height: 1.2;
+    }
+
+    .header-part2 {
+        display: block;
+        font-size: 47px;
+        color: #222222;
+        font-weight: 800;
+        line-height: 1.2;
+    }
+
+    .header-lead-in-text {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 32px;
+        text-transform: none;
+        font-style: normal;
+        line-height: 1.5;
+        margin-top: 25px; /* Added top margin to position text slightly lower */
+        margin-bottom: 35px; 
+        text-align: left !important;
+        max-width: 100%;
+    }
+
+    /* Mobile Responsive Styles - Only affects screens smaller than 768px */
+    @media (max-width: 768px) {
+        .header-buttons {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .header-buttons .btn-header {
+            width: 90%; /* Almost full width on mobile */
+            max-width: 320px;
+        }
+
+        /* Scale down fonts and expand line-height ONLY on mobile to prevent overlap */
+        .header-part1 {
+            font-size: 36px !important;
+            font-weight: 900 !important; /* Set to absolute max standard bold font weight */
+            line-height: 1.25 !important;
+            margin-bottom: 15px !important;
+        }
+        .header-part2 {
+            font-size: 20px !important; /* Made slightly smaller (from 22px) to fit mobile screens beautifully */
+            line-height: 1.35 !important;
+        }
+        .header-lead-in-text {
+            font-size: 18px !important;
+            line-height: 1.45 !important;
+            margin-top: 15px !important;
+            margin-bottom: 25px !important; /* Scaled down for mobile */
+        }
+
+        /* Scale down the illustration only on mobile view */
+        .header-illustration {
+            max-height: 220px !important; 
+        }
+    }
+</style>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand page-scroll" href="{{ home_prefix | relative_url }}#page-top" style="display: flex; align-items: center; padding-top: 5px; padding-bottom: 5px;">
+                <img src="{{ site.baseurl }}/img/logo white grey transparent.png" alt="Morpho Editing Logo" style="height: 40px; margin-right: 12px;">
+                
+                <div style="display: flex; flex-direction: column; line-height: 1.1; text-align: left;">
+                    <span style="font-weight: 700; font-size: 16px; text-transform: uppercase; letter-spacing: 1px;">
+                        Morpho Editing
+                    </span>
+                    <span style="font-size: 13px; font-weight: 400; text-transform: none; font-family: 'EB Garamond', serif;">
+                        Camille Le Roy, PhD
+                    </span>
+                </div>
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden"><a href="{{ home_prefix | relative_url }}#page-top"></a></li>
+                <li><a class="page-scroll" href="{{ home_prefix | relative_url }}#services">{{ t.nav.services }}</a></li>
+                <li><a class="page-scroll" href="{{ home_prefix | relative_url }}#faq">{{ t.nav.faq }}</a></li>
+                <li><a class="page-scroll" href="{{ home_prefix | relative_url }}#about">{{ t.nav.about }}</a></li>
+                <li><a class="page-scroll" href="{{ home_prefix | relative_url }}#testimonials">{{ t.nav.testimonials }}</a></li>
+                <li><a class="page-scroll" href="{{ home_prefix | relative_url }}#contact">{{ t.nav.contact }}</a></li>
+                <li><a href="{{ '/blog/' | relative_url }}">{{ t.nav.blog | default: "Blog" }}</a></li>
+                
+                <li class="language-selector">
+                    {% if lang == "en" %}
+                        <a href="{{ site.baseurl }}/fr/">FR</a>
+                    {% else %}
+                        <a href="{{ site.baseurl }}/">EN</a>
+                    {% endif %}
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header style="text-align: left !important;">
+    <div class="container">
+        <div class="intro-text" style="text-align: left !important; padding-top: 120px !important;">
+
+            <!-- Top Row: Heading on Left, Illustration on Right -->
+            <div class="row" style="display: flex; align-items: center; flex-wrap: wrap; margin-bottom: 15px;">
+                
+                <!-- Heading Column (Takes up roughly 60% width on desktop) -->
+                <div class="col-xs-12 col-md-7" style="text-align: left !important;">
+                    <div class="intro-heading" style="font-family: 'Montserrat', sans-serif; text-transform: none; font-style: normal; margin-bottom: 0; text-align: left !important;">
+                        
+                        <!-- Heading Part 1 -->
+                        <span class="header-part1">
+                            {{ t.header.heading_part1 }}
+                        </span>
+
+                        <!-- Heading Part 2 -->
+                        <span class="header-part2">
+                            {{ t.header.heading_part2 }}
+                        </span>
+
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-5" style="text-align: center;">
+                    <img src="{{ site.baseurl }}/img/me header page.png" 
+                         alt="Scientific breakdown to breakthrough illustration" 
+                         class="img-responsive header-illustration" 
+                         style="max-height: 445px; width: auto; margin: 10px auto 0 auto; display: block;">
+                </div>
+                
+            </div>
+
+            <!-- Bottom Row: Wide Lead-in stretching underneath -->
+            <div class="header-lead-in-text">
+                {{ t.header.lead_in }}
+            </div>
+
+            <!-- Buttons Container -->
+            <div class="header-buttons" style="text-align: left !important;">
+                <a href="{{ home_prefix | relative_url }}#contact" class="page-scroll btn btn-xl btn-header">
+                    {{ t.services.btn }}
+                </a>
+                <a href="https://tidycal.com/camilleleroy/free-15-minute-call" 
+                   class="btn btn-xl btn-header" 
+                   target="_blank" 
+                   style="background-color: #3F6E93; border-color: #3F6E93;">
+                    {{ t.header.schedule_btn }}
+                </a>
+            </div>
+
+        </div>
+    </div>
+</header>

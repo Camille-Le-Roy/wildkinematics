@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Morpho Editing</title>
+    <description>Editing and coaching for biologists who are great at science but stuck on the writing—so you can share your work with the world</description>
+    <link>http://localhost:4000/MorphoEdit/</link>
+    <atom:link href="http://localhost:4000/MorphoEdit/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 23 Oct 2026 09:56:22 -0600</pubDate>
+    <lastBuildDate>Fri, 23 Oct 2026 09:56:22 -0600</lastBuildDate>
+    <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>How I published my PhD research in &lt;i&gt;Science:&lt;/i&gt; what helped, and what was just luck</title>
+        <description>&lt;style&gt;
+  :root {
+    /* Adjust this value to change baseline desktop body/paragraph font size */
+    --body-font-size: 1.1em;
+  }
+
+  /* Article body text formatting */
+  article {
+    font-size: var(--body-font-size);
+    line-height: 1.8;
+    color: #2c3e50;
+  }
+  
+  article p {
+    font-size: var(--body-font-size);
+    margin-bottom: 1.5em;
+  }
+
+  /* Headings formatting */
+  article h1, article h2, article h3 {
+    text-transform: none !important;
+    font-family: &apos;Montserrat&apos;, sans-serif;
+    color: #3F6E93;
+    font-weight: 700;
+  }
+
+  article h2 {
+    margin-top: 2.2em;
+    margin-bottom: 0.8em;
+    font-size: 1.45em;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 8px;
+  }
+
+  article h3 {
+    margin-top: 2.2em;
+    margin-bottom: 0.8em;
+    font-size: 1.45em;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 8px;
+  }
+
+  /* Figure and Image Containers */
+  .post-figure {
+    margin: 2.5em auto;
+    text-align: center;
+    background: transparent;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+  }
+
+  .post-figure.intro-fig {
+    width: 75%;   /* Intro image size */
+  }
+
+  .post-figure.content-fig {
+    width: 65%; /* Content figure size */
+  }
+
+  .post-figure.small-fig {
+    width: 35%; /* Small figure size */
+  }
+
+  /* Manual size override support */
+  .post-figure.custom-fig {
+    /* Uses inline style width argument */
+  }
+
+  .post-figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: contain;
+    box-shadow: none !important;
+  }
+
+  .post-caption {
+    color: #666;
+    font-size: 0.85em;
+    line-height: 1.5;
+    margin-top: 14px;
+    text-align: center;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Call-to-action box without left border */
+  .cta-card {
+    background-color: #f4f7f9;
+    border: none;
+    padding: 24px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 3em;
+    font-size: var(--body-font-size);
+  }
+
+  .cta-card a {
+    color: #3F6E93;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
+  /* Responsive Rules for Mobile Devices */
+  @media (max-width: 768px) {
+    :root {
+      --body-font-size: 1.05em; /* Slightly tighter font for small displays */
+    }
+
+    /* Reduce post title size on mobile */
+    article h1 {
+      font-size: 1.6em !important;
+      line-height: 1.25;
+      margin-bottom: 15px;
+    }
+
+    /* Expand all figure variants to full width on mobile */
+    .post-figure.intro-fig,
+    .post-figure.content-fig,
+    .post-figure.small-fig,
+    .post-figure.custom-fig {
+      width: 100% !important;
+      padding: 0;
+      margin: 1.8em auto;
+    }
+
+    .post-caption {
+      max-width: 100%;
+      font-size: 0.9em;
+    }
+  }
+&lt;/style&gt;
+
+&lt;p style=&quot;font-size: calc(var(--body-font-size) * 1.25); font-weight: 700;&quot;&gt;
+Many young researchers, including myself, start a PhD hoping to make a groundbreaking contribution to their field. Is there a roadmap, a recipe, a strategy for that?
+&lt;/p&gt;
+
+&lt;!-- Intro Visual / Image 1 --&gt;
+&lt;div class=&quot;post-figure intro-fig&quot; style=&quot;margin-top: 1em; text-align: center;&quot;&gt;
+  &lt;img src=&quot;/MorphoEdit/img/blogpost_2 Science magazine image 2.png&quot; alt=&quot;Science magazine cover featuring Morpho butterfly research&quot; style=&quot;max-width: 85%; height: auto; border-radius: 8px;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+&lt;strong&gt;Spoiler:&lt;/strong&gt; I&apos;m convinced there is no magic trick. &lt;a href=&quot;https://doi.org/10.1126/science.abh2620&quot; target=&quot;_blank&quot; style=&quot;color: inherit; text-decoration: underline;&quot;&gt;Publishing in a journal like &lt;em&gt;Science&lt;/em&gt; during a PhD&lt;/a&gt; is no common fate, and I think students and researchers might find it interesting to hear the context, the choices, and the behind-the-scenes that made it happen.
+&lt;/p&gt;
+
+&lt;p&gt;
+Let me first say that plenty of great, groundbreaking research has been, is being, and will be done without being published in a journal like &lt;em&gt;Science&lt;/em&gt; or &lt;em&gt;Nature&lt;/em&gt;. While these journals are, in many ways, symptomatic of the flaws in academic publishing, this post is not a critique of the system (there are plenty of great articles and videos on that already). It&apos;s the story of my own journey to a high-impact publication.
+&lt;/p&gt;
+
+&lt;p&gt;
+Below, I’ve compiled what I believe played an important role, and mostly contributed to successfully publishing my research in &lt;em&gt;Science&lt;/em&gt;.
+&lt;/p&gt;
+
+&lt;h2 id=&quot;a-charismatic-model-species&quot;&gt;A charismatic model species&lt;/h2&gt;
+
+&lt;p&gt;
+There is no such thing as uninteresting research, but some topics are trendier than others, and some model species are more popular, especially with the general public.
+&lt;/p&gt;
+
+&lt;p&gt;
+My PhD was in evolutionary biology, in a team addressing all sorts of fascinating questions about how and why living things are so diverse. My project focused on butterflies, and on no less than the most iconic and beautiful group of butterflies: the genus &lt;em&gt;Morpho&lt;/em&gt; (butterfly enthusiasts might debate that claim, but their fame is undeniable). The universal appeal of my model made every presentation, poster, and figure beautiful, or at least relatively easy to make look good. Beyond the visuals, I quickly realized that people were often interested in my research before even knowing my precise research question (which I&apos;ll describe below), simply because I was working on colorful butterflies.
+&lt;/p&gt;
+
+&lt;!-- Image 2 --&gt;
+&lt;div class=&quot;post-figure custom-fig&quot; style=&quot;width: 50%;&quot;&gt;
+  &lt;img src=&quot;/MorphoEdit/img/blogpost_2 the genus Morpho.jpg&quot; alt=&quot;The 30 species of the genus Morpho&quot; /&gt;
+  &lt;div class=&quot;post-caption&quot;&gt;
+    The 30 species of the genus &lt;em&gt;Morpho&lt;/em&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+Much like people are generally more interested in a new study about pandas than one about earthworms, I believe the charisma of my model gave my research a larger-than-average reach, as if I had a bigger microphone to communicate my work. It&apos;s actually a nice perk of popular species: they amplify reach, especially among the general public, and spark curiosity beyond academic circles.
+&lt;/p&gt;
+
+&lt;p&gt;
+That said, a popular species gets you attention, not a paper in &lt;em&gt;Science!&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;a-head-start-on-the-literature&quot;&gt;A head start on the literature&lt;/h2&gt;
+
+&lt;p&gt;
+Doing good research requires being well aware of what has been done before: what we know, and what we don&apos;t. Digging into the literature is therefore one of the first things you do when starting a PhD. What I believe helped me most to get a clear big-picture view of the knowledge gap, and of the most relevant next move, is that I became familiar with my topic well before officially starting my PhD.
+&lt;/p&gt;
+
+&lt;p&gt;
+In France, doctoral programs are relatively short, but they frequently build on a candidate’s Master’s thesis. In my case, it was in many ways the prequel of my PhD, so I was able to write and publish a comprehensive literature review during my first year of PhD. This intense exercise gave me, I think, a really clear view of where my project sat within the larger research landscape, which is maybe not so common for a first-year PhD student.
+&lt;/p&gt;
+
+&lt;h2 id=&quot;a-question-only-a-combination-of-fields-could-answer&quot;&gt;A question only a combination of fields could answer&lt;/h2&gt;
+
+&lt;p&gt;
+Nowadays, most if not all research is interdisciplinary. I have yet to meet a scientist who stays purely within one discipline without borrowing knowledge, methods, or tools from another field. Many ecologists are experts in remote sensing, many soil scientists are also microbiologists, and all modern geneticists can probably call themselves bioinformaticians. Overlap between disciplines is long-established; it&apos;s simply how science works.
+&lt;/p&gt;
+
+&lt;p&gt;
+So interdisciplinarity alone is less and less enough to justify the novelty of a study, even though it&apos;s still widely used in grant proposals and cover letters to show how our work stands out. What can still set a study apart is a combination of fields that lets you answer a question others couldn&apos;t: unusual pairings of approaches or tools (that might be well established in a few years) can have a strong effect and lead to unprecedented results. That unusual combination is what made our study different.
+&lt;/p&gt;
+
+&lt;p&gt;
+Getting back to my beautiful butterflies, I investigated how the colonization of the forest canopy by some species resulted in the evolution of divergent flight behavior and wing shape, compared with the species living in the cluttered understory of the forest. Demonstrating this evolutionary process required going well beyond the simple correlation of &lt;em&gt;&quot;hey, look at these closely related species living in different habitats: they look different and fly differently!&quot;&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;!-- Image 3  --&gt;
+&lt;div class=&quot;post-figure custom-fig&quot; style=&quot;width: 70%;&quot;&gt;
+  &lt;img src=&quot;/MorphoEdit/img/blogpost_2 Morpho gliding and CFD simulations.gif&quot; alt=&quot;Morpho cisseis gliding and CFD simulations&quot; /&gt;
+  &lt;div class=&quot;post-caption&quot;&gt;
+    &lt;strong&gt;Left:&lt;/strong&gt; &lt;em&gt;Morpho cisseis&lt;/em&gt; gliding in the forest canopy. &lt;strong&gt;Right:&lt;/strong&gt; Computational fluid dynamic simulation performed on the wings of &lt;em&gt;Morpho cisseis&lt;/em&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+To get as close as possible to a causal demonstration, we had to show what the aerodynamic consequences of differences in wing shape are, and how they allow butterflies to fly more efficiently in the open canopy. To do this we combined field behavioral observations, high-speed 3D motion capture of freely flying butterflies, comparative phylogenetics, morphometrics, and computational aerodynamic modeling. It was particularly novel to assemble, in a single study, methodologies used by behavioral ecologists and aerospace engineers. This allowed us to show, in short, that the colonization of the canopy habitat has promoted drastic changes in wing shape and flight behavior, and that these are enhancing gliding flight performance.
+&lt;/p&gt;
+
+&lt;p&gt;
+The interdisciplinary nature of the work went so far that we almost felt it was problematic when thinking about who could review the study as a whole, as having expertise in all its parts was so unlikely. Obviously, a combination of reviewers from distinct fields was required.
+&lt;/p&gt;
+
+&lt;h2 id=&quot;strategic-writing-and-formatting&quot;&gt;Strategic writing and formatting&lt;/h2&gt;
+
+&lt;p&gt;
+If you read papers regularly, you may have noticed that generalist journals (&lt;em&gt;Science&lt;/em&gt;, &lt;em&gt;Nature&lt;/em&gt;, &lt;em&gt;Cell&lt;/em&gt;, &lt;em&gt;PNAS&lt;/em&gt;…) have an unusual format. Instead of the traditional Introduction-Methods-Results-Discussion (IMRD) structure, they generally have an introduction, followed by one combined section where a relatively light description of the methods, the results, and the discussion all come together. To understand the methods in detail, you have to go find them at the end of the paper (often in a smaller font) or in the supplementary information.
+&lt;/p&gt;
+
+&lt;p&gt;
+Going through a PhD is largely about learning to structure your data, your results, and your thinking into a coherent paper. And we all start with IMRD, which is far simpler and cleaner to write. So how do you prepare for writing in a generalist-journal format? Well, you don&apos;t. Especially during a PhD, I think you should first lay out all your analyses and results, and discuss them in a dedicated section, in the traditional way, and only then, potentially, reshape the story.
+&lt;/p&gt;
+
+&lt;p&gt;
+My supervisors and I did not mention the possibility of submitting to &lt;em&gt;Science&lt;/em&gt; until quite late, by which point I had already written a solid draft of my study in the most traditional format. I can still feel myself wincing at the idea of reformatting my entire manuscript when the &lt;em&gt;&quot;why not submit to Science?&quot;&lt;/em&gt; question first came up. Honestly, the idea was not so exciting at the time: I thought I had already done the hardest part of writing that first draft! Plus, &lt;em&gt;Science&lt;/em&gt; has an acceptance around 5%, so reformatting everything for such low odds was not particularly appealing.
+&lt;/p&gt;
+
+&lt;p&gt;
+To sum up: if you can see it coming early, writing your study directly in the generalist format can save you time. But my honest take is that it’s easier to start from a full, comprehensive version that already exists on paper, and use it as raw material to build the combined story.
+&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;
+You cannot simply plan and execute a publication in &lt;em&gt;Science&lt;/em&gt; or &lt;em&gt;Nature&lt;/em&gt;. It is the byproduct of alignment of multiple factors, that you can only partly influence. Some come down to luck: doing the right research at the right moment. Others are human: meeting the right supervisor and the right collaborators, with whom productive, meaningful research just flows (this may sounds cheesy, but it matters). It also helps enormously to have someone around, a supervisor or a colleague, who has been through it before and can sense when enough of these factors are aligned to give a paper a serious shot. That sense is not something you come up with on your own when starting a PhD.
+&lt;/p&gt;
+
+&lt;p&gt;
+Publishing in a journal like this brought an impressive spotlight and media coverage to my research, which is deeply rewarding after years of working like crazy and sweating over those results.
+&lt;/p&gt;
+
+&lt;p&gt;
+Some downsides exist, though. Generalist journals favor a short, efficient, story-driven format designed to reach as many readers as possible. That comes at a price: your work gets incredibly compressed, plenty of details end up buried in the supplementary material, and I found that this makes the methodology less readily accessible and hence the study harder to reproduce.
+&lt;/p&gt;
+
+&lt;div style=&quot;margin-top: 2.5em; margin-bottom: 2em;&quot;&gt;
+  &lt;a href=&quot;/MorphoEdit/pdfs/Le%20Roy%20et%20al.%202021%20Adaptive%20evolution%20of%20flight%20in%20Morpho%20butterflies.pdf&quot; target=&quot;_blank&quot; style=&quot;display: flex; align-items: center; gap: 16px; text-decoration: none; color: inherit;&quot;&gt;
+    &lt;img src=&quot;/MorphoEdit/img/blogpost_2 cover science.png&quot; alt=&quot;Science magazine cover&quot; style=&quot;width: 180px; height: auto; border-radius: 4px; flex-shrink: 0; box-shadow: 0 2px 6px rgba(0,0,0,0.15) !important;&quot; /&gt;
+    &lt;span style=&quot;font-size: 0.95em; line-height: 1.5;&quot;&gt;
+      &lt;strong&gt;Read the paper behind the story:&lt;/strong&gt;&lt;br /&gt;
+      Le Roy, C., &lt;em&gt;et al.&lt;/em&gt; (2021). Adaptive evolution of flight in &lt;em&gt;Morpho&lt;/em&gt; butterflies. &lt;em&gt;Science&lt;/em&gt;, 374(6571), 1158–1162.
+    &lt;/span&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;cta-card&quot;&gt;
+  Preparing your own first big paper and looking for a second pair of eyes on the story?&lt;br /&gt; Feel free to 
+  &lt;a href=&quot;https://tidycal.com/camilleleroy/free-15-minute-call&quot; target=&quot;_blank&quot;&gt;book a free call&lt;/a&gt; 
+  or reach out via the &lt;a href=&quot;https://camille-le-roy.github.io/MorphoEdit/#contact&quot; target=&quot;_blank&quot;&gt;contact form&lt;/a&gt;.&lt;br /&gt; We can discuss how to structure your manuscript!
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 22 Oct 2026 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/MorphoEdit/2026/10/22/How-I-published-my-PhD-research-in-Science/</link>
+        <guid isPermaLink="true">http://localhost:4000/MorphoEdit/2026/10/22/How-I-published-my-PhD-research-in-Science/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>How to make your scientific figures publication-ready (6 tips)</title>
+        <description>&lt;style&gt;
+  :root {
+    /* Adjust this value to change baseline desktop body/paragraph font size */
+    --body-font-size: 1.1em;
+  }
+
+  /* Article body text formatting */
+  article {
+    font-size: var(--body-font-size);
+    line-height: 1.8;
+    color: #2c3e50;
+  }
+  
+  article p {
+    font-size: var(--body-font-size);
+    margin-bottom: 1.5em;
+  }
+
+  /* Headings formatting */
+  article h1, article h2, article h3 {
+    text-transform: none !important;
+    font-family: &apos;Montserrat&apos;, sans-serif;
+    color: #3F6E93;
+    font-weight: 700;
+  }
+
+  article h2 {
+    margin-top: 2.2em;
+    margin-bottom: 0.8em;
+    font-size: 1.45em;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 8px;
+  }
+
+  /* Figure and Image Containers */
+  .post-figure {
+    margin: 2.5em auto;
+    text-align: center;
+    background: transparent;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+  }
+
+  .post-figure.intro-fig {
+    width: 75%;   /* Intro image size */
+  }
+
+  .post-figure.content-fig {
+    width: 65%; /* Figure 1 and 2 size */
+  }
+
+  .post-figure.small-fig {
+    width: 35%; /* Figure 3 size on desktop */
+  }
+
+  .post-figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: contain;
+    box-shadow: none !important;
+  }
+
+  .post-caption {
+    color: #666;
+    font-size: 0.85em;
+    line-height: 1.5;
+    margin-top: 14px;
+    text-align: left;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Call-to-action box without left border */
+  .cta-card {
+    background-color: #f4f7f9;
+    border: none;
+    padding: 24px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 3em;
+    font-size: var(--body-font-size);
+  }
+
+  .cta-card a {
+    color: #3F6E93;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
+  /* Responsive Rules for Mobile Devices */
+  @media (max-width: 768px) {
+    :root {
+      --body-font-size: 1.05em; /* Slightly tighter font for small displays */
+    }
+
+    /* Reduce post title size on mobile */
+    article h1 {
+      font-size: 1.6em !important; /* Adjust this value if you want it smaller/larger */
+      line-height: 1.25;
+      margin-bottom: 15px;
+    }
+
+    /* Expand all figure variants to full width on mobile */
+    .post-figure.intro-fig,
+    .post-figure.content-fig,
+    .post-figure.small-fig {
+      width: 100% !important;
+      padding: 0;
+      margin: 1.8em auto;
+    }
+
+    .post-caption {
+      max-width: 100%;
+      font-size: 0.9em;
+    }
+  }
+&lt;/style&gt;
+
+&lt;p style=&quot;font-size: calc(var(--body-font-size) * 1.25); font-weight: 700;&quot;&gt;
+Have you ever stared at a published figure and thought: &lt;em&gt;how did they make it look that good?&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;!-- Intro Visual --&gt;
+&lt;div class=&quot;post-figure intro-fig&quot; style=&quot;margin-top: 1em;&quot;&gt;
+  &lt;img src=&quot;/MorphoEdit/img/blogpost_1 intro visual.png&quot; alt=&quot;Before and after example of a publication-ready scientific figure&quot; /&gt;
+  &lt;div class=&quot;post-caption&quot; style=&quot;text-align: right; font-size: 0.70em;&quot;&gt;
+    Example figure from: 
+    &lt;a href=&quot;https://doi.org/10.1038/s41467-021-27549-1&quot; target=&quot;_blank&quot; style=&quot;color: inherit;&quot;&gt;
+      Le Roy et al. (2021) &lt;em&gt;Nat. Commun.&lt;/em&gt; 12(1): 7248.
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+No one actually nails a polished figure on the first try. The road from your slightly - or really - ugly plot fresh out of R to a polished figure often takes many trials and intermediary versions. Drawing on my own research experience, I’ve compiled six practical tips I always use to make figures clearer and impactful, helping you reach that final, publishable version.
+&lt;/p&gt;
+
+&lt;h2 id=&quot;1-one-figure-one-message&quot;&gt;1. One figure, one message&lt;/h2&gt;
+
+&lt;p&gt;Just like a paragraph, a figure loses power when it tries to say too much at once. When deciding what to combine into panels, think about the figure legend you’ll write, and how it will guide the reader through the story. If including multiple panels, they should reflect different elements of the same overall message. The order of your panels matters a lot: if panel A shows a pattern that raises a question, panel B can answer it, thereby satisfying the reader’s expectation.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-make-color-meaningful-and-consistent&quot;&gt;2. Make color meaningful and consistent&lt;/h2&gt;
+
+&lt;p&gt;We all have an inner artist wanting to make figures colorful. Try to channel that urge. If a figure doesn’t need color, it’s completely fine to keep it in shades of grey. That spares the reader the distracting thought of &lt;em&gt;“what do these colors mean?”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;When you do use color, make sure it carries information: different colors for categories of a variable, or a gradient for a continuous one, in an intuitive direction (warmer = higher temperature, for instance). Also revise your color coding across the whole manuscript: if three colors represent your three treatment conditions in your first figure, keep those same three colors in every figure after that. Finally, it’s good practice to pick a colorblind-friendly palette from the start (see &lt;a href=&quot;https://journal.r-project.org/articles/RJ-2023-071/&quot; target=&quot;_blank&quot; style=&quot;color: #3F6E93;&quot;&gt;R Journal Palette Guide&lt;/a&gt;).&lt;/p&gt;
+
+&lt;!-- Figure 1 --&gt;
+&lt;div class=&quot;post-figure content-fig&quot;&gt;
+  &lt;img src=&quot;/MorphoEdit/img/blogpost_1 consistent color coding.png&quot; alt=&quot;Example of consistent color coding across a manuscript&quot; /&gt;
+  &lt;div class=&quot;post-caption&quot;&gt;
+    &lt;strong&gt;Figure 1:&lt;/strong&gt; Example of consistent color coding across an article: green indicates forest-dwelling butterflies, blue indicates butterflies from open habitats. Original article: 
+    &lt;a href=&quot;https://doi.org/10.1242/jeb.243867&quot;&gt;Le Roy et al. (2022) &lt;em&gt;J. Exp. Biol.&lt;/em&gt; 225(15): jeb243867.&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;3-layer-information-by-combining-color-shape-and-size&quot;&gt;3. Layer information by combining color, shape, and size&lt;/h2&gt;
+
+&lt;p&gt;Journal space is limited, and you probably have more interesting results than room to show them. Keep your figure’s main message pointed in one direction, but you can layer in extra information through point color, shape (&lt;code style=&quot;color: inherit;&quot;&gt;pch&lt;/code&gt; in R, &lt;code style=&quot;color: inherit;&quot;&gt;marker&lt;/code&gt; in Python), and size. For example, in the scatterplot below (Figure 2), point size reflects wingbeat frequency while color gradient captures body mass — enriching the core aerodynamic relationship without cluttering the display. We could even layer in sex by using distinct point shapes.&lt;/p&gt;
+
+&lt;!-- Figure 2 --&gt;
+&lt;div class=&quot;post-figure content-fig&quot;&gt;
+  &lt;img src=&quot;/MorphoEdit/img/blogpost_1 points shape and size.png&quot; alt=&quot;Example of combined color, size, and inset panel usage&quot; /&gt;
+  &lt;div class=&quot;post-caption&quot;&gt;
+    &lt;strong&gt;Figure 2:&lt;/strong&gt; Combining color and point size to convey multiple layers of information: here color reflects body mass, while point size indicates wingbeat frequency. Small inset panels show an additional analysis without adding extra panels. Original article: 
+    &lt;a href=&quot;https://doi.org/10.1371/journal.pbio.3003473&quot;&gt;Le Roy et al. (2026) &lt;em&gt;PLoS Biol.&lt;/em&gt; 24(7): e3003473.&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;4-resize-panels-based-on-how-much-they-need-to-say&quot;&gt;4. Resize panels based on how much they need to say&lt;/h2&gt;
+
+&lt;p&gt;If one of your plots is dead simple to interpret, it may only need two tick marks (say, 0 and the max value) and bigger points. Just shrink it. Doing so will free up space for the panels that are more complex and require more interpretive work. Varying panel sizes helps establish hierarchy. It guides the reader’s eye to your primary takeaways and keeps complementary details in supporting roles (see the use of the inset panel in Figure 2 for example).&lt;/p&gt;
+
+&lt;h2 id=&quot;5-edit-your-figure-outside-of-r-or-python&quot;&gt;5. Edit your figure outside of R or Python&lt;/h2&gt;
+
+&lt;p&gt;If you like tweaking axis fonts and border thickness in code, you may disagree with this one. But a fully coded approach tends to feel rigid to me. My preferred approach: build the core figure in your coding environment, then export it as a vector file (PDF or EPS) and finish the polish in a design software (Illustrator, Affinity Designer, Inkscape). Vector format also means infinite scalability — your figure looks equally beautiful as a tiny panel or blown up on a poster. That said, if you’re in a rush or prefer to avoid learning design tools, even basic tweaks in PowerPoint can significantly improve your raw figure.&lt;/p&gt;
+
+&lt;p&gt;Editing “by hand” lets you adjust almost anything (except the data, of course): element size and position, consistent fonts across panels, and refining colors. You can even draw custom schematics or illustrations to convey complementary details (see Figure 2A). Together, these small adjustments are what actually shape how clearly your result reads.&lt;/p&gt;
+
+&lt;!-- Figure 3 --&gt;
+&lt;div class=&quot;post-figure small-fig&quot;&gt;
+  &lt;img src=&quot;/MorphoEdit/img/blogpost_1 redundant axis.png&quot; alt=&quot;Example of minimalist axis tick marks and removing redundant axes&quot; /&gt;
+  &lt;div class=&quot;post-caption&quot;&gt;
+    &lt;strong&gt;Figure 3:&lt;/strong&gt; Remove duplicate axes across panels and keep tick marks to a functional minimum. &lt;br /&gt; Original article: 
+    &lt;a href=&quot;https://www.science.org/doi/10.1126/science.1248955&quot; target=&quot;_blank&quot; style=&quot;color: inherit; text-decoration: underline;&quot;&gt;
+      Muijres et al. (2014) &lt;em&gt;Science&lt;/em&gt;, 344(6180): 172–177.
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;6-find-whats-unnecessary-and-cut-it&quot;&gt;6. Find what’s unnecessary, and cut it!&lt;/h2&gt;
+
+&lt;p&gt;You have a figure that’s correct and interpretable with some effort. Now ask yourself: &lt;em&gt;what result do I actually want this to convey, and what’s standing in the way? &lt;/em&gt; Usually, you can easily spot elements to cut, such as:&lt;/p&gt;
+
+&lt;ul style=&quot;margin-bottom: 1.5em; padding-left: 1.2em; color: #444;&quot;&gt;
+  &lt;li&gt;Unnecessary frames or heavy outer borders&lt;/li&gt;
+  &lt;li&gt;Redundant axis or labels&lt;/li&gt;
+  &lt;li&gt;Overcrowded tick marks&lt;/li&gt;
+  &lt;li&gt;Large empty spaces breaking up your panel flow&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Remove all of this! Let the essential message reach your reader’s eye as directly as possible.&lt;/p&gt;
+
+&lt;div class=&quot;cta-card&quot;&gt;
+  Stuck translating messy data into a clear scientific story?&lt;br /&gt; Feel free to 
+  &lt;a href=&quot;https://tidycal.com/camilleleroy/free-15-minute-call&quot; target=&quot;_blank&quot;&gt;book a free 15-minute call&lt;/a&gt; 
+  or send a message via the &lt;a href=&quot;https://camille-le-roy.github.io/MorphoEdit/#contact&quot; target=&quot;_blank&quot;&gt;contact form&lt;/a&gt;.&lt;br /&gt; We can discuss how to streamline your figures or manuscript!
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 12 Sep 2026 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/MorphoEdit/2026/09/12/6-How-to-make-your-scientific-figures-publication-ready-6-tips/</link>
+        <guid isPermaLink="true">http://localhost:4000/MorphoEdit/2026/09/12/6-How-to-make-your-scientific-figures-publication-ready-6-tips/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
