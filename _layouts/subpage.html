@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body id="page-top" class="index">
+    {% include header.html %}
+
+    <!-- Hide homepage hero elements on subpages -->
+    <style>
+      header:not(.navbar), 
+      .intro-header, 
+      .page-head, 
+      header.intro-text,
+      header.hero-header {
+        display: none !important;
+      }
+
+      /* Give the navbar a solid background on subpages so links are visible */
+      .navbar-default {
+        background-color: #{{ site.data.template.color.secondary-dark | default: '303632' }} !important;
+      }
+
+      /* Subpage Main Title Styling */
+      .subpage-main-title {
+        color: #{{ site.data.template.color.secondary-dark | default: '303632' }};
+        margin-bottom: 10px;
+        font-size: 2.5em;
+        font-weight: 700;
+        font-family: {{ site.data.template.font.primary }};
+        text-transform: none !important;
+      }
+
+      /* Subpage Container Spacing */
+      .subpage-content-wrapper {
+        padding-top: 140px;
+        padding-bottom: 80px;
+        min-height: 75vh;
+      }
+    </style>
+
+    <div class="container subpage-content-wrapper">
+      <h1 class="subpage-main-title">{{ page.title }}</h1>
+      <hr style="border-top: 2px solid #{{ site.data.template.color.primary }}; max-width: 100px; margin: 0 0 40px 0;">
+
+      <!-- Content from individual markdown/html pages injects here -->
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
+    {% include js.html %}
+  </body>
+</html>

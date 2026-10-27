@@ -18,23 +18,26 @@ font:
 # -----------------------------------------------------------------------------
 
 header:
-  #heading_part1: "<strong>From movement capture to quantitative insight</strong>"
-  heading_part1: "<strong>Bringing motion analysis within reach for every biologist</strong>"
-  #heading_part2: "<strong>built for biological research</strong>"
-  lead_in: "Expert guidance on study design, tracking, and kinematic analysis for animal movement research."
+  heading_part1: "<strong>From movement capture to biological insight</strong>"
+  #heading_part1: "<strong>Bringing motion analysis within reach for every biologist</strong>"
+  #heading_part2: "<strong>Capture movement. Understand behavior. Answer biological questions</strong>"
+  #lead_in: "Capture movement. Understand behavior.<br>Answer biological questions"
+  lead_in: "Expert guidance on study design, tracking, and kinematic analysis for animal movement research"
 
 challenge:
-  headline: "Headline setting up the core challenge..."
-  sub_heading: "Sub-heading detailing the problem."
-  text_1: "First paragraph explaining the core challenge..."
-  text_2: "Second paragraph expanding on the issue..."
-  text_3: "Third paragraph wrapping up the challenge..."
+  intro_summary: "Wild Kinematics helps researchers and organizations design movement studies, capture high-quality motion data, and turn it into meaningful biological insights.<br><br> We help connect the way movement is measured to the questions researchers want to answer."
+  headline: "In biology, many crucial questions can only be answered using high-resolution motion data: How fast does a predator strike? How does maneuverability change across habitats? How do subtle behavioral displays vary between individuals?"
+  sub_heading: "Translating animal motion into precise kinematic data can feel like a steep climb, requiring specialized technical knowledge."
+  text_1: "You may find yourself in one of these situations:"
+  text_2: "<strong>Unsure where to start with hardware:</strong> Choosing camera placements, frame rates, and calibration methods without wasting grant funding on unnecessary equipment."
+  text_3: "<strong>Overwhelmed by video and tracking tools:</strong> Deciding whether to invest in expensive commercial tracking platforms or learn to use open-source algorithms."
+  text_4: "<strong>Stuck with raw footage:</strong> Sitting on hundreds of gigabytes of video without a clear, automated workflow to extract biologically meaningful variables."
   cta_text: "Ready to move your project forward?"
-  list_title: "Why work with WildKinematics?"
-  bullet_1: "<strong>Expert perspective.</strong> Dedicated guidance tailored to your work."
-  bullet_2: "<strong>No guesswork.</strong> Clear, actionable feedback on every step."
-  bullet_3: "<strong>Direct collaboration.</strong> Hands-on support when you need it."
-  final_thought: "Closing thought or summary statement."
+  list_title: "How Wild Kinematics can help"
+  bullet_1: "<strong>Biology always comes first.</strong> Bringing together biological research experience, experimental design, quantitative analysis, and scientific interpretation to help you obtain measurements that are appropriate, reliable, and most relevant to your biological question."
+  bullet_2: "<strong>No guesswork.</strong> Whether you want a guiding partner to train your team and set up a practical pipeline, or a specialist to handle some part of the work for you."
+  bullet_3: "<strong>Direct collaboration.</strong> Hands-on support so you don't have to figure it out all alone."
+  final_thought: "You bring the biological question; Wild Kinematics bridges the technical gap."
 
 services:
   title: "Services"

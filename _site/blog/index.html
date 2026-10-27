@@ -40,12 +40,14 @@
         min-height: 100vh;
         display: flex;
         align-items: center;
-        background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), /* Adjust the gradient overlay for image background (in agency.css too!!)*/
-                    url('/wildkinematics/img/header_image_bg.png') no-repeat center center;
+        background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+        /* Adjust the gradient overlay for image background (in agency.css too!!)*/
+        url('/wildkinematics/img/header_image_bg.png') no-repeat center center;
         background-size: cover;
         background-attachment: scroll;
         text-align: left !important;
-        padding-top: 100px;
+        padding-top: 50px;
+        /* space between navbar and header text */
         padding-bottom: 60px;
     }
 
@@ -92,7 +94,7 @@
         max-width: 900px;
     }
 
-    /* Header Buttons Container */
+    /* Header Buttons Container & Smooth Hover Effects */
     .header-buttons {
         display: flex;
         flex-wrap: wrap;
@@ -103,6 +105,35 @@
     .header-buttons .btn-header {
         min-width: 240px;
         border-radius: 50px !important;
+        transition: background-color 0.25s ease, border-color 0.25s ease, transform 0.2s ease !important;
+    }
+
+    /* 1. Explore Services Button (Light Gold -> Subtly Darker Gold on Hover) */
+    .btn-explore {
+        background-color: #bda040 !important;
+        border-color: #bda040 !important;
+        color: #000000 !important;
+    }
+
+    .btn-explore:hover, 
+    .btn-explore:focus {
+        background-color: #a88d35 !important;
+        border-color: #a88d35 !important;
+        color: #000000 !important;
+    }
+
+    /* 2. About Button (Dark Green -> Subtly Darker Forest Green on Hover) */
+    .btn-about {
+        background-color: #35594F !important;
+        border-color: #35594F !important;
+        color: #ffffff !important;
+    }
+
+    .btn-about:hover, 
+    .btn-about:focus {
+        background-color: #27433b !important;
+        border-color: #27433b !important;
+        color: #ffffff !important;
     }
 
     /* Mobile Responsive Rules */
@@ -112,18 +143,36 @@
             padding-top: 120px;
             padding-bottom: 60px;
         }
-        .header-part1 { font-size: 34px !important; }
-        .header-part2 { font-size: 22px !important; }
-        .header-lead-in-text { font-size: 18px !important; }
-        .header-buttons { flex-direction: column; align-items: stretch; }
-        .header-buttons .btn-header { width: 100%; min-width: 0; }
+
+        .header-part1 {
+            font-size: 34px !important;
+        }
+
+        .header-part2 {
+            font-size: 22px !important;
+        }
+
+        .header-lead-in-text {
+            font-size: 18px !important;
+        }
+
+        .header-buttons {
+            flex-direction: column;
+            align-items: stretch;
+        }
+
+        .header-buttons .btn-header {
+            width: 100%;
+            min-width: 0;
+        }
     }
 </style>
 
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -132,19 +181,22 @@
 
             <!-- Brand Logo / Title -->
             <a class="navbar-brand page-scroll" href="#page-top" style="display: flex; align-items: center;">
-                <img src="/wildkinematics/img/temporary_logo.png" alt="WildKinematics Logo" style="height: 40px; margin-right: 12px;">
-                <span style="font-weight: 700; font-size: 18px; text-transform: uppercase; letter-spacing: 1px; color: #ffffff;">
+                <img src="/wildkinematics/img/temporary_logo.png" alt="WildKinematics Logo"
+                    style="height: 40px; margin-right: 12px;">
+                <span
+                    style="font-weight: 700; font-size: 18px; text-transform: uppercase; letter-spacing: 1px; color: #ffffff;">
                     WildKinematics
                 </span>
             </a>
         </div>
-
         <!-- Navigation Links -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li class="hidden"><a href="#page-top"></a></li>
-                <li><a class="page-scroll" href="#services">Services</a></li>
-                <li><a class="page-scroll" href="#about">About</a></li>
+                <li><a href="/wildkinematics/#services">Services</a></li>
+                <li><a href="/wildkinematics/portfolio">Portfolio</a></li>
+                <li><a href="/wildkinematics/publications">Publications</a></li>
+                <li><a href="/wildkinematics/#about">About</a></li>
             </ul>
         </div>
     </div>
@@ -153,13 +205,13 @@
 <header class="hero-header">
     <div class="container">
         <div class="intro-text">
-            
+
             <!-- Full-width Heading Row -->
             <div class="row">
                 <div class="col-xs-12 col-md-10 col-lg-8">
                     <div class="intro-heading">
                         <span class="header-part1">
-                            <strong>Bringing motion analysis within reach for every biologist</strong>
+                            <strong>From movement capture to biological insight</strong>
                         </span>
                         <span class="header-part2">
                             
@@ -170,15 +222,15 @@
 
             <!-- Lead-in Text -->
             <div class="header-lead-in-text">
-                Expert guidance on study design, tracking, and kinematic analysis for animal movement research.
+                Expert guidance on study design, tracking, and kinematic analysis for animal movement research
             </div>
 
             <!-- Action Buttons -->
             <div class="header-buttons">
-                <a href="#services" class="page-scroll btn btn-xl btn-header">
+                <a href="#services" class="page-scroll btn btn-xl btn-header btn-explore">
                     Explore Services
                 </a>
-                <a href="#about" class="page-scroll btn btn-xl btn-header" style="background-color: #3F6E93; border-color: #3F6E93;">
+                <a href="#about" class="page-scroll btn btn-xl btn-header btn-about">
                     About
                 </a>
             </div>
