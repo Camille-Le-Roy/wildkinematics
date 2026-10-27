@@ -9,7 +9,7 @@ color:
 
 # Font Families
 font:
-  primary: 'Lora, "Times New Roman", serif'
+  primary: "'Montserrat', sans-serif"
   secondary: '"Helvetica Neue", Helvetica, Arial, sans-serif'
 
 

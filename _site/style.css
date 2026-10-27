@@ -76,7 +76,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Lora, "Times New Roman", serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 
@@ -95,7 +95,7 @@ h6 {
 .btn-primary {
     border-color: #35594F;
     text-transform: uppercase;
-    font-family: Lora, "Times New Roman", serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #fff;
     background-color: #35594F;
@@ -122,7 +122,7 @@ h6 {
     border-color: #35594F;
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: Lora, "Times New Roman", serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
@@ -147,6 +147,7 @@ h6 {
     transition: padding 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
+/* Brand Logo & Title Styling */
 .navbar-default .navbar-brand {
     font-family: "EB Garamond", serif;
     color: #d9dde1;
@@ -155,11 +156,20 @@ h6 {
     transition: color .35s ease, font-size .35s ease;
 }
 
+.navbar-default .navbar-brand span {
+    -webkit-transition: color .35s ease;
+    -moz-transition: color .35s ease;
+    transition: color .35s ease;
+}
+
+/* Hover color for Brand Title (matches navigation link hover color #E5C158) */
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
-.navbar-default .navbar-brand.active {
-    color: #35594F !important;
+.navbar-default .navbar-brand.active,
+.navbar-default .navbar-brand:hover span,
+.navbar-default .navbar-brand:focus span {
+    color: #E5C158 !important;
 }
 
 .navbar-default .navbar-collapse {
@@ -182,7 +192,7 @@ h6 {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Lora, "Times New Roman", serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -194,7 +204,7 @@ h6 {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #E5C158;  /*! Changed the hovering color of the navbar sections from #35594F to any color code for better contrast */
+    color: #E5C158;  /*! Changed the hovering color of the navbar sections to gold for better contrast */
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -212,6 +222,11 @@ h6 {
 
     .navbar-default .navbar-brand {
         font-size: 1.8em !important;
+    }
+
+    /* Shift navigation links downward to align vertically with stacked brand unit */
+    .navbar-default .navbar-nav {
+        margin-top: 15px;
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -262,7 +277,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: Lora, "Times New Roman", serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -285,7 +300,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 35px;
         text-transform: none;
-        font-family: Lora, "Times New Roman", serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 52px;
         font-weight: 600;
         line-height: 1.2;
@@ -378,14 +393,14 @@ footer {
 
 footer span.copyright {
     text-transform: none;
-    font-family: Lora, "Times New Roman", serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 40px;
 }
 
 footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: none;
-    font-family: Lora, "Times New Roman", serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 40px;
 }
 

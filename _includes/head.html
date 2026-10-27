@@ -6,7 +6,10 @@
     <meta name="description" content="{{ page.description | default: site.description }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-    <link rel="icon" type="image/png" href="{{ "/img/logo white grey transparent.png" | prepend: site.baseurl }}">
+    <!-- Favicon & Browser Tab Icons -->
+    <link rel="shortcut icon" href="{{ "/img/logo_favicon.png" | prepend: site.baseurl }}" type="image/png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "/img/logo_favicon.png" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/img/logo_favicon.png" | prepend: site.baseurl }}">
 
     <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
 
@@ -16,6 +19,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&display=swap" rel="stylesheet">
 
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:description" content="{{ page.description | default: site.description }}">

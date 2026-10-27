@@ -139,6 +139,7 @@ h6 {
     transition: padding 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
+/* Brand Logo & Title Styling */
 .navbar-default .navbar-brand {
     font-family: "EB Garamond", serif;
     color: #d9dde1;
@@ -147,11 +148,20 @@ h6 {
     transition: color .35s ease, font-size .35s ease;
 }
 
+.navbar-default .navbar-brand span {
+    -webkit-transition: color .35s ease;
+    -moz-transition: color .35s ease;
+    transition: color .35s ease;
+}
+
+/* Hover color for Brand Title (matches navigation link hover color #E5C158) */
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
-.navbar-default .navbar-brand.active {
-    color: #{{ site.data.template.color.primary }} !important;
+.navbar-default .navbar-brand.active,
+.navbar-default .navbar-brand:hover span,
+.navbar-default .navbar-brand:focus span {
+    color: #E5C158 !important;
 }
 
 .navbar-default .navbar-collapse {
@@ -186,7 +196,7 @@ h6 {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #E5C158;  /*! Changed the hovering color of the navbar sections from #{{ site.data.template.color.primary }} to any color code for better contrast */
+    color: #E5C158;  /*! Changed the hovering color of the navbar sections to gold for better contrast */
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -204,6 +214,11 @@ h6 {
 
     .navbar-default .navbar-brand {
         font-size: 1.8em !important;
+    }
+
+    /* Shift navigation links downward to align vertically with stacked brand unit */
+    .navbar-default .navbar-nav {
+        margin-top: 15px;
     }
 
     .navbar-default .navbar-nav>.active>a {
