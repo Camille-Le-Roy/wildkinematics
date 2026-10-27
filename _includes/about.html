@@ -1,46 +1,54 @@
-{% assign lang = "en" %}
-{% if page.url contains '/fr/' %}
-  {% assign lang = "fr" %}
-{% endif %}
-{% assign t = site.data.locales[lang] %}
+{% assign t = site.data.template %}
 
 <section id="about">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center">
+            <div class="col-lg-12 text-center" style="margin-bottom: 50px;">
                 <h2 class="section-heading">{{ t.about.heading }}</h2>
+                <h3 class="section-subheading text-muted" style="margin-bottom: 20px; font-style: normal; font-size: 20px; font-weight: 500;">
+                    {{ t.about.subtitle }}
+                </h3>
             </div>
         </div>
 
         <div class="row" style="display: flex; align-items: center; flex-wrap: wrap;">
             
-            <div class="col-md-4 text-center">
-                <img class="img-circle img-responsive" src="{{ site.baseurl }}/img/moi_field.png" alt="Camille" style="border: 7px solid #f1f1f1; margin: 0 auto;">
+            <div class="col-md-4 text-center" style="margin-bottom: 30px;">
+                <img class="img-circle img-responsive" src="{{ site.baseurl }}/img/moi_field.png" alt="Camille Le Roy" style="border: 7px solid #f1f1f1; margin: 0 auto; max-width: 280px;">
                 
-                <h3 style="color: #000000; font-family: 'EB Garamond', serif; text-transform: none; margin-top: 20px; font-weight: 700; font-size: 24px;">
+                <h3 style="color: #000000; font-family: 'EB Garamond', serif; text-transform: none; margin-top: 25px; margin-bottom: 5px; font-weight: 700; font-size: 26px;">
                     {{ t.about.name }}
                 </h3>
+                <p style="font-family: 'Montserrat', sans-serif; font-size: 16px; color: #35594F; font-weight: 600; text-transform: none; margin-bottom: 0;">
+                    {{ t.about.tagline }}
+                </p>
             </div>
 
             <div class="col-md-8">
                 <div class="about-body">
-                    <p class="large text-muted" style="font-size: 18px; margin-top: 20px; margin-bottom: 20px;">
+                    <!-- Intro Header with normal text-transform -->
+                    <h4 style="font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: 700; color: #333; margin-top: 0; margin-bottom: 20px; text-transform: none;">
                         {{ t.about.intro }}
-                    </p>
+                    </h4>
                     
-                    <p class="large text-muted" style="font-size: 18px; margin-bottom: 20px;">
+                    <p class="large text-muted" style="font-size: 18px; line-height: 1.7; margin-bottom: 20px;">
                         {{ t.about.details_1 }}
                     </p>
 
-                    <p class="large text-muted" style="font-size: 18px; margin-bottom: 20px;">
+                    <p class="large text-muted" style="font-size: 18px; line-height: 1.7; margin-bottom: 20px;">
                         {{ t.about.details_2 }}
                     </p>
 
-                    <p class="large text-muted" style="font-size: 18px; margin-bottom: 20px;">
+                    <p class="large text-muted" style="font-size: 18px; line-height: 1.7; margin-bottom: 20px;">
                         {{ t.about.details_3 }}
                     </p>
 
-                    <p class="large text-muted" style="font-size: 18px;">
+                    <!-- Fun Fact rendered as standard paragraph text -->
+                    <p class="large text-muted" style="font-size: 18px; line-height: 1.7; margin-bottom: 20px;">
+                        {{ t.about.fun_fact }}
+                    </p>
+
+                    <p class="large text-muted" style="font-size: 18px; line-height: 1.7; font-weight: 500;">
                         {{ t.about.conclusion }}
                     </p>
                 </div>

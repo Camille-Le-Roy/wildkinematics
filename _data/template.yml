@@ -44,8 +44,16 @@ services:
   subtitle: "How we can work together."
 
 about:
-  title: "About"
-  subtitle: "Background and expertise."
+  heading: "About"
+  #subtitle: "Scientific understanding, from both sides of the data."
+  name: "Camille Le Roy, PhD"
+  tagline: "Researcher, Field Biologist, and Biomechanist"
+  intro: "Hi, I'm Camille."
+  details_1: "My background is rooted in Ecology and Evolution. Driven by a passion for understanding how animal movement evolves and diversifies, I specialized in combining evolutionary biology with biomechanics, with a focus on the diversification of insect flight."
+  details_2: "To study the evolution of animal movement, I learned the nuts and bolts of quantifying motion: configuring high-speed camera setups, reconstructing 3D trajectories, and extracting biologically meaningful metrics. My research also involved a lot of fieldwork, whereby I've designed setups to capture motion in fully natural settings."
+  details_3: "My career brought me to work closely alongside physicists and aerospace engineers. This gave me deep familiarity with biomechanical tools and engineering principles, giving me a great perspective to bridge the gap between field biology and movement analysis."
+  fun_fact: "<strong>Fun fact:</strong> I originally wanted to become a wildlife filmmaker. I ended up as a researcher, filming animals to decode the evolution of their behavior."
+  conclusion: "I created Wild Kinematics to bring movement quantification within reach for more researchers, helping break down the barriers between ecology, behavior, and biomechanics."
 
 contact:
   heading: "Reach Out"
