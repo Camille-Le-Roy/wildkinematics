@@ -24,15 +24,21 @@ header:
   #lead_in: "Capture movement. Understand behavior.<br>Answer biological questions"
   lead_in: "Expert guidance on study design, tracking, and kinematic analysis for animal movement research"
 
+
 challenge:
-  intro_summary: "Wild Kinematics helps researchers and organizations design movement studies, capture high-quality motion data, and turn it into meaningful biological insights.<br><br> We help connect the way movement is measured to the questions researchers want to answer."
-  headline: "In biology, many crucial questions can only be answered using high-resolution motion data: How fast does a predator strike? How does maneuverability change across habitats? How do subtle behavioral displays vary between individuals?"
-  sub_heading: "Translating animal motion into precise kinematic data can feel like a steep climb, requiring specialized technical knowledge."
+  intro_summary: "Wild Kinematics helps researchers and organizations design movement studies, capture high-quality motion data, and turn it into meaningful biological insights.<br><br> <strong>Biology comes first: </strong>we help obtaining measurements that are most relevant to your biological question."
+  
+  # Content inside the black box
+  box_title: "Why measure behavior through kinematics?"
+  headline: "Subtle maneuvers, escape speeds, or behavioral displays often happen too fast or are too nuanced for standard video or observation. Using high-resolution kinematics allow extracting precise metrics, revealing deeper mechanisms (energy cost, inter-individual differences in behavior or performance...)."
+  sub_heading: "Acquiring appropriate, reliable kinematic measurements can feel like a learning a whole new discipline."
   text_1: "You may find yourself in one of these situations:"
-  text_2: "<strong>Unsure where to start with hardware:</strong> Choosing camera placements, frame rates, and calibration methods without wasting grant funding on unnecessary equipment."
-  text_3: "<strong>Overwhelmed by video and tracking tools:</strong> Deciding whether to invest in expensive commercial tracking platforms or learn to use open-source algorithms."
-  text_4: "<strong>Stuck with raw footage:</strong> Sitting on hundreds of gigabytes of video without a clear, automated workflow to extract biologically meaningful variables."
-  cta_text: "Ready to move your project forward?"
+  text_2: "<strong>Unsure where to start with hardware:</strong> Choosing camera placements, frame rates, and lighting setups adapted to your biological question."
+  text_3: "<strong>Overwhelmed by video tracking tools:</strong> Deciding whether to invest in commercial tracking platforms or use open-source algorithms."
+  text_4: "<strong>Stuck with raw footage:</strong> Sitting on hundreds of gigabytes of video without a clear analytical pipeline to extract meaningful variables."
+  box_conclusion: "This is where Wild Kinematics can help."
+
+  cta_text: "You bring the biological question<br>Wild Kinematics bridges the technical gap"
   list_title: "How Wild Kinematics can help"
   bullet_1: "<strong>Biology always comes first.</strong> Bringing together biological research experience, experimental design, quantitative analysis, and scientific interpretation to help you obtain measurements that are appropriate, reliable, and most relevant to your biological question."
   bullet_2: "<strong>No guesswork.</strong> Whether you want a guiding partner to train your team and set up a practical pipeline, or a specialist to handle some part of the work for you."
@@ -49,10 +55,10 @@ about:
   name: "Camille Le Roy, PhD"
   tagline: "Researcher, Field Biologist, and Biomechanist"
   intro: "Hi, I'm Camille."
-  details_1: "My background is rooted in Ecology and Evolution. Driven by a passion for understanding how animal movement evolves and diversifies, I specialized in combining evolutionary biology with biomechanics, with a focus on the diversification of insect flight."
-  details_2: "To study the evolution of animal movement, I learned the nuts and bolts of quantifying motion: configuring high-speed camera setups, reconstructing 3D trajectories, and extracting biologically meaningful metrics. My research also involved a lot of fieldwork, whereby I've designed setups to capture motion in fully natural settings."
-  details_3: "My career brought me to work closely alongside physicists and aerospace engineers. This gave me deep familiarity with biomechanical tools and engineering principles, giving me a great perspective to bridge the gap between field biology and movement analysis."
+  details_1: "My background is rooted in evolutionary biology. Driven by a passion for understanding how animal movement evolves and diversifies, I specialized in combining ecology and evolution with biomechanics, with a focus on insect flight."
   fun_fact: "<strong>Fun fact:</strong> I originally wanted to become a wildlife filmmaker. I ended up as a researcher, filming animals to decode the evolution of their behavior."
+  details_2: "To study the evolution of animal movement, I learned the nuts and bolts of quantifying motion: configuring high-speed camera setups, reconstructing 3D trajectories, and extracting biologically meaningful metrics. My research also involved a lot of fieldwork, whereby I've designed setups to capture motion in fully natural settings."
+  details_3: "My career brought me to work closely alongside physicists and aerospace engineers. This gave me deep familiarity with biomechanical tools and engineering principles, and hence a great perspective on how to combine biological and engineering approaches."
   conclusion: "I created Wild Kinematics to bring movement quantification within reach for more researchers, helping break down the barriers between ecology, behavior, and biomechanics."
 
 contact:

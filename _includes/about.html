@@ -14,7 +14,8 @@
         <div class="row" style="display: flex; align-items: center; flex-wrap: wrap;">
             
             <div class="col-md-4 text-center" style="margin-bottom: 30px;">
-                <img class="img-circle img-responsive" src="{{ site.baseurl }}/img/moi_field.png" alt="Camille Le Roy" style="border: 7px solid #f1f1f1; margin: 0 auto; max-width: 280px;">
+                <!-- Standard rectangular image (no circular crop) -->
+                <img class="img-responsive" src="{{ site.baseurl }}/img/profile picture balcony black and white zoomed.png" alt="Camille Le Roy" style="border-radius: 8px; margin: 0 auto; max-width: 100%; height: auto; box-shadow: 0 4px 15px rgba(0,0,0,0.08);">
                 
                 <h3 style="color: #000000; font-family: 'EB Garamond', serif; text-transform: none; margin-top: 25px; margin-bottom: 5px; font-weight: 700; font-size: 26px;">
                     {{ t.about.name }}
@@ -35,17 +36,17 @@
                         {{ t.about.details_1 }}
                     </p>
 
+                    <!-- Fun Fact rendered as standard paragraph text -->
+                    <p class="large text-muted" style="font-size: 18px; line-height: 1.7; margin-bottom: 20px;">
+                        {{ t.about.fun_fact }}
+                    </p>
+
                     <p class="large text-muted" style="font-size: 18px; line-height: 1.7; margin-bottom: 20px;">
                         {{ t.about.details_2 }}
                     </p>
 
                     <p class="large text-muted" style="font-size: 18px; line-height: 1.7; margin-bottom: 20px;">
                         {{ t.about.details_3 }}
-                    </p>
-
-                    <!-- Fun Fact rendered as standard paragraph text -->
-                    <p class="large text-muted" style="font-size: 18px; line-height: 1.7; margin-bottom: 20px;">
-                        {{ t.about.fun_fact }}
                     </p>
 
                     <p class="large text-muted" style="font-size: 18px; line-height: 1.7; font-weight: 500;">
