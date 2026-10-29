@@ -34,31 +34,40 @@
                             class="img-responsive challenge-diagram">
                     </div>
 
-                    <!-- Centered Subheading -->
-                    <p class="challenge-centered-subheading" style="margin-top: 50px; margin-bottom: 50px;">
+                    <!-- Subheading -->
+                    <p class="challenge-subheading-text" style="margin-top: 30px; margin-bottom: 40px;">
                         {{ site.data.template.challenge.sub_heading }}
                     </p>
 
-                    <!-- Centered Intro to scenarios (text_1) -->
-                    <p class="challenge-centered-text-1">
-                        {{ site.data.template.challenge.text_1 }}
-                    </p>
+                    <!-- HURDLES SECTION WRAPPED IN THE DARK BOX EFFECT -->
+                    <div style="background-color: #1a1a1a; padding: 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); margin-bottom: 35px;">
+                        
+                        <!-- Intro to scenarios (text_1) -->
+                        <p class="challenge-intro-text" style="color: #ffffff; margin-bottom: 25px;">
+                            {{ site.data.template.challenge.text_1 }}
+                        </p>
 
-                    <!-- Clean, Simple Bullet Items -->
-                    <ul class="challenge-simple-list" style="list-style: disc; padding-left: 20px; margin-bottom: 35px;">
-                        <li class="challenge-simple-item">
-                            {{ site.data.template.challenge.text_2 }}
-                        </li>
-                        <li class="challenge-simple-item">
-                            {{ site.data.template.challenge.text_3 }}
-                        </li>
-                        <li class="challenge-simple-item" style="margin-bottom: 0;">
-                            {{ site.data.template.challenge.text_4 }}
-                        </li>
-                    </ul>
+                        <!-- Clean Bullet Items with custom gold bullets & distinct typography -->
+                        <ul class="challenge-hurdles-list" style="list-style: none; padding-left: 0; margin-bottom: 0;">
+                            <li class="challenge-hurdle-item">
+                                <span class="challenge-bullet-point">•</span>
+                                {{ site.data.template.challenge.text_2 }}
+                            </li>
+                            <li class="challenge-hurdle-item">
+                                <span class="challenge-bullet-point">•</span>
+                                {{ site.data.template.challenge.text_3 }}
+                            </li>
+                            <li class="challenge-hurdle-item" style="margin-bottom: 0;">
+                                <span class="challenge-bullet-point">•</span>
+                                {{ site.data.template.challenge.text_4 }}
+                            </li>
+                        </ul>
 
-                    <!-- Conclusion Text -->
-                    <p class="challenge-box-headline" style="margin-top: 40px; margin-bottom: 45px; font-size: 20px; color: #e5c158; text-align: center;">
+                    </div>
+                    <!-- END HURDLES DARK BOX -->
+
+                    <!-- Conclusion Text (box_conclusion) -->
+                    <p class="challenge-box-headline" style="margin-top: 55px; margin-bottom: 60px; font-size: 22px; color: #e5c158; text-align: center;">
                         {{ site.data.template.challenge.box_conclusion }}
                     </p>
 
@@ -66,11 +75,11 @@
             </div>
         </div>
 
-        <!-- CALL TO ACTION BANNER -->
+        <!-- CALL TO ACTION BANNER (Now the final element of the challenge section) -->
         <div class="challenge-cta-banner">
             <div class="container">
                 <p class="challenge-body-text cta-banner-text"
-                    style="font-weight: 700; font-size: 32px; text-align: center; color: #0b0b0b; margin-bottom: 50px;">
+                    style="font-weight: 700; font-size: 32px; text-align: center; color: #f9fafb; margin-bottom: 50px;">
                     {{ site.data.template.challenge.cta_text }}
                 </p>
 
@@ -79,58 +88,6 @@
                         style="min-width: 260px; text-align: center;">
                         Share your project
                     </a>
-                </div>
-            </div>
-        </div>
-
-        <!-- LOWER SECTION (PROFILE / BIO / HIGHLIGHTS) -->
-        <div class="container" style="padding-top: 80px; padding-bottom: 80px;">
-            <div class="row">
-                <div class="col-xs-12 col-lg-12">
-
-                    <div class="challenge-flex-container"
-                        style="display: flex; align-items: stretch; gap: 40px; margin-bottom: 40px;">
-
-                        <div class="challenge-image-side" style="flex: 0 0 35%; max-width: 350px;">
-                            <img src="{{ site.baseurl }}/img/profile.png" alt="Camille Le Roy"
-                                style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
-                        </div>
-
-                        <div
-                            style="flex: 1; background-color: #1a1a1a; padding: 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
-                            <h4
-                                style="font-size: 26px; font-weight: 700; line-height: 1.4; color: #ffffff; margin-bottom: 25px; font-family: 'Montserrat', sans-serif; text-transform: none;">
-                                {{ site.data.template.challenge.list_title }}
-                            </h4>
-                            <ul style="list-style: none; padding-left: 0; margin-bottom: 0;">
-                                <li
-                                    style="font-size: 18px; line-height: 1.7; color: #d1d5db; margin-bottom: 18px; position: relative; padding-left: 30px;">
-                                    <span
-                                        style="position: absolute; left: 0; top: -4px; color: #e5c158; font-weight: bold; font-size: 28px;">•</span>
-                                    {{ site.data.template.challenge.bullet_1 }}
-                                </li>
-                                <li
-                                    style="font-size: 18px; line-height: 1.7; color: #d1d5db; margin-bottom: 18px; position: relative; padding-left: 30px;">
-                                    <span
-                                        style="position: absolute; left: 0; top: -4px; color: #e5c158; font-weight: bold; font-size: 28px;">•</span>
-                                    {{ site.data.template.challenge.bullet_2 }}
-                                </li>
-                                <li
-                                    style="font-size: 18px; line-height: 1.7; color: #d1d5db; margin-bottom: 18px; position: relative; padding-left: 30px;">
-                                    <span
-                                        style="position: absolute; left: 0; top: -4px; color: #e5c158; font-weight: bold; font-size: 28px;">•</span>
-                                    {{ site.data.template.challenge.bullet_3 }}
-                                </li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                    <p
-                        style="font-size: 20px; font-weight: 600; line-height: 1.8; margin-top: 50px; margin-bottom: 20px; color: #e5c158; text-align: center;">
-                        {{ site.data.template.challenge.final_thought }}
-                    </p>
-
                 </div>
             </div>
         </div>
@@ -150,47 +107,57 @@
         margin-bottom: 20px;
     }
 
-    .challenge-centered-subheading {
+    .challenge-subheading-text {
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
         line-height: 1.6;
         color: #d1d5db;
-        text-align: center;
+        text-align: left;
         margin-top: 35px;
         margin-bottom: 25px;
         font-size: 18px;
     }
 
-    .challenge-centered-text-1 {
+    .challenge-intro-text {
         font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 600;
-        color: #e5c158;
-        text-align: center;
-        margin-bottom: 25px;
-    }
-
-    .challenge-simple-list {
-        color: #d1d5db;
-    }
-
-    .challenge-simple-item {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 16px;
-        line-height: 1.7;
-        color: #d1d5db;
-        margin-bottom: 12px;
-    }
-
-    .challenge-simple-item strong {
         color: #ffffff;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    /* --- Hurdles Box Typography Hierarchy --- */
+    .challenge-hurdle-item {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        line-height: 1.7;
+        color: #b0b0b0;
+        font-weight: 400;
+        margin-bottom: 20px;
+        position: relative;
+        padding-left: 30px;
+    }
+
+    .challenge-hurdle-item strong {
+        color: #ffffff !important;
+        font-weight: 700 !important;
+    }
+
+    .challenge-bullet-point {
+        position: absolute;
+        left: 0;
+        top: -4px;
+        color: #e5c158;
+        font-weight: bold;
+        font-size: 28px;
     }
 
     /* --- Challenge CTA Banner --- */
     .challenge-cta-banner {
-        background-color: #ffffff;
+        background-color: #35594F;
         padding: 70px 20px;
-        margin-top: 60px;
+        margin-top: 0;
         text-align: center;
     }
 
@@ -223,35 +190,24 @@
             font-size: 18px;
         }
 
-        .challenge-centered-subheading {
+        .challenge-subheading-text {
             font-size: 16px;
             margin-top: 25px;
             margin-bottom: 20px;
         }
 
-        .challenge-simple-item {
+        .challenge-hurdle-item {
             font-size: 15px;
         }
 
         .challenge-cta-banner {
             padding: 40px 15px;
-            margin-top: 40px;
+            margin-top: 0;
         }
 
         .cta-banner-text {
             font-size: 24px !important;
             margin-bottom: 30px !important;
-        }
-
-        .challenge-flex-container {
-            flex-direction: column !important;
-            gap: 20px !important;
-        }
-
-        .challenge-image-side {
-            flex: 1 1 100% !important;
-            max-width: 100% !important;
-            text-align: center;
         }
 
         .challenge-diagram {
@@ -265,14 +221,10 @@
             line-height: 1.8;
         }
 
-        .challenge-centered-subheading {
+        .challenge-subheading-text {
             font-size: 20px;
             margin-top: 35px;
             margin-bottom: 25px;
-        }
-
-        .challenge-simple-item {
-            font-size: 17px;
         }
 
         .challenge-diagram {
