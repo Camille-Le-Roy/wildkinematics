@@ -19,16 +19,13 @@ font:
 
 header:
   heading_part1: "<strong>From movement capture to biological insight</strong>"
-  #heading_part1: "<strong>Bringing motion analysis within reach for every biologist</strong>"
-  #heading_part2: "<strong>Capture movement. Understand behavior. Answer biological questions</strong>"
-  #lead_in: "Capture movement. Understand behavior.<br>Answer biological questions"
   lead_in: "Expert guidance on study design, tracking, and kinematic analysis for animal movement research"
 
 challenge:
   intro_summary: "Wild Kinematics helps researchers and organizations design movement studies, capture high-quality motion data, and turn it into meaningful biological insights.<br><br> <strong>Biology comes first: </strong>we help obtaining measurements that are most relevant to your biological question."
   
   box_title: "Why measure behavior through kinematics?"
-  headline: "Subtle maneuvers, escape behavior, or courtship displays often happen too fast or are too nuanced for standard video or observation. Using high-resolution kinematics allows you to extract precise metrics, revealing deeper mechanisms (such as energetic costs, individual performance limits, or fine-scale behavioral variations)."
+  headline: "Subtle maneuvers, escape behavior, or courtship displays often happen too fast or are too subtle for standard video or observation. Using high-resolution kinematics allows you to extract precise metrics, revealing deeper mechanisms (such as energetic costs, individual performance limits, or fine-scale behavioral variations)."
   sub_heading: "The challenge? Acquiring appropriate, reliable kinematic measurements can feel like learning a whole new discipline on top of the science you already do."
   text_1: "Without specialized support, common hurdles arise:"
   text_2: "<strong>Where do I start with hardware?</strong> Choosing camera placements, frame rates, and lighting setups adapted to your biological question."
@@ -39,20 +36,53 @@ challenge:
 
 
 services:
-  title: "Services"
-  subtitle: "How we can work together."
+  heading: "Services"
+  intro_title: "Support at every stage of your research"
+  intro_subtitle: "Are you drafting a grant proposal? Setting up cameras in the lab? Or sitting on hundreds of gigabytes of raw video. Wild Kinematics meets you where you are."
+  checklist_title_audience: "This is for you if:"
+  checklist_title_action: "What we do:"
+  checklist_title_output: "What you get:"
+  request_btn: "Request this"
+  subheading_cta: "Not sure what you need? Let’s chat"
+  btn: "Send a Message"
+  schedule_btn: "Book a discovery call"
+
+  study_plan:
+    #badge: "Focus: strategy, risk reduction and methodology"
+    title: "Study plan review"
+    audience_1: "You are planning a new study, writing a grant proposal, or evaluating an existing workflow and want to make sure your experimental design will actually yield the desired data."
+    action_1: "We help you plan how to capture and quantify animal movement, from recording setup and target metrics to data analysis. We tailor our recommendations to your environment and constraints, helping you minimize risks and ensure your experiment delivers the data you need."
+    output_1: "A 1-on-1 scientific consultation."
+    output_2: "A written assessment detailing potential methodological risks and a recommended workflow tailored to your research goals."
+
+  motion_setup:
+    #badge: "Focus: experimental setup, hardware and calibration"
+    title: "Motion-capture setup guidance"
+    audience_1: "You are getting ready to record live animals and need to design a reliable motion-capture setup in the lab or field."
+    action_1: "We advise on hardware selection, camera positioning, lighting, frame rates, calibration technique, and camera synchronization tailored to the specific movements you need to capture."
+    output_1: "A clear motion-capture setup specification."
+    output_2: "A step-by-step calibration and recording protocol for your team."
+    output_3: "Guidance on 3D spatial reconstruction options suited to your environment."
+
+  video_analysis:
+    #badge: "Focus: tracking pipelines, kinematics and interpretation"
+    title: "Video and data analysis support"
+    audience_1: "You already have video footage or raw trajectory data and need help turning it into meaningful kinematic metrics and results."
+    action_1: "We assist you in extracting 2D/3D positions from video footage, filtering tracking noise, deriving meaningful metrics (velocities, accelerations, body angles), and designing appropriate statistical analyses."
+    output_1: "Tailored support for developing reproducible pipelines (Python/R) built alongside you to fit your specific data and research questions."
+    #output_2: "Clean, extracted kinematic variables ready for statistical testing."
+    output_3: "Scientific support connecting your outputs back to your biological hypotheses."
 
 about:
   heading: "About"
-  #subtitle: "Scientific understanding, from both sides of the data."
   name: "Camille Le Roy, PhD"
   tagline: "Researcher, Field Biologist, and Biomechanist"
   intro: "Hi, I'm Camille."
   details_1: "My background is rooted in evolutionary biology. Driven by a passion for understanding how animal movement evolves and diversifies, I specialized in combining ecology and evolution with biomechanics, with a focus on insect flight."
-  fun_fact: "<strong>Fun fact:</strong> I originally wanted to become a wildlife filmmaker. I ended up as a researcher, filming animals to decode the evolution of their behavior."
-  details_2: "To study the evolution of animal movement, I learned the nuts and bolts of quantifying motion: configuring high-speed camera setups, reconstructing 3D trajectories, and extracting biologically meaningful metrics. My research also involved a lot of fieldwork, whereby I've designed setups to capture motion in fully natural settings."
+  fun_fact: "<strong>Fun fact:</strong> I originally wanted to become a wildlife filmmaker. I ended up as a researcher, filming animals to understand the evolution of their behavior."
+  details_2: "To study the evolution of animal movement, I learned the nuts and bolts of quantifying motion: building high-speed camera setups, reconstructing 3D trajectories, and extracting biologically meaningful metrics. My research also involved a lot of fieldwork, during which I've designed setups to capture motion in fully natural settings."
   details_3: "My career brought me to work closely alongside physicists and aerospace engineers. This gave me deep familiarity with biomechanical tools and engineering principles, and hence a great perspective on how to combine biological and engineering approaches."
-  conclusion: "I created Wild Kinematics to bring movement quantification within reach for more researchers, helping break down the barriers between ecology, behavior, and biomechanics."
+  conclusion: "I created Wild Kinematics to bring movement quantification within reach for more researchers, particularly biologists, helping break down the barriers between ecology, behavior, and biomechanics."
 
 contact:
   heading: "Reach Out"
@@ -66,9 +96,7 @@ contact:
   submit_btn: "Send Message"
   services_label: "Which service(s) are you interested in?"
   options:
-    clarity: "One-Off Coaching Session"
-    accelerator: "Ongoing Coaching"
-    dev_editing: "Substantive Editing"
-    copy_editing: "Copyediting"
-    manuscript_eval: "Manuscript Evaluation"
+    study_plan: "Study Plan Review"
+    motion_setup: "Motion-Capture Setup Guidance"
+    video_analysis: "Video & Data Analysis Support"
     other: "Other"

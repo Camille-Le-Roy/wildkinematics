@@ -216,6 +216,7 @@
                 <li><a href="/wildkinematics/#services">Services</a></li>
                 <li><a href="/wildkinematics/portfolio">Portfolio</a></li>
                 <li><a href="/wildkinematics/publications">Publications</a></li>
+                <li><a href="/wildkinematics/#contact">Contact</a></li>
                 <li><a href="/wildkinematics/#about">About</a></li>
             </ul>
         </div>
@@ -260,15 +261,17 @@
 </header>
 
     <!-- Challenge Section (Renamed from empathy) -->
-    <section id="challenge" class="challenge-section" style="padding-top: 80px; padding-bottom: 0;">
+    <section id="challenge" class="challenge-section" style="padding-top: 0; padding-bottom: 0;">
 
-    <!-- TOP LIGHT SECTION (Intro Summary on original background) -->
-    <div class="container" style="margin-bottom: 60px;">
-        <div class="row">
-            <div class="col-xs-12 col-lg-12">
-                <p class="challenge-body-text" style="color: #0a0a0a; font-weight: 500; font-size: 24px; text-align: center; margin-bottom: 45px;">
-                    Wild Kinematics helps researchers and organizations design movement studies, capture high-quality motion data, and turn it into meaningful biological insights.<br><br> <strong>Biology comes first: </strong>we help obtaining measurements that are most relevant to your biological question.
-                </p>
+    <!-- TOP CREAM SECTION (Intro Summary on same background as Services section) -->
+    <div class="challenge-top-cream-wrapper" style="background-color: #f7f5ee; padding-top: 60px; padding-bottom: 60px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-12">
+                    <p class="challenge-body-text" style="color: #1a1a1a; font-weight: 500; font-size: 24px; text-align: center; margin-bottom: 0;">
+                        Wild Kinematics helps researchers and organizations design movement studies, capture high-quality motion data, and turn it into meaningful biological insights.<br><br> <strong>Biology comes first: </strong>we help obtaining measurements that are most relevant to your biological question.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -287,7 +290,7 @@
 
                     <!-- Headline / Paragraph -->
                     <p class="challenge-body-text" style="color: #d1d5db; margin-bottom: 25px;">
-                        Subtle maneuvers, escape behavior, or courtship displays often happen too fast or are too nuanced for standard video or observation. Using high-resolution kinematics allows you to extract precise metrics, revealing deeper mechanisms (such as energetic costs, individual performance limits, or fine-scale behavioral variations).
+                        Subtle maneuvers, escape behavior, or courtship displays often happen too fast or are too subtle for standard video or observation. Using high-resolution kinematics allows you to extract precise metrics, revealing deeper mechanisms (such as energetic costs, individual performance limits, or fine-scale behavioral variations).
                     </p>
 
                     <!-- Illustration -->
@@ -329,7 +332,7 @@
                     <!-- END HURDLES DARK BOX -->
 
                     <!-- Conclusion Text (box_conclusion) -->
-                    <p class="challenge-box-headline" style="margin-top: 55px; margin-bottom: 60px; font-size: 22px; color: #e5c158; text-align: center;">
+                    <p class="challenge-box-headline" style="margin-top: 55px; margin-bottom: 60px; font-size: 22px; color: #dcb73e; text-align: center;">
                         This is where Wild Kinematics can help.
                     </p>
 
@@ -410,7 +413,7 @@
         position: absolute;
         left: 0;
         top: -4px;
-        color: #e5c158;
+        color: #317d67;
         font-weight: bold;
         font-size: 28px;
     }
@@ -444,8 +447,13 @@
 
     /* --- Responsive Adjustments for Mobile & Desktop --- */
     @media (max-width: 768px) {
-        .challenge-section {
+        .challenge-top-cream-wrapper {
             padding-top: 40px !important;
+            padding-bottom: 40px !important;
+        }
+
+        .challenge-top-cream-wrapper .challenge-body-text {
+            font-size: 18px !important;
         }
 
         .challenge-box-headline {
@@ -504,235 +512,136 @@
 </style>
 
     <!-- Services Section -->
-    
-
-
-
-<section id="services" style="padding-bottom: 0;">
+    <section id="services" style="padding-bottom: 0; background-color: #f7f5ee; padding-top: 80px;">
     <div class="container">
 
-        <!-- COACHING SECTION -->
+        <!-- SERVICES HEADER & INTRO -->
         <div class="row">
-            <div class="col-lg-12 text-center" style="margin-bottom: 50px;">
-                <h2 class="section-heading" style="margin-bottom: 25px;">Coaching Services</h2>
-                <p class="service-subheading" style="font-size: 26px; font-weight: 600; color: #555; margin-top: 20px;">
-                    Get a dedicated research partner in your corner
-                </p>
-            </div>
-        </div>
-
-        <!-- SIDE-BY-SIDE COACHING CARDS -->
-        <div class="row style-service-row flex-row-equal">
-            
-            <!-- 1. RESEARCH CLARITY SESSION -->
-            <div class="col-md-6 style-card-col">
-                <div class="service-vertical-card">
-                    <div class="service-vertical-header">
-                        <h4 class="service-title-text" style="color: #666; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-top: 0; margin-bottom: 15px;">One-off</h4>
-                        
-                        <div class="service-icon-container" style="margin-bottom: 15px;">
-                            <img src="/wildkinematics/img/research_clarity_compass.png" 
-                                 alt="Research Clarity Session" 
-                                 class="service-custom-icon img-responsive">
-                        </div>
-
-                        <h3 class="service-main-heading" style="margin-top: 0; font-size: 24px; font-weight: 700; color: #333;">Research Clarity Session</h3>
-                    </div>
-                    
-                    <div class="service-vertical-body">
-                        <p class="service-description-text">A single coaching session to help you address a specific challenge. Whether you're stuck on your manuscript, facing an upcoming deadline, or simply need clarity on your next steps, you'll leave with professional guidance and a clear way forward.</p>
-                        <div class="service-checklist-container">
-                            <ul class="service-checklist">
-                                <li>One 60-minute session</li>
-                                <li>Pre-session review of your materials</li>
-                                <li>Follow-up check-in to maintain momentum</li>
-                            </ul>
-                        </div>
-                        
-                        <a href="#contact" class="btn btn-sm btn-request-service page-scroll" data-service="clarity">
-                            Request this &rarr;
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 2. PUBLICATION ACCELERATOR -->
-            <div class="col-md-6 style-card-col">
-                <div class="service-vertical-card">
-                    <div class="service-vertical-header">
-                        <h4 class="service-title-text" style="color: #666; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-top: 0; margin-bottom: 15px;">Ongoing</h4>
-                        
-                        <div class="service-icon-container" style="margin-bottom: 15px;">
-                            <img src="/wildkinematics/img/publication_accelerator_blue2.png" 
-                                 alt="Publication Accelerator" 
-                                 class="service-custom-icon img-responsive">
-                        </div>
-
-                        <h3 class="service-main-heading" style="margin-top: 0; font-size: 24px; font-weight: 700; color: #333;">Publication Accelerator</h3>
-                    </div>
-                    
-                    <div class="service-vertical-body">
-                        <p class="service-description-text">This ongoing coaching program gives you a dedicated partner to help you build momentum, strengthen your manuscript, and confidently move toward publication.</p>
-                        <div class="service-checklist-container">
-                            <ul class="service-checklist">
-                                <li>Two 60-minute online coaching sessions per month</li>
-                                <li>Draft review before each session</li>
-                                <li>Unlimited support via messaging</li>
-                                <li>Exclusive rates on editing services</li>
-                            </ul>
-                        </div>
-
-                        <a href="#contact" class="btn btn-sm btn-request-service page-scroll" data-service="accelerator">
-                            Request this &rarr;
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <!-- EDITING SECTION -->
-        <div class="row" style="margin-top: 60px;">
-            <div class="col-lg-12 text-center" style="margin-bottom: 75px; margin-top: 75px">
-                <h2 class="section-heading" style="margin-bottom: 25px;">
-                    Editing Services
+            <div class="col-lg-12 text-center" style="margin-bottom: 60px;">
+                <h2 class="section-heading" style="margin-bottom: 25px; margin-top: 65px; color: #1a1a1a; font-family: 'Montserrat', sans-serif; font-weight: 700;">
+                    Services
                 </h2>
-                <p class="service-subheading" style="font-size: 26px; font-weight: 600; color: #555; margin-top: 20px;">
-                    Get the right level of support for your manuscript
+                <p class="service-main-intro-title" style="font-size: 30px; font-weight: 700; color: #1a1a1a; margin-bottom: 20px; font-family: 'Montserrat', sans-serif;">
+                    Support at every stage of your research
+                </p>
+                <p class="service-main-intro-subtitle" style="font-size: 18px; line-height: 1.7; color: #555; max-width: 850px; margin: 0 auto; font-family: 'Montserrat', sans-serif;">
+                    Are you drafting a grant proposal? Setting up cameras in the lab? Or sitting on hundreds of gigabytes of raw video. Wild Kinematics meets you where you are.
                 </p>
             </div>
         </div>
 
-        <!-- SIDE-BY-SIDE EDITING CARDS (DEV EDITING & COPY EDITING) -->
-        <div class="row style-service-row flex-row-equal">
+        <!-- HORIZONTAL SERVICE CARDS CONTAINER -->
+        <div class="services-horizontal-container">
             
-            <!-- DEVELOPMENTAL EDITING -->
-            <div class="col-md-6 style-card-col">
-                <div class="service-vertical-card">
-                    <div class="service-vertical-header">
-                        <h4 class="service-title-text" style="color: #666; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-top: 0; margin-bottom: 15px;">Advanced</h4>
-                        
-                        <div class="service-icon-container" style="margin-bottom: 15px;">
-                            <img src="/wildkinematics/img/substantive editing blue.png" 
-                                 alt="Developmental Editing" 
-                                 class="service-custom-icon img-responsive">
-                        </div>
-
-                        <h3 class="service-main-heading" style="margin-top: 0; font-size: 24px; font-weight: 700; color: #333;">Substantive editing</h3>
+            <!-- 1. STUDY PLAN REVIEW -->
+            <div class="service-horizontal-card">
+                <div class="service-card-left">
+                    <h3 class="service-title">Study plan review</h3>
+                    <div class="service-icon-wrapper">
+                        <img src="/wildkinematics/img/research_clarity_compass.png" alt="Study plan review" class="img-responsive service-icon">
                     </div>
-                    
-                    <div class="service-vertical-body">
-                        <p class="service-description-text">I'll provide personalized feedback and editing suggestions on structure, argumentation, and figures to make your scientific story clear, coherent, and compelling.</p>
-                        <div class="service-checklist-container">
-                            <h5 class="checklist-title">Right for you if:</h5>
-                            <ul class="service-checklist">
-                                <li>You’re submitting a thesis, manuscript, or grant proposal, and want the best chance of success</li>
-                                <li>Your results are solid, but the manuscript still feels unclear or difficult to structure.</li>
-                                <li>You want your paper to tell a compelling scientific story, instead of a collection of disconnected results.</li>
-                                <li>You need a fresh, professional perspective after spending too long inside the same draft.</li>
-                            </ul>
-                        </div>
-
-                        <a href="#contact" class="btn btn-sm btn-request-service page-scroll" data-service="dev_editing">
-                            Request this &rarr;
-                        </a>
+                    <a href="#contact" class="btn btn-request-horizontal page-scroll" data-service="study_plan">
+                        Request this &rarr;
+                    </a>
+                </div>
+                <div class="service-card-right">
+                    <div class="service-content-block">
+                        <h5 class="service-block-heading">This is for you if:</h5>
+                        <p class="service-block-text">You are planning a new study, writing a grant proposal, or evaluating an existing workflow and want to make sure your experimental design will actually yield the desired data.</p>
+                    </div>
+                    <div class="service-content-block">
+                        <h5 class="service-block-heading">What we do:</h5>
+                        <p class="service-block-text">We help you plan how to capture and quantify animal movement, from recording setup and target metrics to data analysis. We tailor our recommendations to your environment and constraints, helping you minimize risks and ensure your experiment delivers the data you need.</p>
+                    </div>
+                    <div class="service-content-block" style="margin-bottom: 0;">
+                        <h5 class="service-block-heading">What you get:</h5>
+                        <ul class="service-list">
+                            <li>A 1-on-1 scientific consultation.</li>
+                            <li>A written assessment detailing potential methodological risks and a recommended workflow tailored to your research goals.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
 
-            <!-- COPY EDITING -->
-            <div class="col-md-6 style-card-col">
-                <div class="service-vertical-card">
-                    <div class="service-vertical-header">
-                        <h4 class="service-title-text" style="color: #666; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-top: 0; margin-bottom: 15px;">Basic</h4>
-                        
-                        <div class="service-icon-container" style="margin-bottom: 15px;">
-                            <img src="/wildkinematics/img/logo_copy_editing.png" 
-                                 alt="Copy Editing" 
-                                 class="service-custom-icon img-responsive">
-                        </div>
-
-                        <h3 class="service-main-heading" style="margin-top: 0; font-size: 24px; font-weight: 700; color: #333;">Copyediting</h3>
+            <!-- 2. MOTION-CAPTURE SETUP GUIDANCE -->
+            <div class="service-horizontal-card">
+                <div class="service-card-left">
+                    <h3 class="service-title">Motion-capture setup guidance</h3>
+                    <div class="service-icon-wrapper">
+                        <img src="/wildkinematics/img/publication_accelerator_blue2.png" alt="Motion-capture setup guidance" class="img-responsive service-icon">
                     </div>
-                    
-                    <div class="service-vertical-body">
-                        <p class="service-description-text">I’ll refine the wording, coherence, language, and formatting to make your manuscript clearer and more enjoyable to read.</p>
-                        <div class="service-checklist-container">
-                            <h5 class="checklist-title">Right for you if:</h5>
-                            <ul class="service-checklist">
-                                <li>Your thesis, manuscript, or grant proposal is nearly there and only needs final refinements before submission.</li>
-                                <li>Your ideas and results are well organized but need polishing for clarity and flow.</li>
-                                <li>You want the language to remain concise, coherent, and consistent throughout the manuscript.</li>
-                                <li>You need the document formatted according to journal or university guidelines.</li>
-                            </ul>
-                        </div>
-
-                        <a href="#contact" class="btn btn-sm btn-request-service page-scroll" data-service="copy_editing">
-                            Request this &rarr;
-                        </a>
+                    <a href="#contact" class="btn btn-request-horizontal page-scroll" data-service="motion_setup">
+                        Request this &rarr;
+                    </a>
+                </div>
+                <div class="service-card-right">
+                    <div class="service-content-block">
+                        <h5 class="service-block-heading">This is for you if:</h5>
+                        <p class="service-block-text">You are getting ready to record live animals and need to design a reliable motion-capture setup in the lab or field.</p>
+                    </div>
+                    <div class="service-content-block">
+                        <h5 class="service-block-heading">What we do:</h5>
+                        <p class="service-block-text">We advise on hardware selection, camera positioning, lighting, frame rates, calibration technique, and camera synchronization tailored to the specific movements you need to capture.</p>
+                    </div>
+                    <div class="service-content-block" style="margin-bottom: 0;">
+                        <h5 class="service-block-heading">What you get:</h5>
+                        <ul class="service-list">
+                            <li>A clear motion-capture setup specification.</li>
+                            <li>A step-by-step calibration and recording protocol for your team.</li>
+                            <li>Guidance on 3D spatial reconstruction options suited to your environment.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
 
-        </div>
-
-        <div class="row">
-            <div class="col-lg-12 text-center" style="margin-top: 30px; margin-bottom: 50px;">
-                <p class="service-subheading" style="font-size: 26px; font-weight: 600; color: #555; margin-top: 20px;">
-                    Feeling stuck but want to revise yourself?<br>Get a manuscript evaluation
-                </p>
-            </div>
-        </div>
-
-        <!-- MANUSCRIPT EVALUATION (CENTERED VERTICAL CARD) -->
-        <div class="row style-service-row">
-            <div class="col-md-6 col-md-offset-3 style-card-col">
-                <div class="service-vertical-card">
-                    <div class="service-vertical-header">
-                        <div class="service-icon-container" style="margin-bottom: 15px;">
-                            <img src="/wildkinematics/img/logo_manuscript_eval.png" 
-                                 alt="Manuscript Evaluation" 
-                                 class="service-custom-icon img-responsive">
-                        </div>
-
-                        <h3 class="service-main-heading" style="margin-top: 0; font-size: 24px; font-weight: 700; color: #333;">Manuscript evaluation</h3>
+            <!-- 3. VIDEO AND DATA ANALYSIS PIPELINE SUPPORT -->
+            <div class="service-horizontal-card">
+                <div class="service-card-left">
+                    <h3 class="service-title">Video and data analysis support</h3>
+                    <div class="service-icon-wrapper">
+                        <img src="/wildkinematics/img/substantive editing blue.png" alt="Video and data analysis pipeline support" class="img-responsive service-icon">
                     </div>
-                    
-                    <div class="service-vertical-body">
-                        <p class="service-description-text">I'll not edit your manuscript, but I will read through the draft carefully and provide feedback on the scientific narrative, structure, clarity, language, and overall flow of the paper.</p>
-                        <div class="service-checklist-container">
-                            <h5 class="checklist-title">Right for you if:</h5>
-                            <ul class="service-checklist">
-                                <li>You want to better understand the strengths and weaknesses of your draft.</li>
-                                <li>You want detailed feedback before revising the manuscript yourself with confidence.</li>
-                                <li>You need a fresh pair of eyes to review the manuscript in depth.</li>
-                                <li>You want to maximize the chances of success for your manuscript or grant proposal.</li>
-                            </ul>
-                        </div>
-
-                        <a href="#contact" class="btn btn-sm btn-request-service page-scroll" data-service="manuscript_eval">
-                            Request this &rarr;
-                        </a>
+                    <a href="#contact" class="btn btn-request-horizontal page-scroll" data-service="video_analysis">
+                        Request this &rarr;
+                    </a>
+                </div>
+                <div class="service-card-right">
+                    <div class="service-content-block">
+                        <h5 class="service-block-heading">This is for you if:</h5>
+                        <p class="service-block-text">You already have video footage or raw trajectory data and need help turning it into meaningful kinematic metrics and results.</p>
+                    </div>
+                    <div class="service-content-block">
+                        <h5 class="service-block-heading">What we do:</h5>
+                        <p class="service-block-text">We assist you in extracting 2D/3D positions from video footage, filtering tracking noise, deriving meaningful metrics (velocities, accelerations, body angles), and designing appropriate statistical analyses.</p>
+                    </div>
+                    <div class="service-content-block" style="margin-bottom: 0;">
+                        <h5 class="service-block-heading">What you get:</h5>
+                        <ul class="service-list">
+                            <li>Tailored support for developing reproducible pipelines (Python/R) built alongside you to fit your specific data and research questions.</li>
+                            <li></li>
+                            <li>Scientific support connecting your outputs back to your biological hypotheses.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
+
         </div>
 
     </div>
 
-    <!-- ISOLATED BLUE CTA BANNER FOR SERVICES CTA -->
-    <div class="services-cta-banner">
+    <!-- FOREST GREEN SERVICES CTA BANNER -->
+    <div class="services-cta-banner" style="background-color: #35594F; padding: 70px 20px; margin-top: 80px; text-align: center;">
         <div class="container">
-            <p class="services-highlight-text" style="font-weight: 700; text-align: center; color: #f8fafc; margin-bottom: 60px;">
-                Not sure what you need? Let's chat
+            <p class="services-highlight-text" style="font-weight: 700; font-size: 32px; text-align: center; color: #f9fafb; margin-bottom: 40px; font-family: 'Montserrat', sans-serif;">
+                Not sure what you need? Let’s chat
             </p>
 
             <div class="header-buttons" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
-                <a href="#contact" class="page-scroll btn btn-xl btn-header btn-services-white" style="min-width: 280px; text-align: center;">
-                    Message Me
+                <a href="#contact" class="page-scroll btn btn-xl btn-header btn-services-white" style="min-width: 260px; text-align: center;">
+                    Send a Message
                 </a>
-                <a href="https://tidycal.com/camilleleroy/free-15-minute-call" class="btn btn-xl btn-header btn-services-outline" target="_blank" style="min-width: 280px; text-align: center;">
-                    Book a Discovery Call
+                <a href="https://tidycal.com/camilleleroy/free-15-minute-call" class="btn btn-xl btn-header btn-services-outline" target="_blank" style="min-width: 260px; text-align: center;">
+                    Book a discovery call
                 </a>
             </div>
         </div>
@@ -740,197 +649,206 @@
 </section>
 
 <style>
-    /* --- Service Card Request Button (Centered, Solid Blue) --- */
-    .btn-request-service {
-        display: inline-block;
-        margin-top: 25px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 10px 24px;
-        background-color: #3F6E93;
-        color: #ffffff !important;
-        border: 2px solid #3F6E93;
-        border-radius: 6px;
-        font-weight: 700;
-        font-size: 14px;
-        text-align: center;
-        transition: all 0.2s ease-in-out;
-    }
-
-    .btn-request-service:hover {
-        background-color: #2b4c66;
-        border-color: #2b4c66;
-        color: #ffffff !important;
-        text-decoration: none;
-    }
-
-    /* --- Services Blue Bottom Banner --- */
-    .services-cta-banner {
-        background-color: #3F6E93;
-        padding: 70px 20px;
-        margin-top: 60px;
-        text-align: center;
-    }
-
-    .services-cta-banner .services-highlight-text {
-        font-size: 28px;
-        line-height: 1.4;
-        max-width: 900px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    /* Primary White Button on Blue Banner */
-    .btn-services-white {
-        background-color: #ffffff !important;
-        color: #3F6E93 !important;
-        border: 2px solid #ffffff !important;
-        font-weight: 700;
-    }
-
-    .btn-services-white:hover {
-        background-color: #f0f4f8 !important;
-        color: #2b4c66 !important;
-        border-color: #f0f4f8 !important;
-    }
-
-    /* Secondary Dark Blue Button on Blue Banner */
-    .btn-services-outline {
-        background-color: #2b4c66 !important;
-        color: #ffffff !important;
-        border: 2px solid #2b4c66 !important;
-        font-weight: 700;
-    }
-
-    .btn-services-outline:hover {
-        background-color: #1e3649 !important;
-        border-color: #1e3649 !important;
-        color: #ffffff !important;
-    }
-
-    .style-service-row { margin-bottom: 40px; }
-
-    /* Desktop Equal Height Flex Layout */
-    @media (min-width: 768px) {
-        .flex-row-equal {
-            display: flex;
-            flex-wrap: wrap;
-        }
-        .style-card-col {
-            display: flex;
-            flex-direction: column;
-            margin-bottom: 30px;
-        }
-        .service-vertical-card {
-            height: 100%;
-        }
-    }
-
-    /* Vertical Card Layout */
-    .service-vertical-card {
+    /* --- Horizontal Cards Layout Styles --- */
+    .services-horizontal-container {
         display: flex;
         flex-direction: column;
+        gap: 35px;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .service-horizontal-card {
+        display: flex;
         background: #ffffff;
-        border: 1px solid #eef2f5;
-        border-top: 4px solid #3F6E93;
+        border: 1px solid #e5e7eb;
         border-radius: 12px;
-        padding: 35px 30px;
-        width: 100%;
-        box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.05), 
-                    0 2px 6px -1px rgba(0, 0, 0, 0.02); 
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
         transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease;
+        overflow: hidden;
     }
 
-    .service-vertical-card:hover {
-        transform: translateY(-6px);
-        box-shadow: 0 20px 40px -10px rgba(63, 110, 147, 0.15), 
-                    0 4px 12px rgba(0, 0, 0, 0.03);
-        border-color: #cbd5e1;
-        border-top-color: #2b4c66;
+    .service-horizontal-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 16px 35px rgba(53, 89, 79, 0.12);
+        border-color: #35594F;
     }
 
-    .service-vertical-header {
-        text-align: center;
-        padding-bottom: 20px;
-        margin-bottom: 20px;
-        border-bottom: 1px solid #eee;
+    /* Left Side of Card (Title, Icon, Button) */
+    .service-card-left {
+        flex: 0 0 320px;
+        background-color: #fafaf7;
+        padding: 35px 30px;
+        border-right: 1px solid #f0f0eb;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: flex-end;
+        text-align: center;
+        justify-content: space-between;
     }
 
-    .service-vertical-body {
-        display: flex;
-        flex-direction: column;
-        flex: 1;
+    .service-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        color: #111827;
+        margin-top: 0;
+        margin-bottom: 20px;
+        line-height: 1.3;
     }
 
-    .service-vertical-body .service-description-text {
-        flex-grow: 1;
-    }
-
-    .service-vertical-body .service-checklist-container {
-        margin-top: auto;
-    }
-
-    /* Shared Icon Settings */
-    .service-icon-container {
+    .service-icon-wrapper {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 25px;
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 100px;
-        height: 100px;
     }
 
-    .service-custom-icon {
-        width: 100px;
-        height: 100px;
+    .service-icon {
+        width: 80px;
+        height: 80px;
         border-radius: 50%;
         object-fit: cover;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
     }
 
-    .service-description-text { font-size: 17px; line-height: 1.7; color: #555; margin-bottom: 25px; }
-
-    .service-checklist-container { 
-        background-color: #fafbfc; 
-        padding: 25px 30px; 
-        border-radius: 8px;
+    .btn-request-horizontal {
+        background-color: #35594F !important;
+        color: #ffffff !important;
+        border: 2px solid #35594F !important;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        padding: 10px 20px;
+        border-radius: 6px;
+        width: 100%;
+        transition: all 0.2s ease;
     }
 
-    .checklist-title { font-size: 16px; font-weight: 700; color: #333; margin-top: 0; margin-bottom: 15px; letter-spacing: 0.5px; text-transform: none; }
+    .btn-request-horizontal:hover {
+        background-color: #26413a !important;
+        border-color: #26413a !important;
+        color: #ffffff !important;
+        text-decoration: none;
+    }
 
-    .service-checklist { list-style: none; padding-left: 0; margin-bottom: 0; }
+    /* Right Side of Card (Details / Sub-blocks) */
+    .service-card-right {
+        flex: 1;
+        padding: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #ffffff;
+    }
 
-    .service-checklist li { font-size: 15px; line-height: 1.6; color: #666; margin-bottom: 12px; position: relative; padding-left: 28px; }
+    .service-content-block {
+        margin-bottom: 22px;
+    }
 
-    .service-checklist li::before { content: "✓"; position: absolute; left: 0; top: -1px; color: #3F6E93; font-weight: 900; font-size: 18px; }
+    .service-block-heading {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        color: #35594F;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-top: 0;
+        margin-bottom: 6px;
+    }
 
-    /* Mobile Responsive Overrides */
+    .service-block-text {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        line-height: 1.6;
+        color: #4b5563;
+        margin-bottom: 0;
+    }
+
+    .service-list {
+        list-style: none;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    .service-list li {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        line-height: 1.6;
+        color: #4b5563;
+        margin-bottom: 6px;
+        position: relative;
+        padding-left: 24px;
+    }
+
+    .service-list li::before {
+        content: "✓";
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: #bda040;
+        font-weight: 900;
+        font-size: 16px;
+    }
+
+    /* --- Banner Buttons --- */
+    .btn-services-white {
+        background-color: #bda040 !important;
+        color: #000000 !important;
+        border: 2px solid #bda040 !important;
+        font-weight: 700;
+    }
+
+    .btn-services-white:hover {
+        background-color: #a88d35 !important;
+        color: #35594F !important;
+        border-color: #a88d35 !important;
+    }
+
+    .btn-services-outline {
+        background-color: transparent !important;
+        color: #ffffff !important;
+        border: 2px solid #ffffff !important;
+        font-weight: 700;
+    }
+
+    .btn-services-outline:hover {
+        background-color: rgba(255, 255, 255, 0.1) !important;
+        color: #ffffff !important;
+        border-color: #ffffff !important;
+    }
+
+    /* --- Responsive Stack on Mobile --- */
     @media (max-width: 768px) {
-        .style-card-col { margin-bottom: 25px; }
-        .service-description-text { font-size: 16px; }
-        .service-checklist-container { padding: 20px; }
-        .service-checklist li { font-size: 15px; }
-        
-        .service-icon-container {
-            width: 80px;
-            height: 80px;
+        .service-horizontal-card {
+            flex-direction: column;
         }
 
-        .service-custom-icon {
-            width: 80px;
-            height: 80px;
+        .service-card-left {
+            flex: none;
+            border-right: none;
+            border-bottom: 1px solid #f0f0eb;
+            padding: 25px 20px;
+        }
+
+        .service-card-right {
+            padding: 25px 20px;
+        }
+
+        .service-title {
+            font-size: 20px;
         }
 
         .services-cta-banner {
-            padding: 50px 15px;
-            margin-top: 40px;
+            padding: 50px 15px !important;
+            margin-top: 50px !important;
         }
 
-        .services-cta-banner .services-highlight-text {
-            font-size: 22px;
+        .services-highlight-text {
+            font-size: 24px !important;
+            margin-bottom: 30px !important;
         }
     }
 </style>
@@ -976,11 +894,11 @@
 
                     <!-- Fun Fact rendered as standard paragraph text -->
                     <p class="large text-muted" style="font-size: 18px; line-height: 1.7; margin-bottom: 20px;">
-                        <strong>Fun fact:</strong> I originally wanted to become a wildlife filmmaker. I ended up as a researcher, filming animals to decode the evolution of their behavior.
+                        <strong>Fun fact:</strong> I originally wanted to become a wildlife filmmaker. I ended up as a researcher, filming animals to understand the evolution of their behavior.
                     </p>
 
                     <p class="large text-muted" style="font-size: 18px; line-height: 1.7; margin-bottom: 20px;">
-                        To study the evolution of animal movement, I learned the nuts and bolts of quantifying motion: configuring high-speed camera setups, reconstructing 3D trajectories, and extracting biologically meaningful metrics. My research also involved a lot of fieldwork, whereby I've designed setups to capture motion in fully natural settings.
+                        To study the evolution of animal movement, I learned the nuts and bolts of quantifying motion: building high-speed camera setups, reconstructing 3D trajectories, and extracting biologically meaningful metrics. My research also involved a lot of fieldwork, during which I've designed setups to capture motion in fully natural settings.
                     </p>
 
                     <p class="large text-muted" style="font-size: 18px; line-height: 1.7; margin-bottom: 20px;">
@@ -988,7 +906,7 @@
                     </p>
 
                     <p class="large text-muted" style="font-size: 18px; line-height: 1.7; font-weight: 500;">
-                        I created Wild Kinematics to bring movement quantification within reach for more researchers, helping break down the barriers between ecology, behavior, and biomechanics.
+                        I created Wild Kinematics to bring movement quantification within reach for more researchers, particularly biologists, helping break down the barriers between ecology, behavior, and biomechanics.
                     </p>
                 </div>
             </div>
@@ -1010,7 +928,7 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <div id="success" data-fs-success style="color: #3F6E93; margin-bottom: 50px;" class="text-center">
+                <div id="success" data-fs-success style="color: #35594F; margin-bottom: 50px;" class="text-center">
                     <h3>Thank you!</h3>
                     <p class="large">Your message has been sent. I will get back to you shortly.</p>
                 </div>
@@ -1046,28 +964,18 @@
                                 
                                 <div class="checkbox-grid">
                                     <label class="checkbox-item">
-                                        <input type="checkbox" name="services[]" value="clarity" id="service-clarity">
-                                        <span>One-Off Coaching Session</span>
+                                        <input type="checkbox" name="services[]" value="study_plan" id="service-study_plan">
+                                        <span>Study Plan Review</span>
                                     </label>
 
                                     <label class="checkbox-item">
-                                        <input type="checkbox" name="services[]" value="accelerator" id="service-accelerator">
-                                        <span>Ongoing Coaching</span>
+                                        <input type="checkbox" name="services[]" value="motion_setup" id="service-motion_setup">
+                                        <span>Motion-Capture Setup Guidance</span>
                                     </label>
 
                                     <label class="checkbox-item">
-                                        <input type="checkbox" name="services[]" value="dev_editing" id="service-dev_editing">
-                                        <span>Substantive Editing</span>
-                                    </label>
-
-                                    <label class="checkbox-item">
-                                        <input type="checkbox" name="services[]" value="copy_editing" id="service-copy_editing">
-                                        <span>Copyediting</span>
-                                    </label>
-
-                                    <label class="checkbox-item">
-                                        <input type="checkbox" name="services[]" value="manuscript_eval" id="service-manuscript_eval">
-                                        <span>Manuscript Evaluation</span>
+                                        <input type="checkbox" name="services[]" value="video_analysis" id="service-video_analysis">
+                                        <span>Video & Data Analysis Support</span>
                                     </label>
 
                                     <label class="checkbox-item">
@@ -1148,7 +1056,7 @@
 
     .checkbox-grid {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         column-gap: 15px;
         row-gap: 10px;
         flex: 1;
@@ -1176,7 +1084,7 @@
     .checkbox-item input[type="checkbox"] {
         width: 16px;
         height: 16px;
-        accent-color: #3F6E93;
+        accent-color: #35594F;
         cursor: pointer;
         margin: 0;
         flex-shrink: 0;
@@ -1194,13 +1102,13 @@
     }
 
     .submit-btn-wrapper {
-        margin-top: 20px;
+        margin-top: 45px; /* Increased spacing above button */
     }
 
     /* Mobile Responsive Optimizations (< 768px) */
     @media (max-width: 767px) {
         .contact-row-desktop {
-            display: block; /* Standard flow for clean stacked layout */
+            display: block;
         }
 
         .form-field-wrapper {
@@ -1208,8 +1116,8 @@
         }
 
         .form-field-wrapper input {
-            min-height: 56px; /* Optimized height for mobile screens */
-            font-size: 16px; /* Prevents auto-zoom on iOS */
+            min-height: 56px;
+            font-size: 16px;
         }
 
         .service-selection-container {
@@ -1219,12 +1127,12 @@
         }
 
         .checkbox-grid {
-            grid-template-columns: 1fr; /* Single column for easy tapping */
+            grid-template-columns: 1fr;
             row-gap: 8px;
         }
 
         .checkbox-item {
-            padding: 10px 8px; /* Taller touch targets */
+            padding: 10px 8px;
             font-size: 15px;
         }
 
@@ -1243,11 +1151,11 @@
         }
 
         .submit-btn-wrapper {
-            margin-top: 25px;
+            margin-top: 35px;
         }
 
         .submit-btn-wrapper button {
-            width: 100%; /* Full-width button on mobile */
+            width: 100%;
             padding: 14px 0;
         }
     }
@@ -1286,7 +1194,7 @@
     }
 
     document.addEventListener('click', function(e) {
-        const btn = e.target.closest('.btn-request-service');
+        const btn = e.target.closest('.btn-request-horizontal');
         if (btn) {
             handleServiceCheck(btn);
         }

@@ -2,24 +2,24 @@
 {% if page.url contains '/fr/' %}
   {% assign lang = "fr" %}
 {% endif %}
-{% assign t = site.data.locales[lang] %}
+{% assign t = site.data.template.contact %}
 
 <section id="contact">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading" style="margin-bottom: 50px;">{{ t.contact.heading }}</h2>
+                <h2 class="section-heading" style="margin-bottom: 50px;">{{ t.heading }}</h2>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <div id="success" data-fs-success style="color: #3F6E93; margin-bottom: 50px;" class="text-center">
-                    <h3>{{ t.contact.success_title }}</h3>
-                    <p class="large">{{ t.contact.success_msg }}</p>
+                <div id="success" data-fs-success style="color: #35594F; margin-bottom: 50px;" class="text-center">
+                    <h3>{{ t.success_title }}</h3>
+                    <p class="large">{{ t.success_msg }}</p>
                 </div>
 
                 <div id="error" data-fs-error style="color: #d9534f; font-weight: bold; margin-bottom: 20px;" class="text-center">
-                    <p>{{ t.contact.error_msg }}</p>
+                    <p>{{ t.error_msg }}</p>
                 </div>
 
                 <form id="contactForm" novalidate>
@@ -28,15 +28,15 @@
                         <!-- LEFT COLUMN: Contact Details -->
                         <div class="col-md-6 left-inputs-col">
                             <div class="control-group form-group form-field-wrapper">
-                                <input type="text" name="name" class="form-control" placeholder="{{ t.contact.name_placeholder }}" id="name" required data-fs-field>
+                                <input type="text" name="name" class="form-control" placeholder="{{ t.name_placeholder }}" id="name" required data-fs-field>
                                 <span data-fs-error="name" class="text-danger"></span>
                             </div>
                             <div class="control-group form-group form-field-wrapper">
-                                <input type="email" name="email" class="form-control" placeholder="{{ t.contact.email_placeholder }}" id="email" required data-fs-field>
+                                <input type="email" name="email" class="form-control" placeholder="{{ t.email_placeholder }}" id="email" required data-fs-field>
                                 <span data-fs-error="email" class="text-danger"></span>
                             </div>
                             <div class="control-group form-group form-field-wrapper">
-                                <input type="text" name="referral" class="form-control" placeholder="{{ t.contact.referral_placeholder }}" id="referral" data-fs-field>
+                                <input type="text" name="referral" class="form-control" placeholder="{{ t.referral_placeholder }}" id="referral" data-fs-field>
                             </div>
                         </div>
                         
@@ -44,38 +44,28 @@
                         <div class="col-md-6 right-services-col">
                             <div class="form-group service-selection-container">
                                 <label class="services-label">
-                                    {{ t.contact.services_label }}
+                                    {{ t.services_label }}
                                 </label>
                                 
                                 <div class="checkbox-grid">
                                     <label class="checkbox-item">
-                                        <input type="checkbox" name="services[]" value="clarity" id="service-clarity">
-                                        <span>{{ t.contact.options.clarity }}</span>
+                                        <input type="checkbox" name="services[]" value="study_plan" id="service-study_plan">
+                                        <span>{{ t.options.study_plan }}</span>
                                     </label>
 
                                     <label class="checkbox-item">
-                                        <input type="checkbox" name="services[]" value="accelerator" id="service-accelerator">
-                                        <span>{{ t.contact.options.accelerator }}</span>
+                                        <input type="checkbox" name="services[]" value="motion_setup" id="service-motion_setup">
+                                        <span>{{ t.options.motion_setup }}</span>
                                     </label>
 
                                     <label class="checkbox-item">
-                                        <input type="checkbox" name="services[]" value="dev_editing" id="service-dev_editing">
-                                        <span>{{ t.contact.options.dev_editing }}</span>
-                                    </label>
-
-                                    <label class="checkbox-item">
-                                        <input type="checkbox" name="services[]" value="copy_editing" id="service-copy_editing">
-                                        <span>{{ t.contact.options.copy_editing }}</span>
-                                    </label>
-
-                                    <label class="checkbox-item">
-                                        <input type="checkbox" name="services[]" value="manuscript_eval" id="service-manuscript_eval">
-                                        <span>{{ t.contact.options.manuscript_eval }}</span>
+                                        <input type="checkbox" name="services[]" value="video_analysis" id="service-video_analysis">
+                                        <span>{{ t.options.video_analysis }}</span>
                                     </label>
 
                                     <label class="checkbox-item">
                                         <input type="checkbox" name="services[]" value="other" id="service-other">
-                                        <span>{{ t.contact.options.other }}</span>
+                                        <span>{{ t.options.other }}</span>
                                     </label>
                                 </div>
                             </div>
@@ -84,14 +74,14 @@
                         <!-- FULL WIDTH BOTTOM ROW: Message Textarea -->
                         <div class="col-lg-12 col-md-12 message-col">
                             <div class="control-group form-group" style="margin-bottom: 0; width: 100%;">
-                                <textarea name="message" class="form-control message-textarea" placeholder="{{ t.contact.message_placeholder }}" id="message" required data-fs-field></textarea>
+                                <textarea name="message" class="form-control message-textarea" placeholder="{{ t.message_placeholder }}" id="message" required data-fs-field></textarea>
                                 <span data-fs-error="message" class="text-danger"></span>
                             </div>
                         </div>
                         
                         <div class="clearfix"></div>
                         <div class="col-lg-12 text-center submit-btn-wrapper">
-                            <button type="submit" class="btn btn-xl" data-fs-submit-btn>{{ t.contact.submit_btn }}</button>
+                            <button type="submit" class="btn btn-xl" data-fs-submit-btn>{{ t.submit_btn }}</button>
                         </div>
                     </div>
                 </form>
@@ -151,7 +141,7 @@
 
     .checkbox-grid {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         column-gap: 15px;
         row-gap: 10px;
         flex: 1;
@@ -179,7 +169,7 @@
     .checkbox-item input[type="checkbox"] {
         width: 16px;
         height: 16px;
-        accent-color: #3F6E93;
+        accent-color: #35594F;
         cursor: pointer;
         margin: 0;
         flex-shrink: 0;
@@ -197,13 +187,13 @@
     }
 
     .submit-btn-wrapper {
-        margin-top: 20px;
+        margin-top: 45px; /* Increased spacing above button */
     }
 
     /* Mobile Responsive Optimizations (< 768px) */
     @media (max-width: 767px) {
         .contact-row-desktop {
-            display: block; /* Standard flow for clean stacked layout */
+            display: block;
         }
 
         .form-field-wrapper {
@@ -211,8 +201,8 @@
         }
 
         .form-field-wrapper input {
-            min-height: 56px; /* Optimized height for mobile screens */
-            font-size: 16px; /* Prevents auto-zoom on iOS */
+            min-height: 56px;
+            font-size: 16px;
         }
 
         .service-selection-container {
@@ -222,12 +212,12 @@
         }
 
         .checkbox-grid {
-            grid-template-columns: 1fr; /* Single column for easy tapping */
+            grid-template-columns: 1fr;
             row-gap: 8px;
         }
 
         .checkbox-item {
-            padding: 10px 8px; /* Taller touch targets */
+            padding: 10px 8px;
             font-size: 15px;
         }
 
@@ -246,11 +236,11 @@
         }
 
         .submit-btn-wrapper {
-            margin-top: 25px;
+            margin-top: 35px;
         }
 
         .submit-btn-wrapper button {
-            width: 100%; /* Full-width button on mobile */
+            width: 100%;
             padding: 14px 0;
         }
     }
@@ -289,7 +279,7 @@
     }
 
     document.addEventListener('click', function(e) {
-        const btn = e.target.closest('.btn-request-service');
+        const btn = e.target.closest('.btn-request-horizontal');
         if (btn) {
             handleServiceCheck(btn);
         }
