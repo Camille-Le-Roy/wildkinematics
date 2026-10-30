@@ -1,59 +1,153 @@
 {% assign t = site.data.template %}
 
-<section id="about">
+<section id="about" style="padding: 100px 0; margin-bottom: 20px;">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center" style="margin-bottom: 50px;">
-                <h2 class="section-heading">{{ t.about.heading }}</h2>
+                <h2 class="section-heading" style="margin-top: 30px;">{{ t.about.heading }}</h2>
+                {% if t.about.subtitle %}
                 <h3 class="section-subheading text-muted" style="margin-bottom: 20px; font-style: normal; font-size: 20px; font-weight: 500;">
                     {{ t.about.subtitle }}
                 </h3>
+                {% endif %}
             </div>
         </div>
 
-        <div class="row" style="display: flex; align-items: center; flex-wrap: wrap;">
+        <!-- Vertically Centered Flex Row -->
+        <div class="row about-flex-row">
             
-            <div class="col-md-4 text-center" style="margin-bottom: 30px;">
-                <!-- Standard rectangular image (no circular crop) -->
-                <img class="img-responsive" src="{{ site.baseurl }}/img/profile picture balcony black and white zoomed.png" alt="Camille Le Roy" style="border-radius: 8px; margin: 0 auto; max-width: 100%; height: auto; box-shadow: 0 4px 15px rgba(0,0,0,0.08);">
-                
-                <h3 style="color: #000000; font-family: 'EB Garamond', serif; text-transform: none; margin-top: 25px; margin-bottom: 5px; font-weight: 700; font-size: 26px;">
-                    {{ t.about.name }}
-                </h3>
-                <p style="font-family: 'Montserrat', sans-serif; font-size: 16px; color: #35594F; font-weight: 600; text-transform: none; margin-bottom: 0;">
-                    {{ t.about.tagline }}
-                </p>
+            <!-- LEFT COLUMN: Profile Picture, Name & Subtitle -->
+            <div class="col-md-4 left-profile-col">
+                <div class="about-profile-wrapper">
+                    <!-- Standard rectangular image -->
+                    <img class="img-responsive profile-image" src="{{ site.baseurl }}/img/profile picture balcony black and white zoomed.png" alt="Camille Le Roy">
+                    
+                    <h3 class="profile-name">
+                        {{ t.about.name }}
+                    </h3>
+                    <p class="profile-tagline">
+                        {{ t.about.tagline }}
+                    </p>
+                </div>
             </div>
 
-            <div class="col-md-8">
+            <!-- RIGHT COLUMN: Biographical Body Content -->
+            <div class="col-md-8 right-content-col">
                 <div class="about-body">
-                    <!-- Intro Header with normal text-transform -->
-                    <h4 style="font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: 700; color: #333; margin-top: 0; margin-bottom: 20px; text-transform: none;">
+                    <!-- Intro Header -->
+                    <h4 class="about-intro-heading">
                         {{ t.about.intro }}
                     </h4>
                     
-                    <p class="large text-muted" style="font-size: 18px; line-height: 1.7; margin-bottom: 20px;">
+                    <p class="large text-muted about-paragraph">
                         {{ t.about.details_1 }}
                     </p>
 
-                    <!-- Fun Fact rendered as standard paragraph text -->
-                    <p class="large text-muted" style="font-size: 18px; line-height: 1.7; margin-bottom: 20px;">
+                    <!-- Fun Fact -->
+                    <p class="large text-muted about-paragraph">
                         {{ t.about.fun_fact }}
                     </p>
 
-                    <p class="large text-muted" style="font-size: 18px; line-height: 1.7; margin-bottom: 20px;">
+                    <p class="large text-muted about-paragraph">
                         {{ t.about.details_2 }}
                     </p>
 
-                    <p class="large text-muted" style="font-size: 18px; line-height: 1.7; margin-bottom: 20px;">
+                    <p class="large text-muted about-paragraph">
                         {{ t.about.details_3 }}
                     </p>
 
-                    <p class="large text-muted" style="font-size: 18px; line-height: 1.7; font-weight: 500;">
+                    <p class="large text-muted about-paragraph" style="margin-bottom: 0; font-weight: 500;">
                         {{ t.about.conclusion }}
                     </p>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
+
+<style>
+    /* Desktop Flexbox Vertical Centering */
+    @media (min-width: 768px) {
+        .about-flex-row {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .left-profile-col {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    /* Profile Wrapper Formatting */
+    .about-profile-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .profile-image {
+        border-radius: 8px;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .profile-name {
+        color: #000000;
+        font-family: 'EB Garamond', serif;
+        text-transform: none;
+        margin-top: 25px;
+        margin-bottom: 5px;
+        font-weight: 700;
+        font-size: 26px;
+    }
+
+    .profile-tagline {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        color: #35594F;
+        font-weight: 600;
+        text-transform: none;
+        margin-bottom: 0;
+    }
+
+    .about-intro-heading {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        color: #333;
+        margin-top: 0;
+        margin-bottom: 20px;
+        text-transform: none;
+    }
+
+    .about-paragraph {
+        font-size: 18px;
+        line-height: 1.7;
+        margin-bottom: 20px;
+    }
+
+    /* Mobile Responsive Optimizations */
+    @media (max-width: 767px) {
+        .left-profile-col {
+            margin-bottom: 40px;
+        }
+
+        .about-intro-heading {
+            font-size: 20px;
+        }
+
+        .about-paragraph {
+            font-size: 16px;
+        }
+    }
+</style>

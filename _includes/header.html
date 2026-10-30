@@ -7,13 +7,11 @@
         display: flex;
         align-items: center;
         background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-        /* Adjust the gradient overlay for image background (in agency.css too!!)*/
         url('{{ site.baseurl }}/img/header_image_bg_HD.png') no-repeat center center;
         background-size: cover;
         background-attachment: scroll;
         text-align: left !important;
         padding-top: 50px;
-        /* space between navbar and header text */
         padding-bottom: 60px;
     }
 
@@ -24,7 +22,7 @@
         transition: all 0.3s ease-in-out;
     }
 
-    /* Solid Animated Navbar on Scroll (triggered by Agency / cbpAnimatedHeader JS) */
+    /* Solid Animated Navbar on Scroll */
     .navbar-default.navbar-shrink {
         background-color: #222222 !important;
         border-color: transparent !important;
@@ -72,13 +70,11 @@
         min-width: 240px;
         border-radius: 50px !important;
         font-weight: 500 !important;
-        /* Makes the button text thinner */
         letter-spacing: 0.5px;
-        /* Optional: improves readability with thinner text */
         transition: background-color 0.25s ease, border-color 0.25s ease, transform 0.2s ease !important;
     }
 
-    /* 1. Explore Services Button (Light Gold -> Subtly Darker Gold on Hover) */
+    /* 1. Explore Services Button */
     .btn-explore {
         background-color: #bda040 !important;
         border-color: #bda040 !important;
@@ -92,7 +88,7 @@
         color: #000000 !important;
     }
 
-    /* 2. About Button (Dark Green -> Subtly Darker Forest Green on Hover) */
+    /* 2. About Button */
     .btn-about {
         background-color: #35594F !important;
         border-color: #35594F !important;
@@ -149,8 +145,8 @@
                 <span class="icon-bar"></span>
             </button>
 
-            <!-- Brand Logo / Title -->
-            <a class="navbar-brand page-scroll" href="#page-top"
+            <!-- Brand Logo / Title -> Updated to link back home from subpages -->
+            <a class="navbar-brand" href="{{ site.baseurl }}/"
                 style="display: flex; flex-direction: column; align-items: flex-start; text-decoration: none; padding-top: 0px; margin-top: 5px; height: auto;">
 
                 <!-- Logo Image -->
@@ -160,13 +156,12 @@
                 <!-- Styled Brand Text Container -->
                 <span
                     style="font-family: 'Montserrat', sans-serif; font-size: 19px; text-transform: uppercase; color: #ffffff; line-height: 1.1;">
-                    <!-- SemiBold for WILD -->
                     <span style="font-weight: 600; letter-spacing: 0.5px;">WILD</span>
-                    <!-- Light with increased spacing for KINEMATICS -->
                     <span style="font-weight: 300; letter-spacing: 2.5px; margin-left: 2px;">KINEMATICS</span>
                 </span>
             </a>
         </div>
+        
         <!-- Navigation Links -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right" style="margin-top: 20px;">
@@ -174,8 +169,8 @@
                 <li><a href="{{ site.baseurl }}/#services">Services</a></li>
                 <li><a href="{{ site.baseurl }}/portfolio">Portfolio</a></li>
                 <li><a href="{{ site.baseurl }}/publications">Publications</a></li>
-                <li><a href="{{ site.baseurl }}/#contact">Contact</a></li>
                 <li><a href="{{ site.baseurl }}/#about">About</a></li>
+                <li><a href="{{ site.baseurl }}/#contact">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -192,9 +187,11 @@
                         <span class="header-part1">
                             {{ site.data.template.header.heading_part1 }}
                         </span>
+                        {% if site.data.template.header.heading_part2 %}
                         <span class="header-part2">
                             {{ site.data.template.header.heading_part2 }}
                         </span>
+                        {% endif %}
                     </div>
                 </div>
             </div>
