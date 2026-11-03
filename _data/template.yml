@@ -69,7 +69,7 @@ services:
     title: "Video and data analysis support"
     audience_1: "You already have video footage or raw trajectory data and need help turning it into meaningful kinematic metrics and results."
     action_1: "We assist you in extracting 2D/3D positions from video footage, filtering tracking noise, deriving meaningful metrics (velocities, accelerations, body angles), and designing appropriate statistical analyses."
-    output_1: "Tailored support for developing reproducible pipelines (Python/R) built alongside you to fit your specific data and research questions."
+    output_1: "Tailored support for developing reproducible pipelines (R/Python) built alongside you to fit your specific data and research questions."
     #output_2: "Clean, extracted kinematic variables ready for statistical testing."
     output_3: "Scientific support connecting your outputs back to your biological hypotheses."
 
@@ -78,11 +78,11 @@ about:
   name: "Camille Le Roy, PhD"
   tagline: "Researcher, Field Biologist, and Biomechanist"
   intro: "Hi, I'm Camille."
-  details_1: "My background is rooted in evolutionary biology. Driven by a passion for understanding how animal movement evolves and diversifies, I specialized in combining ecology and evolution with biomechanics, with a focus on insect flight."
+  details_1: "My background is rooted in evolutionary biology. Driven by a passion for understanding how animal movement evolves and diversifies, I specialized in combining ecology and evolution with biomechanics, with a special focus on insect flight."
   fun_fact: "<strong>Fun fact:</strong> I originally wanted to become a wildlife filmmaker. I ended up as a researcher, filming animals to understand the evolution of their behavior."
-  details_2: "During my academic journey, I learned the nuts and bolts of quantifying motion: building high-speed camera setups, reconstructing 3D trajectories, and extracting the metrics that make most sense. My research also involved a lot of fieldwork, during which I've designed setups to capture motion in fully natural settings."
+  details_2: "During my academic journey, I learned the nuts and bolts of quantifying motion: building high-speed camera setups, reconstructing 3D trajectories, and extracting the metrics that reveal the most about animal behavior. My research also involved a lot of fieldwork, during which I've designed setups to capture motion in fully natural settings."
   details_3: "My career brought me to work closely alongside physicists and aerospace engineers. This gave me deep familiarity with biomechanical tools and engineering principles, and hence a great perspective on how to combine biological and engineering approaches."
-  conclusion: "I created Wild Kinematics to bring movement quantification within reach for more researchers, particularly biologists, helping break down the barriers between ecology, behavior, and biomechanics."
+  conclusion: "I created Wild Kinematics to bring movement quantification within reach for more researchers, especially biologists who want to capture complex behavioral phenotypes without having to become experts in kinematics."
 
 contact:
   heading: "Reach Out"
