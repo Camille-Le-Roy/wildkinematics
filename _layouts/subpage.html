@@ -38,8 +38,12 @@
     </style>
 
     <div class="container subpage-content-wrapper">
-      <h1 class="subpage-main-title">{{ page.title }}</h1>
-      <hr style="border-top: 2px solid #{{ site.data.template.color.primary }}; max-width: 100px; margin: 0 0 40px 0;">
+      
+      <!-- Only render the default subpage title header if NOT on a project page -->
+      {% unless page.permalink contains '/portfolio/' and page.url != '/portfolio/' %}
+        <h1 class="subpage-main-title">{{ page.title }}</h1>
+        <hr style="border-top: 2px solid #{{ site.data.template.color.primary }}; max-width: 100px; margin: 0 0 40px 0;">
+      {% endunless %}
 
       <!-- Content from individual markdown/html pages injects here -->
       {{ content }}

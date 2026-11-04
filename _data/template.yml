@@ -18,18 +18,19 @@ font:
 # -----------------------------------------------------------------------------
 
 header:
-  heading_part1: "<strong>From movement capture to biological insight</strong>"
-  lead_in: "Expert guidance on study design, tracking, and kinematic analysis for animal movement research"
+  #heading_part1: "<strong>From movement capture to biological insight</strong>"
+  heading_part1: "<strong>Focus on the biology. We'll help you quantify the movement.</strong>"
+  lead_in: "Expert guidance on study design, tracking, and kinematic analysis for animal movement research."
 
 challenge:
   intro_summary: "Wild Kinematics helps researchers and organizations design movement studies, capture high-quality motion data, and turn it into meaningful biological insights.<br><br> <strong>Biology comes first: </strong>we help obtaining measurements that are most relevant to your biological question."
   
   box_title: "Why measure behavior through kinematics?"
   headline: "Subtle maneuvers, escape behavior, or courtship displays often happen too fast or are too subtle for standard video or observation. Using high-resolution kinematics allows you to extract precise metrics, revealing deeper mechanisms (such as energetic costs, individual performance limits, or fine-scale behavioral variations)."
-  sub_heading: "The challenge? Acquiring appropriate, reliable kinematic measurements can feel like learning a whole new discipline on top of the science you already do."
+  sub_heading: "The challenge?<br>Acquiring appropriate, reliable kinematic measurements can feel like learning a whole new discipline on top of the science you already do."
   text_1: "Without specialized support, common hurdles arise:"
   text_2: "<strong>Where do I start with hardware?</strong> Choosing camera placements, frame rates, and lighting setups adapted to your biological question."
-  text_3: "<strong>Which tracking tool should I use?</strong> Deciding whether to invest in commercial tracking platforms or use open-source algorithms."
+  text_3: "<strong>Which tracking tool should I use?</strong> Deciding whether to invest in commercial tracking platforms or learn to use open-source algorithms."
   text_4: "<strong>What do I do with all my raw footage?</strong> Sitting on hundreds of gigabytes of video without a clear analytical pipeline to extract meaningful variables."
   box_conclusion: "This is where Wild Kinematics can help."
   cta_text: "You bring the biological question,<br>Wild Kinematics bridges the technical gap"

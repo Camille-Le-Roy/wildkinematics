@@ -6,7 +6,13 @@ title: WildKinematics
 email: 
 description: "Specialized consultancy service for research on animal movement and behavior"
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Collections Configuration
+collections:
+  projects:
+    output: true
+    permalink: /portfolio/:name/
+
+# Social networks usernames
 social:
   #- title: twitter
   #  url: http://twitter.com/jekyllrb
@@ -21,7 +27,7 @@ social:
   - title: graduation-cap
     url: https://scholar.google.com/citations?user=SP69DnUAAAAJ&hl=en
 
-# Postal address (add as many lines as necessary)
+# Postal address
 #address:
 #  - line: 3481 Melrose Place
 #  - line: Beverly Hills, CA 90210

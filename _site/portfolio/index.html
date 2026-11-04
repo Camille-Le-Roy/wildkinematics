@@ -223,7 +223,7 @@
                 <div class="col-xs-12 col-md-10 col-lg-8">
                     <div class="intro-heading">
                         <span class="header-part1">
-                            <strong>From movement capture to biological insight</strong>
+                            <strong>Focus on the biology. We'll help you quantify the movement.</strong>
                         </span>
                         
                     </div>
@@ -232,7 +232,7 @@
 
             <!-- Lead-in Text -->
             <div class="header-lead-in-text">
-                Expert guidance on study design, tracking, and kinematic analysis for animal movement research
+                Expert guidance on study design, tracking, and kinematic analysis for animal movement research.
             </div>
 
             <!-- Action Buttons -->
@@ -283,20 +283,161 @@
     </style>
 
     <div class="container subpage-content-wrapper">
-      <h1 class="subpage-main-title">Portfolio</h1>
-      <hr style="border-top: 2px solid #35594F; max-width: 100px; margin: 0 0 40px 0;">
+      
+      <!-- Only render the default subpage title header if NOT on a project page -->
+      
+        <h1 class="subpage-main-title">Portfolio</h1>
+        <hr style="border-top: 2px solid #35594F; max-width: 100px; margin: 0 0 40px 0;">
+      
 
       <!-- Content from individual markdown/html pages injects here -->
-      <p class="text-muted" style="font-size: 18px; margin-bottom: 30px;">
-    A showcase of recent projects, technical work, and professional case studies.
-</p>
+      <!-- Portfolio Cards Container -->
+<div class="portfolio-container" style="margin-top: 20px;">
 
-<!-- Add your portfolio content/cards here -->
-<div class="row">
-    <div class="col-md-12">
-        <p>Your portfolio items will go here...</p>
-    </div>
+    
+    <a href="/wildkinematics/portfolio/3D_reconstruction_butterfly_flight_trajectories/" class="portfolio-card-link">
+        <article class="portfolio-card">
+
+            <!-- Card Image Box (Pulls first image or default) -->
+            <div class="portfolio-card-image">
+                
+                    <img src="/wildkinematics/img/flight cage tarapoto.png" alt="3D reconstruction of butterfly flight trajectories in semi-natural settings" />
+                
+            </div>
+
+            <!-- Card Text Content -->
+            <div class="portfolio-card-content">
+                <h2 class="portfolio-list-title">3D reconstruction of butterfly flight trajectories in semi-natural settings</h2>
+                <p class="portfolio-card-excerpt">
+                    
+
+
+
+                </p>
+            </div>
+
+        </article>
+    </a>
+    
+
 </div>
+
+<style>
+    /* --- Portfolio Card Styling (Adapted to Wild Kinematics Palette) --- */
+    .portfolio-card-link {
+        text-decoration: none !important;
+        color: inherit;
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .portfolio-card {
+        display: flex;
+        align-items: center;
+        background-color: #ffffff;
+        border: 1px solid #eef2f5;
+        border-radius: 12px;
+        overflow: hidden;
+        transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    }
+
+    /* Hover "pop up" interaction with Forest Green accent */
+    .portfolio-card-link:hover .portfolio-card {
+        transform: translateY(-5px);
+        box-shadow: 0 16px 35px rgba(53, 89, 79, 0.12);
+        border-color: #35594F;
+    }
+
+    /* Enlarged Image container box */
+    .portfolio-card-image {
+        width: 36%;
+        min-width: 260px;
+        height: 220px;
+        overflow: hidden;
+        background-color: #fafaf7;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 16px;
+    }
+
+    .portfolio-card-image img {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        object-fit: contain;
+        border-radius: 8px;
+        transition: transform 0.3s ease;
+    }
+
+    .portfolio-card-link:hover .portfolio-card-image img {
+        transform: scale(1.04);
+    }
+
+    /* Text content side of the card */
+    .portfolio-card-content {
+        padding: 28px 32px;
+        flex-grow: 1;
+    }
+
+    /* Title font styling */
+    .portfolio-list-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.6em !important;
+        line-height: 1.3;
+        margin-top: 0;
+        margin-bottom: 8px;
+        color: #111827;
+        font-weight: 700;
+        text-transform: none !important;
+        transition: color 0.2s ease;
+    }
+
+    .portfolio-card-link:hover .portfolio-list-title {
+        color: #35594F;
+    }
+
+    .portfolio-card-date {
+        color: #6b7280;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.9em;
+        margin-bottom: 12px;
+        font-weight: 500;
+    }
+
+    .portfolio-card-excerpt {
+        font-family: 'Montserrat', sans-serif;
+        color: #4b5563;
+        line-height: 1.6;
+        margin-bottom: 0;
+        font-size: 0.98em;
+    }
+
+    /* Mobile adjustments */
+    @media (max-width: 768px) {
+        .portfolio-card {
+            flex-direction: column;
+            align-items: stretch;
+        }
+
+        .portfolio-card-image {
+            width: 100%;
+            min-width: 100%;
+            height: 200px;
+        }
+
+        .portfolio-card-content {
+            padding: 20px;
+        }
+
+        .portfolio-list-title {
+            font-size: 1.35em !important;
+        }
+    }
+</style>
     </div>
 
     <footer>
