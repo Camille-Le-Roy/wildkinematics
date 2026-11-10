@@ -61,7 +61,7 @@ image: "/img/blogpost_2 me clapping.png"
   The motion capture setup was calibrated using the highly flexible wand method
 </p>
 
-<h2 style="font-family: 'Montserrat', sans-serif; color: #111827; margin-top: 40px; margin-bottom: 20px; font-weight: 700; font-size: 1.5em; text-transform: none !important;">About the science behind the experiment</h2>
+<h2 style="font-family: 'Montserrat', sans-serif; color: #111827; margin-top: 40px; margin-bottom: 20px; font-weight: 700; font-size: 1.5em; text-transform: none !important;">The science behind the experiment</h2>
 
 <p style="font-family: 'Montserrat', sans-serif; color: #4b5563; font-size: 1.1em; line-height: 1.7; margin-bottom: 20px;">
   <em>Morpho</em> blue signal reduces individual predation by advertising their high escape ability, favoring resemblance between species living in the same locality. This led to the widespread wing pattern convergence of several blue-banded <em>Morpho</em> butterfly species with overlapping ranges of distribution (<a href="https://doi.org/10.1111/jeb.13726" target="_blank" style="color: inherit; text-decoration: underline;">Llaurens et al., 2021</a>). It was unknown whether the convergence in wing color pattern among co-occurring <em>Morpho</em> species lead to heterospecific rivalry or courtship
