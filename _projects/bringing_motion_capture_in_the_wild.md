@@ -2,7 +2,7 @@
 layout: subpage
 permalink: /portfolio/bringing_motion_capture_in_the_wild/
 title: "Bringing motion capture in the wild to study natural courtship behavior"
-image: "/img/blogpost_2 pursuing Morphos.png"
+image: "/img/blogpost_2 me clapping.png"
 ---
 
 <div class="container" style="padding-top: 50px; padding-bottom: 80px; max-width: 900px;">
